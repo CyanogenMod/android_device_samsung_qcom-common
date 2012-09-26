@@ -23,9 +23,6 @@ PRODUCT_COPY_FILES += \
 
 # QCOM Display
 PRODUCT_PACKAGES += \
-    copybit.$(TARGET_BOARD_PLATFORM) \
-    gralloc.$(TARGET_BOARD_PLATFORM) \
-    hwcomposer.$(TARGET_BOARD_PLATFORM) \
     libgenlock \
     libmemalloc \
     liboverlay \
@@ -39,9 +36,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.composition.type=dyn \
     debug.mdpcomp.maxlayer=3 \
     debug.mdpcomp.logs=0
-
-# Power
-PRODUCT_PACKAGES += power.$(TARGET_BOARD_PLATFORM)
 
 # GalaxyS3Settings
 # TODO: Move here
