@@ -79,6 +79,7 @@ PRODUCT_PACKAGES += \
     init.qcom.early_boot.sh \
     init.qcom.mdm_links.sh \
     init.qcom.modem_links.sh \
+    init.qcom.thermald_conf.sh \
     init.qcom.usb.sh \
     lpm.rc \
     init.qcom.lpm_boot.sh
