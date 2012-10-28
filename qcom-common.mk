@@ -81,7 +81,8 @@ PRODUCT_PACKAGES += \
     init.qcom.modem_links.sh \
     init.qcom.usb.sh \
     lpm.rc \
-    init.qcom.lpm_boot.sh
+    init.qcom.lpm_boot.sh \
+    init.qcom.thermald_conf.sh
 
 # Charger
 PRODUCT_PACKAGES += charger charger_res_images
