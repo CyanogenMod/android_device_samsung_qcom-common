@@ -39,6 +39,7 @@ BOARD_CUSTOM_GRAPHICS := ../../../device/samsung/qcom-common/recovery/graphics.c
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
 TARGET_QCOM_DISPLAY_VARIANT := caf
+TARGET_QCOM_AUDIO_VARIANT := caf
 
 # Graphics
 USE_OPENGL_RENDERER := true
