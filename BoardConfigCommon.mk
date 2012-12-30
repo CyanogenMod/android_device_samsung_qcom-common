@@ -34,7 +34,6 @@ COMMON_GLOBAL_CFLAGS += -DQCOM_HARDWARE
 
 # Recovery
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
-BOARD_CUSTOM_GRAPHICS := ../../../device/samsung/qcom-common/recovery/graphics.c
 
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
