@@ -18,11 +18,13 @@ BOARD_VENDOR := samsung
 TARGET_NO_BOOTLOADER := true
 
 # Architecture
-TARGET_ARCH := arm
+TARGET_GLOBAL_CFLAGS += -mfpu=neon -mfloat-abi=softfp
+TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
+TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon
-TARGET_ARCH_VARIANT_CPU := cortex-a9
+ARCH_ARM_HAVE_TLS_REGISTER := true
 
 # Enable WEBGL in WebKit
 ENABLE_WEBGL := true
@@ -46,6 +48,8 @@ TARGET_QCOM_DISPLAY_VARIANT := caf
 
 # Graphics
 USE_OPENGL_RENDERER := true
+TARGET_USES_OVERLAY := true
+TARGET_USES_SF_BYPASS := true
 TARGET_USES_C2D_COMPOSITION := true
 TARGET_USES_ION := true
 BOARD_EGL_CFG := device/samsung/qcom-common/configs/egl.cfg
