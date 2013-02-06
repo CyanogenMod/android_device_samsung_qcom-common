@@ -38,10 +38,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.mdpcomp.logs=0 \
     debug.egl.recordable.rgba8888=1
 
-ifeq ($(TARGET_BOARD_PLATFORM),msm8660)
-    PRODUCT_PROPERTY_OVERRIDES += debug.mdpcomp.maxlayer=3
-endif
-
 # GalaxyS3Settings
 # TODO: Move here
 #PRODUCT_PACKAGES += \
