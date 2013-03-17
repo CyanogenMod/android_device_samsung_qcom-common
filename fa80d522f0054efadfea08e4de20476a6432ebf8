@@ -1,0 +1,8 @@
+Change-Id: I4c4b6db536e0cd2b9d51e7ba71e029682a39965f
+Code-Review+2: Steve Kondik <shade@chemlab.org>
+Verified+1: Steve Kondik <shade@chemlab.org>
+Submitted-by: Steve Kondik <shade@chemlab.org>
+Submitted-at: Sun, 17 Mar 2013 01:19:27 -0700
+Reviewed-on: http://review.cyanogenmod.org/33175
+Project: CyanogenMod/android_device_samsung_qcom-common
+Branch: refs/heads/cm-10.1
