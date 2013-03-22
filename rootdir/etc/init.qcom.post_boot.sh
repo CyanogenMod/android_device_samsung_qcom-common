@@ -117,6 +117,7 @@ case "$target" in
          echo "interactive" > /sys/devices/system/cpu/cpu1/cpufreq/scaling_governor
          echo "interactive" > /sys/devices/system/cpu/cpu2/cpufreq/scaling_governor
          echo "interactive" > /sys/devices/system/cpu/cpu3/cpufreq/scaling_governor
+         echo 1 > /sys/devices/system/cpu/cpufreq/interactive/io_is_busy
          #echo 90 > /sys/devices/system/cpu/cpufreq/ondemand/up_threshold
          #echo 1 > /sys/devices/system/cpu/cpufreq/ondemand/io_is_busy
          #echo 4 > /sys/devices/system/cpu/cpufreq/ondemand/sampling_down_factor
