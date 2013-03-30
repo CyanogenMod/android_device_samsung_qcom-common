@@ -35,8 +35,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.egl.hw=1 \
     debug.composition.type=dyn \
     persist.hwc.mdpcomp.enable=true \
-    debug.mdpcomp.logs=0 \
-    debug.egl.recordable.rgba8888=1
+    debug.mdpcomp.logs=0
 
 # GalaxyS3Settings
 # TODO: Move here
