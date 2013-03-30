@@ -47,7 +47,6 @@ TARGET_QCOM_DISPLAY_VARIANT := caf
 USE_OPENGL_RENDERER := true
 TARGET_USES_C2D_COMPOSITION := true
 TARGET_USES_ION := true
-BOARD_EGL_CFG := device/samsung/qcom-common/configs/egl.cfg
 
 # FM Radio
 #BOARD_HAVE_FM_RADIO := true
