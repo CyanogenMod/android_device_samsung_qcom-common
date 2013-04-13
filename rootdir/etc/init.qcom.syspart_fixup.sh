@@ -55,6 +55,8 @@ if [ -f /system/etc/init.qcom.mdm_links.sh ]; then
   /system/bin/sh /system/etc/init.qcom.mdm_links.sh
 fi
 
+setprop ro.modem.links.done 1
+
 # Run thermal script
 if [ -f /system/etc/init.qcom.thermald_conf.sh ]; then
   /system/bin/sh /system/etc/init.qcom.thermald_conf.sh
