@@ -1,5 +1,5 @@
 #!/system/bin/sh
-# Copyright (c) 2012, Code Aurora Forum. All rights reserved.
+# Copyright (c) 2012, The Linux Foundation. All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are
@@ -10,7 +10,7 @@
 #       copyright notice, this list of conditions and the following
 #       disclaimer in the documentation and/or other materials provided
 #       with the distribution.
-#     * Neither the name of Code Aurora Forum, Inc. nor the names of its
+#     * Neither the name of The Linux Foundation nor the names of its
 #       contributors may be used to endorse or promote products derived
 #      from this software without specific prior written permission.
 #
@@ -95,7 +95,13 @@ case "$usb_config" in
                          setprop persist.sys.usb.config diag,diag_mdm,serial_hsic,serial_tty,rmnet_hsic,mass_storage,adb
                     ;;
                     "sglte")
-                         setprop persist.sys.usb.config diag,diag_mdm,serial_smd,serial_tty,serial_hsuart,rmnet_hsuart,mass_storage,adb
+                         setprop persist.sys.usb.config diag,diag_qsc,serial_smd,serial_tty,serial_hsuart,rmnet_hsuart,mass_storage,adb
+                    ;;
+                    "dsda" | "sglte2")
+                         setprop persist.sys.usb.config diag,diag_mdm,diag_qsc,serial_hsic,serial_hsuart,rmnet_hsic,rmnet_hsuart,mass_storage,adb
+                    ;;
+                    "dsda2")
+                         setprop persist.sys.usb.config diag,diag_mdm,diag_mdm2,serial_hsic,serial_hsusb,rmnet_hsic,rmnet_hsusb,mass_storage,adb
                     ;;
                     *)
                          setprop persist.sys.usb.config diag,serial_smd,serial_tty,rmnet_bam,mass_storage,adb
@@ -141,4 +147,56 @@ case "$target" in
                                 ;;
                 esac
                 ;;
+esac
+
+#
+# Select USB BAM - 2.0 or 3.0
+#
+case "$target" in
+    "msm8974")
+        echo hsusb > /sys/bus/platform/devices/usb_bam/enable
+    ;;
+esac
+
+#
+# set module params for embedded rmnet devices
+#
+rmnetmux=`getprop persist.rmnet.mux`
+case "$baseband" in
+    "mdm" | "dsda" | "sglte2")
+        case "$rmnetmux" in
+            "enabled")
+                    echo 1 > /sys/module/rmnet_usb/parameters/mux_enabled
+                    echo 8 > /sys/module/rmnet_usb/parameters/no_fwd_rmnet_links
+                    echo 17 > /sys/module/rmnet_usb/parameters/no_rmnet_insts_per_dev
+            ;;
+        esac
+        echo 1 > /sys/module/rmnet_usb/parameters/rmnet_data_init
+        # Allow QMUX daemon to assign port open wait time
+        chown radio.radio /sys/devices/virtual/hsicctl/hsicctl0/modem_wait
+    ;;
+    "dsda2")
+          echo 2 > /sys/module/rmnet_usb/parameters/no_rmnet_devs
+          echo hsicctl,hsusbctl > /sys/module/rmnet_usb/parameters/rmnet_dev_names
+          case "$rmnetmux" in
+               "enabled") #mux is neabled on both mdms
+                      echo 3 > /sys/module/rmnet_usb/parameters/mux_enabled
+                      echo 8 > /sys/module/rmnet_usb/parameters/no_fwd_rmnet_links
+                      echo 17 > write /sys/module/rmnet_usb/parameters/no_rmnet_insts_per_dev
+               ;;
+               "enabled_hsic") #mux is enabled on hsic mdm
+                      echo 1 > /sys/module/rmnet_usb/parameters/mux_enabled
+                      echo 8 > /sys/module/rmnet_usb/parameters/no_fwd_rmnet_links
+                      echo 17 > /sys/module/rmnet_usb/parameters/no_rmnet_insts_per_dev
+               ;;
+               "enabled_hsusb") #mux is enabled on hsusb mdm
+                      echo 2 > /sys/module/rmnet_usb/parameters/mux_enabled
+                      echo 8 > /sys/module/rmnet_usb/parameters/no_fwd_rmnet_links
+                      echo 17 > /sys/module/rmnet_usb/parameters/no_rmnet_insts_per_dev
+               ;;
+          esac
+          echo 1 > /sys/module/rmnet_usb/parameters/rmnet_data_init
+          # Allow QMUX daemon to assign port open wait time
+          chown radio.radio /sys/devices/virtual/hsicctl/hsicctl0/modem_wait
+    ;;
 esac

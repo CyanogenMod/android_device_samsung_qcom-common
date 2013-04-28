@@ -1,5 +1,5 @@
 #!/system/bin/sh
-# Copyright (c) 2012, Code Aurora Forum. All rights reserved.
+# Copyright (c) 2012, The Linux Foundation. All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are met:
@@ -8,7 +8,7 @@
 #     * Redistributions in binary form must reproduce the above copyright
 #       notice, this list of conditions and the following disclaimer in the
 #       documentation and/or other materials provided with the distribution.
-#     * Neither the name of Code Aurora nor
+#     * Neither the name of The Linux Foundation nor
 #       the names of its contributors may be used to endorse or promote
 #       products derived from this software without specific prior written
 #       permission.
@@ -33,9 +33,14 @@ serial="$2"
 PATH=/sbin:/system/sbin:/system/bin:/system/xbin
 export PATH
 
+mount_needed=false;
+
+if [ ! -f /system/etc/boot_fixup ];then
 # This should be the first command
 # remount system as read-write.
-mount -o rw,remount,barrier=1 /system
+  mount -o rw,remount,barrier=1 /system
+  mount_needed=true;
+fi
 
 # **** WARNING *****
 # This runs in a single-threaded, critical path portion
@@ -58,8 +63,8 @@ fi
 setprop ro.modem.links.done 1
 
 # Run thermal script
-if [ -f /system/etc/init.qcom.thermald_conf.sh ]; then
-  /system/bin/sh /system/etc/init.qcom.thermald_conf.sh
+if [ -f /system/etc/init.qcom.thermal_conf.sh ]; then
+  /system/bin/sh /system/etc/init.qcom.thermal_conf.sh
 fi
 
 # Run wifi script
@@ -67,7 +72,17 @@ if [ -f /system/etc/init.qcom.wifi.sh ]; then
   /system/bin/sh /system/etc/init.qcom.wifi.sh "$target" "$serial"
 fi
 
+# Run the sensor script
+if [ -f /system/etc/init.qcom.sensor.sh ]; then
+  /system/bin/sh /system/etc/init.qcom.sensor.sh
+fi
+
+
+touch /system/etc/boot_fixup
+
+if $mount_needed ;then
 # This should be the last command
 # remount system as read-only.
-mount -o ro,remount,barrier=1 /system
+  mount -o ro,remount,barrier=1 /system
+fi
 

@@ -1,5 +1,5 @@
 #!/system/bin/sh
-# Copyright (c) 2012, Code Aurora Forum. All rights reserved.
+# Copyright (c) 2012, The Linux Foundation. All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are met:
@@ -8,7 +8,7 @@
 #     * Redistributions in binary form must reproduce the above copyright
 #       notice, this list of conditions and the following disclaimer in the
 #       documentation and/or other materials provided with the distribution.
-#     * Neither the name of Code Aurora nor
+#     * Neither the name of The Linux Foundation nor
 #       the names of its contributors may be used to endorse or promote
 #       products derived from this software without specific prior written
 #       permission.
@@ -89,14 +89,51 @@ case "$1" in
             ;;
         esac
 
-        #Set up composition type based on the target
+        #Set up MSM-specific configuration
         case "$soc_hwid" in
-            109| 116 | 117 | 118 | 120 | 121| 130)
-                #APQ8064, MSM8930, MSM8630, MSM8230,
-                # MSM8627, MSM8227, MPQ8064
-                setprop debug.composition.type gpu
+            87)
+                #8960
+                setprop debug.composition.type dyn
+                ;;
+            153 | 154 | 155 | 156 | 157 | 138 | 179 | 180 | 181)
+                #8064 V2 PRIME | 8930AB | 8630AB | 8230AB | 8030AB | 8960AB | 8130/AA/AB
+                setprop debug.composition.type c2d
                 ;;
             *)
+                ;;
+        esac
+
+        case "$soc_hwid" in
+            87 | 116 | 117 | 118 | 119 | 138 | 142 | 143 | 144 | 154 | 155 | 156 | 157 | 179 | 180 | 181)
+                #Disable subsystem restart for 8x30 and 8960
+                setprop persist.sys.ssr.restart_level 1
+                ;;
+            *)
+                ;;
         esac
         ;;
 esac
+
+# Setup HDMI related nodes & permissions
+# HDMI can be fb1 or fb2
+# Loop through the sysfs nodes and determine
+# the HDMI(dtv panel)
+for file in /sys/class/graphics/fb*
+do
+    value=`cat $file/msm_fb_type`
+    case "$value" in
+            "dtv panel")
+        chown system.graphics $file/hpd
+        chown system.graphics $file/vendor_name
+        chown system.graphics $file/product_description
+        chmod 0664 $file/hpd
+        chmod 0664 $file/vendor_name
+        chmod 0664 $file/product_description
+        chmod 0664 $file/video_mode
+        chmod 0664 $file/format_3d
+        # create symbolic link
+        ln -s $file /dev/graphics/hdmi
+        # Change owner and group for media server and surface flinger
+        chown system.system $file/format_3d;;
+    esac
+done
