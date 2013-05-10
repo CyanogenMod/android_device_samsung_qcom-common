@@ -79,7 +79,8 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.sh \
     lpm.rc \
     init.qcom.lpm_boot.sh \
-    init.qcom.thermal_conf.sh
+    init.qcom.thermal_conf.sh \
+    init.recovery.qcom.rc
 
 # Charger
 PRODUCT_PACKAGES += charger charger_res_images
