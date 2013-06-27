@@ -1,5 +1,5 @@
 #!/system/bin/sh
-# Copyright (c) 2012, Code Aurora Forum. All rights reserved.
+# Copyright (c) 2012, The Linux Foundation. All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are
@@ -41,13 +41,34 @@ fi
 
 # create symlink to target-specific config file
 platformid=`cat /sys/devices/system/soc/soc0/id`
+hw_platform=`cat /sys/devices/system/soc/soc0/hw_platform`
 case "$platformid" in
-    "109" | "130") #APQ/MPQ8064
+    "109" | "130" | "172") #APQ/MPQ8064 & APQ/MPQ8064aa
     ln -s /etc/thermald-8064.conf $THERMALD_CONF_SYMLINK 2>/dev/null
     ;;
 
-    "116" | "117" | "118" | "119") #MSM8930
-    ln -s /etc/thermald-8930.conf $THERMALD_CONF_SYMLINK 2>/dev/null
+    "153") #APQ/MPQ8064ab
+    ln -s /etc/thermald-8064ab.conf $THERMALD_CONF_SYMLINK 2>/dev/null
+    ;;
+
+    "116" | "117" | "118" | "119" | "120" | "121" | "142" | "143" | "144" | "160" | "179" | "180") #MSM8x30&MSM8x27
+    case "$hw_platform" in
+         "QRD") #8x30 QRD
+         ln -s /etc/thermald-8930-qrd.conf $THERMALD_CONF_SYMLINK 2>/dev/null
+         ;;
+
+         *)
+         ln -s /etc/thermald-8930.conf $THERMALD_CONF_SYMLINK 2>/dev/null
+         ;;
+    esac
+    ;;
+
+    "154" | "155" | "156" | "157" | "181") #MSM8930ab
+    ln -s /etc/thermald-8930ab.conf $THERMALD_CONF_SYMLINK 2>/dev/null
+    ;;
+
+    "138" | "139" | "140" | "141") #MSM8960ab
+    ln -s /etc/thermald-8960ab.conf $THERMALD_CONF_SYMLINK 2>/dev/null
     ;;
 
     *) #MSM8960, etc
