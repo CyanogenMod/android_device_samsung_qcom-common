@@ -33,64 +33,31 @@ PATH=/sbin:/system/sbin:/system/bin:/system/xbin
 export PATH
 
 THERMALD_CONF_SYMLINK=/etc/thermald.conf
+THERMAL_ENGINE_CONF_SYMLINK=/etc/thermal-engine.conf
+THERMAL_PLATFORM="8960"
 
 # Set a default value
 setprop qcom.thermal thermald
 
-# Figure out if thermal-engine should start
 platformid=`cat /sys/devices/system/soc/soc0/id`
 case "$platformid" in
-    "153") #APQ/MPQ8064ab
-    setprop qcom.thermal thermal-engine
-    ;;
+    "109" | "130") THERMAL_PLATFORM="8064";;                   #APQ/MPQ8064
+    "153")                                                     #APQ/MPQ8064ab
+      # use thermal-engine for 8064ab
+      setprop qcom.thermal thermal-engine;
+      THERMAL_PLATFORM="8064ab";;
+    "116" | "117" | "118" | "119") THERMAL_PLATFORM="8930";;   #MSM8930
+    "138" | "139" | "140" | "141") THERMAL_PLATFORM="8960ab";; #MSM8960ab
 esac
 
 # Check if symlink does not exist
 if [ ! -h $THERMALD_CONF_SYMLINK ]; then
  # create symlink to target-specific config file
- case "$platformid" in
-     "109" | "130") #APQ/MPQ8064
-     ln -s /etc/thermald-8064.conf $THERMALD_CONF_SYMLINK 2>/dev/null
-     ;;
-
-     "153") #APQ/MPQ8064ab
-     ln -s /etc/thermald-8064ab.conf $THERMALD_CONF_SYMLINK 2>/dev/null
-     ;;
-
-     "116" | "117" | "118" | "119") #MSM8930
-     ln -s /etc/thermald-8930.conf $THERMALD_CONF_SYMLINK 2>/dev/null
-     ;;
-
-     "138" | "139" | "140" | "141") #MSM8960ab
-     ln -s /etc/thermald-8960ab.conf $THERMALD_CONF_SYMLINK 2>/dev/null
-     ;;
-
-     *) #MSM8960, etc
-     ln -s /etc/thermald-8960.conf $THERMALD_CONF_SYMLINK 2>/dev/null
-     ;;
- esac
+ ln -s /etc/thermal-engine-$THERMAL_PLATFORM.conf $THERMAL_ENGINE_CONF_SYMLINK 2>/dev/null
 fi
 
-THERMAL_ENGINE_CONF_SYMLINK=/etc/thermal-engine.conf
 # Check if symlink does not exist
-if [ ! -h $THERMAL_ENGINE_CONF_SYMLINK ]; then
+if [ ! -h $THERMALD_CONF_SYMLINK ]; then
  # create symlink to target-specific config file
- case "$platformid" in
-     "109" | "130") #APQ/MPQ8064
-     ln -s /etc/thermal-engine-8064.conf $THERMAL_ENGINE_CONF_SYMLINK 2>/dev/null
-     ;;
-
-     "153") #APQ/MPQ8064ab
-     ln -s /etc/thermal-engine-8064ab.conf $THERMAL_ENGINE_CONF_SYMLINK 2>/dev/null
-     ;;
-
-     "116" | "117" | "118" | "119") #MSM8930
-     ln -s /etc/thermal-engine-8930.conf $THERMAL_ENGINE_CONF_SYMLINK 2>/dev/null
-     ;;
-
-     *) #MSM8960, etc
-     ln -s /etc/thermal-engine-8960.conf $THERMAL_ENGINE_CONF_SYMLINK 2>/dev/null
-     ;;
- esac
+ ln -s /etc/thermal-engine-$THERMAL_PLATFORM.conf $THERMAL_ENGINE_CONF_SYMLINK 2>/dev/null
 fi
-
