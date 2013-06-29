@@ -66,6 +66,17 @@ PRODUCT_COPY_FILES += \
     system/extras/bugmailer/bugmailer.sh:system/bin/bugmailer.sh \
     system/extras/bugmailer/send_bug:system/bin/send_bug
 
+# Thermal profiles
+PRODUCT_PACKAGES += \
+    thermald-8064ab.conf \
+    thermald-8064.conf \
+    thermald-8930.conf \
+    thermald-8960.conf \
+    thermal-engine-8064ab.conf \
+    thermal-engine-8064.conf \
+    thermal-engine-8930.conf \
+    thermal-engine-8960.conf
+
 # Init scripts
 PRODUCT_PACKAGES += \
     init.qcom.post_boot.sh \
