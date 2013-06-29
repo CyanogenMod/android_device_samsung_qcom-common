@@ -57,8 +57,12 @@ if [ ! -h $THERMALD_CONF_SYMLINK ]; then
      ln -s /etc/thermald-8064ab.conf $THERMALD_CONF_SYMLINK 2>/dev/null
      ;;
 
-     "116" | "117" | "118" | "119") #MSM8930
+     "116" | "117" | "118" | "119" | "120" | "121" | "142" | "143" | "144" | "160" | "179" | "180" | "181") #MSM8x30&MSM8x27
      ln -s /etc/thermald-8930.conf $THERMALD_CONF_SYMLINK 2>/dev/null
+     ;;
+
+     "154" | "155" | "156" | "157") #MSM8930ab
+     ln -s /etc/thermald-8930ab.conf $THERMALD_CONF_SYMLINK 2>/dev/null
      ;;
 
      "138" | "139" | "140" | "141") #MSM8960ab
@@ -84,7 +88,7 @@ if [ ! -h $THERMAL_ENGINE_CONF_SYMLINK ]; then
      ln -s /etc/thermal-engine-8064ab.conf $THERMAL_ENGINE_CONF_SYMLINK 2>/dev/null
      ;;
 
-     "116" | "117" | "118" | "119") #MSM8930
+     "116" | "117" | "118" | "119" | "120" | "121" | "142" | "143" | "144" | "160" | "179" | "180" | "181") #MSM8x30&MSM8x27
      ln -s /etc/thermal-engine-8930.conf $THERMAL_ENGINE_CONF_SYMLINK 2>/dev/null
      ;;
 
