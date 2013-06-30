@@ -15,7 +15,7 @@
 
 # Media config
 PRODUCT_COPY_FILES += \
-	device/samsung/qcom-common/media/media_codecs.xml:system/etc/media_codecs.xml
+    device/samsung/qcom-common/media/media_codecs.xml:system/etc/media_codecs.xml
 
 # QCOM Display
 PRODUCT_PACKAGES += \
@@ -71,7 +71,9 @@ PRODUCT_PACKAGES += \
     thermald-8064ab.conf \
     thermald-8064.conf \
     thermald-8930.conf \
+    thermald-8930ab.conf \
     thermald-8960.conf \
+    thermald-8960ab.conf \
     thermal-engine-8064ab.conf \
     thermal-engine-8064.conf \
     thermal-engine-8930.conf \
@@ -99,4 +101,3 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += charger charger_res_images
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
-
