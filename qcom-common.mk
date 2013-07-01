@@ -89,3 +89,7 @@ PRODUCT_PACKAGES += charger charger_res_images
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
+# Support for testing the baseband version
+PRODUCT_COPY_FILES += \
+	device/samsung/qcom-common/test_radio_version.sh:/system/etc/test_radio_version.sh
+
