@@ -145,5 +145,12 @@ done
 
 # Set date to a time after 2008
 # This is a workaround for Zygote to preload time related classes properly
-date -s 20090102.130000
+case "$1" in
+    "msm8960" | "msm8660")
+        # Do nothing
+        ;;
+    *)
+        date -s 20090102.130000
+        ;;
+esac
 
