@@ -60,11 +60,6 @@ PRODUCT_PACKAGES += \
     e2fsck \
     setup_fs
 
-# for bugmailer
-PRODUCT_PACKAGES += send_bug
-PRODUCT_COPY_FILES += \
-    system/extras/bugmailer/send_bug:system/bin/send_bug
-
 # Thermal profiles
 PRODUCT_PACKAGES += \
     thermald-8064ab.conf \
