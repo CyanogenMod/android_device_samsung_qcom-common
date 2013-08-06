@@ -32,7 +32,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.composition.type=dyn \
     persist.hwc.mdpcomp.enable=true \
     debug.mdpcomp.logs=0 \
-    ro.telephony.ril_class=SamsungQualcommRIL
+    ro.telephony.ril_class=SamsungQualcommRIL \
+    qcom.hw.aac.encoder=true
 
 # GalaxyS3Settings
 # TODO: Move here
