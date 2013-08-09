@@ -33,10 +33,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.hwc.mdpcomp.enable=true \
     debug.mdpcomp.logs=0 \
     ro.telephony.ril_class=SamsungQualcommRIL \
-    qcom.hw.aac.encoder=true \
-    hwui.text_gamma_correction=shader \
-    hwui.use_gpu_pixel_buffers=true
-    ## enable pbo on adreno 3xx family, there is a check that check if it has opengles3
+    qcom.hw.aac.encoder=true
 
 # GalaxyS3Settings
 # TODO: Move here
