@@ -17,15 +17,6 @@
 PRODUCT_COPY_FILES += \
     device/samsung/qcom-common/media/media_codecs.xml:system/etc/media_codecs.xml
 
-# QCOM Display
-PRODUCT_PACKAGES += \
-    libgenlock \
-    libmemalloc \
-    liboverlay \
-    libqdutils \
-    libtilerenderer \
-    libI420colorconvert
-
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.hw=1 \
     debug.egl.hw=1 \
@@ -40,20 +31,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 #PRODUCT_PACKAGES += \
 #     GalaxyS3Settings \
 #     SamsungServiceMode
-
-# Omx
-PRODUCT_PACKAGES += \
-    libdivxdrmdecrypt \
-    libmm-omxcore \
-    libOmxCore \
-    libstagefrighthw \
-    libOmxVdec \
-    libOmxVenc \
-    libOmxAacEnc \
-    libOmxAmrEnc \
-    libOmxEvrcEnc \
-    libOmxQcelp13Enc \
-    libdashplayer
 
 # Filesystem management tools
 PRODUCT_PACKAGES += \
@@ -99,3 +76,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
 # Common overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/qcom-common/overlay
+
+# qcom common
+$(call inherit-product, device/qcom/qcom-common/qcom-common.mk)
