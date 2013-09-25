@@ -29,10 +29,6 @@
 #define SCALING_GOVERNOR_PATH "/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor"
 #define BOOSTPULSE_ONDEMAND "/sys/devices/system/cpu/cpufreq/ondemand/boostpulse"
 #define BOOSTPULSE_INTERACTIVE "/sys/devices/system/cpu/cpufreq/interactive/boostpulse"
-#define SAMPLING_RATE_SCREEN_ON "50000"
-#define SAMPLING_RATE_SCREEN_OFF "500000"
-#define TIMER_RATE_SCREEN_ON "30000"
-#define TIMER_RATE_SCREEN_OFF "500000"
 
 struct cm_power_module {
     struct power_module base;
@@ -71,27 +67,6 @@ static int sysfs_read(char *path, char *s, int num_bytes)
     return ret;
 }
 
-static void sysfs_write(char *path, char *s)
-{
-    char buf[80];
-    int len;
-    int fd = open(path, O_WRONLY);
-
-    if (fd < 0) {
-        strerror_r(errno, buf, sizeof(buf));
-        ALOGE("Error opening %s: %s\n", path, buf);
-        return;
-    }
-
-    len = write(fd, s, strlen(s));
-    if (len < 0) {
-        strerror_r(errno, buf, sizeof(buf));
-        ALOGE("Error writing to %s: %s\n", path, buf);
-    }
-
-    close(fd);
-}
-
 static int get_scaling_governor() {
     if (sysfs_read(SCALING_GOVERNOR_PATH, governor,
                 sizeof(governor)) == -1) {
@@ -111,36 +86,6 @@ static int get_scaling_governor() {
 
 static void cm_power_set_interactive(struct power_module *module, int on)
 {
-    if (strncmp(governor, "ondemand", 8) == 0)
-        sysfs_write("/sys/devices/system/cpu/cpufreq/ondemand/sampling_rate",
-                on ? SAMPLING_RATE_SCREEN_ON : SAMPLING_RATE_SCREEN_OFF);
-    else if (strncmp(governor, "interactive", 11) == 0)
-        sysfs_write("/sys/devices/system/cpu/cpufreq/interactive/timer_rate",
-                on ? TIMER_RATE_SCREEN_ON : TIMER_RATE_SCREEN_OFF);
-}
-
-
-static void configure_governor()
-{
-    cm_power_set_interactive(NULL, 1);
-
-    if (strncmp(governor, "ondemand", 8) == 0) {
-        sysfs_write("/sys/devices/system/cpu/cpufreq/ondemand/up_threshold", "90");
-        sysfs_write("/sys/devices/system/cpu/cpufreq/ondemand/io_is_busy", "1");
-        sysfs_write("/sys/devices/system/cpu/cpufreq/ondemand/sampling_down_factor", "4");
-        sysfs_write("/sys/devices/system/cpu/cpufreq/ondemand/down_differential", "10");
-        sysfs_write("/sys/devices/system/cpu/cpufreq/ondemand/up_threshold_multi_core", "70");
-        sysfs_write("/sys/devices/system/cpu/cpufreq/ondemand/down_differential_multi_core", "3");
-        sysfs_write("/sys/devices/system/cpu/cpufreq/ondemand/optimal_freq", "918000");
-        sysfs_write("/sys/devices/system/cpu/cpufreq/ondemand/sync_freq", "960000");
-        sysfs_write("/sys/devices/system/cpu/cpufreq/ondemand/up_threshold_any_cpu_load", "80");
-
-    } else if (strncmp(governor, "interactive", 11) == 0) {
-        sysfs_write("/sys/devices/system/cpu/cpufreq/interactive/min_sample_time", "90000");
-        sysfs_write("/sys/devices/system/cpu/cpufreq/interactive/io_is_busy", "1");
-        sysfs_write("/sys/devices/system/cpu/cpufreq/interactive/hispeed_freq", "1134000");
-        sysfs_write("/sys/devices/system/cpu/cpufreq/interactive/above_hispeed_delay", "30000");
-    }
 }
 
 static int boostpulse_open(struct cm_power_module *cm)
@@ -164,7 +109,6 @@ static int boostpulse_open(struct cm_power_module *cm)
                 ALOGV("Error opening boostpulse: %s\n", buf);
                 cm->boostpulse_warned = 1;
             } else if (cm->boostpulse_fd > 0) {
-                configure_governor();
                 ALOGD("Opened %s boostpulse interface", governor);
             }
         }
@@ -194,7 +138,7 @@ static void cm_power_hint(struct power_module *module, power_hint_t hint,
 
             if (len < 0) {
                 strerror_r(errno, buf, sizeof(buf));
-	            ALOGE("Error writing to boostpulse: %s\n", buf);
+                ALOGE("Error writing to boostpulse: %s\n", buf);
 
                 pthread_mutex_lock(&cm->lock);
                 close(cm->boostpulse_fd);
@@ -216,7 +160,6 @@ static void cm_power_hint(struct power_module *module, power_hint_t hint,
 static void cm_power_init(struct power_module *module)
 {
     get_scaling_governor();
-    configure_governor();
 }
 
 static struct hw_module_methods_t power_module_methods = {
