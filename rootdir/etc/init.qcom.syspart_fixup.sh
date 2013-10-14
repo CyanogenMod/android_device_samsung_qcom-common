@@ -33,14 +33,38 @@ serial="$2"
 PATH=/sbin:/system/sbin:/system/bin:/system/xbin
 export PATH
 
-mount_needed=false;
+## [BEGIN] system_sw.sa: check the existence of necessary symbolic links in /system/etc/firmware
+linksCreated=1
+cd /firmware/image
+testfiles=`ls modem* adsp* wcnss* mba* tima* lkmauth* venus* widevine* playread* dtcpip* skm* keymaste* sshdcpap* sec_stor* mc_v2*`
 
-if [ ! -f /system/etc/boot_fixup ];then
+cd /system/etc/firmware
+# Note: You can add requisite link names to extrafiles variable.
+extrafiles='wcd9320/wcd9320_mbhc.bin ../thermald.conf ../thermal-engine.conf'
+testfiles=$testfiles' '$extrafiles
+
+for testfile in $testfiles; do
+   case `ls $testfile` in
+      $testfile)
+         #echo "  file: $testfile" > /dev/kmsg
+         continue;;
+      *)
+         echo "init: /init.qcom.syspart_fixup.sh: continuing because '${testfile}' doesn't exist." > /dev/kmsg
+         linksCreated=0
+         break;;
+   esac
+done
+
+if [ "$linksCreated" = "1" ]; then
+	#touch /system/etc/boot_fixup
+	echo "init: /init.qcom.syspart_fixup.sh: skipping because symbolic links are alreay created." > /dev/kmsg
+	exit 0
+fi
+## [END] system_sw.sa
+
 # This should be the first command
 # remount system as read-write.
-  mount -o rw,remount,barrier=1 /system
-  mount_needed=true;
-fi
+mount -o rw,remount,barrier=1 /system
 
 # **** WARNING *****
 # This runs in a single-threaded, critical path portion
@@ -60,26 +84,40 @@ if [ -f /system/etc/init.qcom.mdm_links.sh ]; then
   /system/bin/sh /system/etc/init.qcom.mdm_links.sh
 fi
 
-setprop ro.modem.links.done 1
-
 # Run thermal script
 if [ -f /system/etc/init.qcom.thermal_conf.sh ]; then
   /system/bin/sh /system/etc/init.qcom.thermal_conf.sh
 fi
 
-# Run wifi script
-if [ -f /system/etc/init.qcom.wifi.sh ]; then
-  /system/bin/sh /system/etc/init.qcom.wifi.sh "$target" "$serial"
-fi
+## [BEGIN] system_sw.sa: Ignore wifi script.
+## Run wifi script
+#if [ -f /system/etc/init.qcom.wifi.sh ]; then
+#  /system/bin/sh /system/etc/init.qcom.wifi.sh "$target" "$serial"
+#fi
+## [END] system_sw.sa
+
+## [BEGIN] system_sw.sa: Settings from init.qcom.audio.sh
+rm -rf /system/etc/firmware/wcd9320/wcd9320_mbhc.bin
+mkdir -p /system/etc/firmware/wcd9320
+chmod 755 /system/etc/firmware/wcd9320
+ln -s /data/misc/audio/mbhc.bin /system/etc/firmware/wcd9320/wcd9320_mbhc.bin
+## [END] system_sw.sa
 
 # Run the sensor script
 if [ -f /system/etc/init.qcom.sensor.sh ]; then
   /system/bin/sh /system/etc/init.qcom.sensor.sh
 fi
 
+## [BEGIN] system_sw.sa: Ignore usf script.
+## Run usf script
+#if [ -f /system/etc/usf_settings.sh ]; then
+#  /system/bin/sh /system/etc/usf_settings.sh
+#fi
+## [END] system_sw.sa
+
+touch /system/etc/boot_fixup
+chmod 664 /system/etc/boot_fixup
+
 # This should be the last command
 # remount system as read-only.
-  mount -o ro,remount,barrier=1 /system
-
-
-
+mount -o ro,remount,barrier=1 /system
