@@ -1,5 +1,5 @@
 #!/system/bin/sh
-# Copyright (c) 2012, The Linux Foundation. All rights reserved.
+# Copyright (c) 2012-2013, The Linux Foundation. All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are
@@ -32,68 +32,24 @@
 PATH=/sbin:/system/sbin:/system/bin:/system/xbin
 export PATH
 
-THERMALD_CONF_SYMLINK=/etc/thermald.conf
-
-# Set a default value
-setprop qcom.thermal thermald
-
-# Figure out if thermal-engine should start
 platformid=`cat /sys/devices/system/soc/soc0/id`
-case "$platformid" in
-    "153") #APQ/MPQ8064ab
-    setprop qcom.thermal thermal-engine
-    ;;
-esac
 
-# Check if symlink does not exist
+THERMALD_CONF_SYMLINK=/etc/thermald.conf
+# symlink already exists, exit
 if [ ! -h $THERMALD_CONF_SYMLINK ]; then
- # create symlink to target-specific config file
  case "$platformid" in
-     "109" | "130") #APQ/MPQ8064
-     ln -s /etc/thermald-8064.conf $THERMALD_CONF_SYMLINK 2>/dev/null
-     ;;
-
-     "153") #APQ/MPQ8064ab
-     ln -s /etc/thermald-8064ab.conf $THERMALD_CONF_SYMLINK 2>/dev/null
-     ;;
-
-     "116" | "117" | "118" | "119" | "120" | "121" | "142" | "143" | "144" | "160" | "179" | "180" | "181") #MSM8x30&MSM8x27
-     ln -s /etc/thermald-8930.conf $THERMALD_CONF_SYMLINK 2>/dev/null
-     ;;
-
-     "154" | "155" | "156" | "157") #MSM8930ab
-     ln -s /etc/thermald-8930ab.conf $THERMALD_CONF_SYMLINK 2>/dev/null
-     ;;
-
-     "138" | "139" | "140" | "141") #MSM8960ab
-     ln -s /etc/thermald-8960ab.conf $THERMALD_CONF_SYMLINK 2>/dev/null
-     ;;
-
-     *) #MSM8960, etc
-     ln -s /etc/thermald-8960.conf $THERMALD_CONF_SYMLINK 2>/dev/null
+     *) #MSM8974, etc
+     ln -s /etc/thermald-8974.conf $THERMALD_CONF_SYMLINK 2>/dev/null
      ;;
  esac
 fi
 
 THERMAL_ENGINE_CONF_SYMLINK=/etc/thermal-engine.conf
-# Check if symlink does not exist
+# symlink already exists, exit
 if [ ! -h $THERMAL_ENGINE_CONF_SYMLINK ]; then
- # create symlink to target-specific config file
  case "$platformid" in
-     "109" | "130") #APQ/MPQ8064
-     ln -s /etc/thermal-engine-8064.conf $THERMAL_ENGINE_CONF_SYMLINK 2>/dev/null
-     ;;
-
-     "153") #APQ/MPQ8064ab
-     ln -s /etc/thermal-engine-8064ab.conf $THERMAL_ENGINE_CONF_SYMLINK 2>/dev/null
-     ;;
-
-     "116" | "117" | "118" | "119" | "120" | "121" | "142" | "143" | "144" | "160" | "179" | "180" | "181") #MSM8x30&MSM8x27
-     ln -s /etc/thermal-engine-8930.conf $THERMAL_ENGINE_CONF_SYMLINK 2>/dev/null
-     ;;
-
-     *) #MSM8960, etc
-     ln -s /etc/thermal-engine-8960.conf $THERMAL_ENGINE_CONF_SYMLINK 2>/dev/null
+     *) #MSM8974, etc
+     ln -s /etc/thermal-engine-8974.conf $THERMAL_ENGINE_CONF_SYMLINK 2>/dev/null
      ;;
  esac
 fi
