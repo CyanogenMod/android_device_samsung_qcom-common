@@ -70,10 +70,12 @@ PRODUCT_PACKAGES += \
     thermald-8930ab.conf \
     thermald-8960.conf \
     thermald-8960ab.conf \
+    thermald-8974.conf \
     thermal-engine-8064ab.conf \
     thermal-engine-8064.conf \
     thermal-engine-8930.conf \
-    thermal-engine-8960.conf
+    thermal-engine-8960.conf \
+    thermal-engine-8974.conf
 
 # Init scripts
 PRODUCT_PACKAGES += \
@@ -91,7 +93,12 @@ PRODUCT_PACKAGES += \
     init.qcom.lpm_boot.sh \
     init.qcom.thermal_conf.sh \
     init.recovery.qcom.rc \
-    init.qcom.ril.sh
+    init.qcom.ril.sh \
+    init.qcom.audio.sh \
+    init.qcom.bt.sh \
+    init.qcom.factory.sh \
+    init.qcom.coex.sh
+
 
 # Charger
 PRODUCT_PACKAGES += charger charger_res_images
