@@ -60,13 +60,6 @@ if [ -f /system/etc/init.qcom.mdm_links.sh ]; then
   /system/bin/sh /system/etc/init.qcom.mdm_links.sh
 fi
 
-setprop ro.modem.links.done 1
-
-# Run thermal script
-if [ -f /system/etc/init.qcom.thermal_conf.sh ]; then
-  /system/bin/sh /system/etc/init.qcom.thermal_conf.sh
-fi
-
 # Run wifi script
 if [ -f /system/etc/init.qcom.wifi.sh ]; then
   /system/bin/sh /system/etc/init.qcom.wifi.sh "$target" "$serial"
@@ -77,9 +70,15 @@ if [ -f /system/etc/init.qcom.sensor.sh ]; then
   /system/bin/sh /system/etc/init.qcom.sensor.sh
 fi
 
+# Run usf script
+if [ -f /system/etc/usf_settings.sh ]; then
+  /system/bin/sh /system/etc/usf_settings.sh
+fi
+
+touch /system/etc/boot_fixup
+
+if $mount_needed ;then
 # This should be the last command
 # remount system as read-only.
   mount -o ro,remount,barrier=1 /system
-
-
-
+fi
