@@ -79,17 +79,13 @@ echo 1 > /proc/sys/net/ipv6/conf/default/accept_ra_defrtr
 # Start gpsone_daemon for SVLTE Type I & II devices
 #
 case "$target" in
-        "msm7630_fusion")
+        "msm7630_fusion" | "msm8960")
         start gpsone_daemon
 esac
 case "$baseband" in
         "svlte2a")
         start gpsone_daemon
         start bridgemgrd
-        ;;
-        "sglte")
-        start gpsone_daemon
-        ;;
 esac
 case "$target" in
         "msm7630_surf" | "msm8660" | "msm8960" | "msm8974")
@@ -134,6 +130,15 @@ case "$target" in
         esac
 
         platformvalue=`cat /sys/devices/system/soc/soc0/hw_platform`
+        case "$platformvalue" in
+             "Fluid")
+                 start profiler_daemon;;
+             "Liquid")
+                 start profiler_daemon;;
+        esac
+        ;;
+    "msm8974")
+        platformvalue=`cat /sys/devices/soc0/hw_platform`
         case "$platformvalue" in
              "Fluid")
                  start profiler_daemon;;
