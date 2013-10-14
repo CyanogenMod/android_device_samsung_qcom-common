@@ -27,7 +27,7 @@ TARGET_ARCH_VARIANT := armv7-a-neon
 ENABLE_WEBGL := true
 
 # PowerHAL
-TARGET_PROVIDES_POWERHAL := true
+TARGET_USES_CM_POWERHAL := true
 
 # chargers
 BOARD_CHARGER_RES := device/samsung/qcom-common/charger
