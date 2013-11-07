@@ -62,3 +62,7 @@ BOARD_BATTERY_DEVICE_NAME := "battery"
 TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/qcom-common
 
 BOARD_HARDWARE_CLASS := hardware/samsung/cmhw
+
+# Workaround to allow us to have a local libhealthd
+TARGET_PROVIDES_LIBHEALTHD := true
+
