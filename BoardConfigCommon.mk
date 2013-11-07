@@ -62,3 +62,7 @@ BOARD_BATTERY_DEVICE_NAME := "battery"
 TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/qcom-common
 
 BOARD_HARDWARE_CLASS := hardware/samsung/cmhw
+
+# Override healthd HAL
+BOARD_HAL_STATIC_LIBRARIES := libhealthd.qcom
+
