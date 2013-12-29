@@ -154,6 +154,8 @@ case "$target" in
          echo 1134000 > /sys/devices/system/cpu/cpufreq/interactive/hispeed_freq
          echo 30000 > /sys/devices/system/cpu/cpufreq/interactive/above_hispeed_delay
          echo 30000 > /sys/devices/system/cpu/cpufreq/interactive/timer_rate
+         echo 960000 > /sys/devices/system/cpu/cpufreq/interactive/sync_freq
+         echo 80 > /sys/devices/system/cpu/cpufreq/interactive/sync_freq_load_threshold
          echo 1 > /sys/devices/system/cpu/cpufreq/interactive/io_is_busy
          echo 384000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
          echo 384000 > /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq
