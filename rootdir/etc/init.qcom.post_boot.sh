@@ -156,6 +156,7 @@ case "$target" in
          echo 30000 > /sys/devices/system/cpu/cpufreq/interactive/timer_rate
          echo 960000 > /sys/devices/system/cpu/cpufreq/interactive/sync_freq
          echo 80 > /sys/devices/system/cpu/cpufreq/interactive/sync_freq_load_threshold
+         echo 95 > /sys/devices/system/cpu/cpufreq/interactive/go_hispeed_load
          echo 1 > /sys/devices/system/cpu/cpufreq/interactive/io_is_busy
          chown -h system /sys/devices/system/cpu/cpufreq/interactive/above_hispeed_delay
          chown -h system /sys/devices/system/cpu/cpufreq/interactive/boost
