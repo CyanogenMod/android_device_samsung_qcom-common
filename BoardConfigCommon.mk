@@ -23,9 +23,6 @@ TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_ARCH_VARIANT := armv7-a-neon
 
-# Enable WEBGL in WebKit
-ENABLE_WEBGL := true
-
 # PowerHAL
 TARGET_USES_CM_POWERHAL := true
 
@@ -44,13 +41,6 @@ BOARD_USES_LEGACY_ALSA_AUDIO := true
 USE_OPENGL_RENDERER := true
 TARGET_USES_C2D_COMPOSITION := true
 TARGET_USES_ION := true
-
-# FM Radio
-#BOARD_HAVE_FM_RADIO := true
-#BOARD_GLOBAL_CFLAGS += -DHAVE_FM_RADIO
-
-# Webkit
-TARGET_FORCE_CPU_UPLOAD := true
 
 # Charging mode
 BOARD_CHARGING_MODE_BOOTING_LPM := /sys/class/power_supply/battery/batt_lp_charging
