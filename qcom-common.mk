@@ -22,9 +22,7 @@ PRODUCT_PACKAGES += \
     libgenlock \
     libmemalloc \
     liboverlay \
-    libqdutils \
-    libtilerenderer \
-    libI420colorconvert
+    libqdutils
 
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.hw=1 \
@@ -33,11 +31,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.mdpcomp.logs=0 \
     ro.telephony.ril_class=SamsungQualcommRIL \
     ro.telephony.call_ring.multiple=0
-
-# TODO: Move here
-#PRODUCT_PACKAGES += \
-#     GalaxyS3Settings \
-#     SamsungServiceMode
 
 # Omx
 PRODUCT_PACKAGES += \
