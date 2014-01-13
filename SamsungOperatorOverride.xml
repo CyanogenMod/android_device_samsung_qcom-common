@@ -1,0 +1,1492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<spnOverrides>
+  <spnOverride numeric="41201" spn="AWCC" /> <!--Afghanistan-->
+  <spnOverride numeric="41240" spn="Areeba" /> <!--Afghanistan-->
+  <spnOverride numeric="41250" spn="Etisalat" /> <!--Afghanistan-->
+  <spnOverride numeric="41220" spn="Roshan" /> <!--Afghanistan-->
+  <spnOverride numeric="27601" spn="AMC" /> <!--Albania-->
+  <spnOverride numeric="27603" spn="Eagle Mobile" /> <!--Albania-->
+  <spnOverride numeric="27604" spn="Plus Communication" /> <!--Albania-->
+  <spnOverride numeric="27602" spn="Vodafone" /> <!--Albania-->
+  <spnOverride numeric="60302" spn="Djezzy" /> <!--Algeria-->
+  <spnOverride numeric="60301" spn="Mobilis" /> <!--Algeria-->
+  <spnOverride numeric="60303" spn="Nedjma" /> <!--Algeria-->
+  <spnOverride numeric="54411" spn="Bluesky" /> <!--American Samoa-->
+  <spnOverride numeric="21303" spn="Mobiland" /> <!--Andorra-->
+  <spnOverride numeric="63104" spn="MOVICEL" /> <!--Angola-->
+  <spnOverride numeric="63102" spn="UNITEL" /> <!--Angola-->
+  <spnOverride numeric="365840" spn="Cable &amp; Wireless" /> <!--Anguilla (United Kingdom)-->
+  <spnOverride numeric="365010" spn="Weblinks Limited" /> <!--Anguilla (United Kingdom)-->
+  <spnOverride numeric="344030" spn="APUA" /> <!--Antigua and Barbuda-->
+  <spnOverride numeric="344920" spn="bmobile" /> <!--Antigua and Barbuda-->
+  <spnOverride numeric="344930" spn="Digicel" /> <!--Antigua and Barbuda-->
+  <spnOverride numeric="722310" spn="Claro" /> <!--Argentina-->
+  <spnOverride numeric="722320" spn="Claro" /> <!--Argentina-->
+  <spnOverride numeric="722330" spn="Claro" /> <!--Argentina-->
+  <spnOverride numeric="722350" spn="Hutchinson (PORT HABLE)" /> <!--Argentina-->
+  <spnOverride numeric="722010" spn="Movistar" /> <!--Argentina-->
+  <spnOverride numeric="722070" spn="Movistar" /> <!--Argentina-->
+  <spnOverride numeric="722020" spn="Nextel" /> <!--Argentina-->
+  <spnOverride numeric="72234" spn="Personal" /> <!--Argentina-->
+  <spnOverride numeric="722341" spn="Telecom Personal SA" /> <!--Argentina-->
+  <spnOverride numeric="72236" spn="Telecom Personal SA" /> <!--Argentina-->
+  <spnOverride numeric="28301" spn="Beeline" /> <!--Armenia-->
+  <spnOverride numeric="28310" spn="Orange" /> <!--Armenia-->
+  <spnOverride numeric="28305" spn="VivaCell-MTS" /> <!--Armenia-->
+  <spnOverride numeric="36302" spn="Digicel" /> <!--Aruba (Netherlands)-->
+  <spnOverride numeric="36320" spn="Digicell" /> <!--Aruba (Netherlands)-->
+  <spnOverride numeric="36301" spn="SETAR" /> <!--Aruba (Netherlands)-->
+  <spnOverride numeric="50506" spn="3" /> <!--Australia-->
+  <spnOverride numeric="50512" spn="3" /> <!--Australia-->
+  <spnOverride numeric="50515" spn="3GIS" /> <!--Australia-->
+  <spnOverride numeric="50514" spn="AAPT" /> <!--Australia-->
+  <spnOverride numeric="50524" spn="Advanced Communications Technologies" /> <!--Australia-->
+  <spnOverride numeric="50509" spn="Airnet" /> <!--Australia-->
+  <spnOverride numeric="50538" spn="Crazy John's" /> <!--Australia-->
+  <spnOverride numeric="50504" spn="Department of Defence" /> <!--Australia-->
+  <spnOverride numeric="50588" spn="Localstar" /> <!--Australia-->
+  <spnOverride numeric="50510" spn="Norfolk Telecom" /> <!--Australia-->
+  <spnOverride numeric="50508" spn="One. Tel" /> <!--Australia-->
+  <spnOverride numeric="50599" spn="One. Tel" /> <!--Australia-->
+  <spnOverride numeric="50502" spn="OPTUS / Virgin Mobile" /> <!--Australia-->
+  <spnOverride numeric="50505" spn="Ozitel" /> <!--Australia-->
+  <spnOverride numeric="50513" spn="Railcorp" /> <!--Australia-->
+  <spnOverride numeric="50521" spn="SOUL" /> <!--Australia-->
+  <spnOverride numeric="50501" spn="Telstra" /> <!--Australia-->
+  <spnOverride numeric="50511" spn="Telstra" /> <!--Australia-->
+  <spnOverride numeric="50571" spn="Telstra" /> <!--Australia-->
+  <spnOverride numeric="50572" spn="Telstra" /> <!--Australia-->
+  <spnOverride numeric="50516" spn="Victorian Rail Track" /> <!--Australia-->
+  <spnOverride numeric="50503" spn="Vodafone" /> <!--Australia-->
+  <spnOverride numeric="50507" spn="Vodafone" /> <!--Australia-->
+  <spnOverride numeric="50590" spn="YES OPTUS" /> <!--Australia-->
+  <spnOverride numeric="23210" spn="3" /> <!--Austria-->
+  <spnOverride numeric="23214" spn="3" /> <!--Austria-->
+  <spnOverride numeric="23201" spn="A1" /> <!--Austria-->
+  <spnOverride numeric="23209" spn="A1" /> <!--Austria-->
+  <spnOverride numeric="23215" spn="Barablu" /> <!--Austria-->
+  <spnOverride numeric="23211" spn="bob" /> <!--Austria-->
+  <spnOverride numeric="23291" spn="GSM-R A" /> <!--Austria-->
+  <spnOverride numeric="23205" spn="Orange" /> <!--Austria-->
+  <spnOverride numeric="23203" spn="T-Mobile" /> <!--Austria-->
+  <spnOverride numeric="23207" spn="T-Mobile" /> <!--Austria-->
+  <spnOverride numeric="23212" spn="yesss" /> <!--Austria-->
+  <spnOverride numeric="40001" spn="Azercell" /> <!--Azerbaijan-->
+  <spnOverride numeric="40002" spn="Bakcell" /> <!--Azerbaijan-->
+  <spnOverride numeric="40003" spn="FONEX" /> <!--Azerbaijan-->
+  <spnOverride numeric="40004" spn="Nar Mobile" /> <!--Azerbaijan-->
+  <spnOverride numeric="364390" spn="BaTelCo" /> <!--Bahamas-->
+  <spnOverride numeric="42601" spn="Batelco" /> <!--Bahrain-->
+  <spnOverride numeric="42602" spn="MTC-VFBH" /> <!--Bahrain-->
+  <spnOverride numeric="42604" spn="VIVA" /> <!--Bahrain-->
+  <spnOverride numeric="47002" spn="Aktel" /> <!--Bangladesh-->
+  <spnOverride numeric="47003" spn="Banglalink" /> <!--Bangladesh-->
+  <spnOverride numeric="47005" spn="Citycell" /> <!--Bangladesh-->
+  <spnOverride numeric="47006" spn="Citycell" /> <!--Bangladesh-->
+  <spnOverride numeric="47001" spn="Grameenphone" /> <!--Bangladesh-->
+  <spnOverride numeric="47004" spn="TeleTalk" /> <!--Bangladesh-->
+  <spnOverride numeric="47007" spn="Warid" /> <!--Bangladesh-->
+  <spnOverride numeric="342600" spn="bmobile" /> <!--Barbados-->
+  <spnOverride numeric="342750" spn="Digicel" /> <!--Barbados-->
+  <spnOverride numeric="342820" spn="Sunbeach Communications" /> <!--Barbados-->
+  <spnOverride numeric="257501" spn="BelCel JV" /> <!--Belarus-->
+  <spnOverride numeric="25703" spn="DIALLOG" /> <!--Belarus-->
+  <spnOverride numeric="25704" spn="life:)" /> <!--Belarus-->
+  <spnOverride numeric="25702" spn="MTS" /> <!--Belarus-->
+  <spnOverride numeric="25701" spn="Velcom" /> <!--Belarus-->
+  <spnOverride numeric="20620" spn="BASE" /> <!--Belgium-->
+  <spnOverride numeric="20610" spn="Mobistar" /> <!--Belgium-->
+  <spnOverride numeric="20601" spn="Proximus" /> <!--Belgium-->
+  <spnOverride numeric="20605" spn="Telenet" /> <!--Belgium-->
+  <spnOverride numeric="70267" spn="Belize Telemedia" /> <!--Belize-->
+  <spnOverride numeric="70268" spn="International Telecommunications Ltd." /> <!--Belize-->
+  <spnOverride numeric="70299" spn="Smart" /> <!--Belize-->
+  <spnOverride numeric="61603" spn="Areeba" /> <!--Benin-->
+  <spnOverride numeric="61600" spn="BBCOM" /> <!--Benin-->
+  <spnOverride numeric="61604" spn="BBCOM" /> <!--Benin-->
+  <spnOverride numeric="61605" spn="Glo" /> <!--Benin-->
+  <spnOverride numeric="61601" spn="Libercom" /> <!--Benin-->
+  <spnOverride numeric="61602" spn="Telecel" /> <!--Benin-->
+  <spnOverride numeric="31038" spn="Digicel" /> <!--Bermudas-->
+  <spnOverride numeric="35001" spn="Digicel Bermuda" /> <!--Bermudas-->
+  <spnOverride numeric="35002" spn="Mobility" /> <!--Bermudas-->
+  <spnOverride numeric="40211" spn="B-Mobile" /> <!--Bhutan-->
+  <spnOverride numeric="40277" spn="TashiCell" /> <!--Bhutan-->
+  <spnOverride numeric="73602" spn="Entel" /> <!--Bolivia-->
+  <spnOverride numeric="73601" spn="Nuevatel" /> <!--Bolivia-->
+  <spnOverride numeric="73603" spn="Tigo" /> <!--Bolivia-->
+  <spnOverride numeric="21890" spn="BH Mobile" /> <!--Bosnia and Herzegovina-->
+  <spnOverride numeric="21803" spn="ERONET" /> <!--Bosnia and Herzegovina-->
+  <spnOverride numeric="21805" spn="m:tel" /> <!--Bosnia and Herzegovina-->
+  <spnOverride numeric="65204" spn="BTC Mobile" /> <!--Botswana-->
+  <spnOverride numeric="65201" spn="Mascom" /> <!--Botswana-->
+  <spnOverride numeric="65202" spn="Orange" /> <!--Botswana-->
+  <spnOverride numeric="72437" spn="aiou" /> <!--Brazil-->
+  <spnOverride numeric="72424" spn="Amazonia Celular" /> <!--Brazil-->
+  <spnOverride numeric="72416" spn="Brasil Telecom" /> <!--Brazil-->
+  <spnOverride numeric="72405" spn="Claro" /> <!--Brazil-->
+  <spnOverride numeric="72432" spn="CTBC Cellular" /> <!--Brazil-->
+  <spnOverride numeric="72433" spn="CTBC Cellular" /> <!--Brazil-->
+  <spnOverride numeric="72434" spn="CTBC Cellular" /> <!--Brazil-->
+  <spnOverride numeric="72407" spn="CTBC Celular" /> <!--Brazil-->
+  <spnOverride numeric="72400" spn="Nextel" /> <!--Brazil-->
+  <spnOverride numeric="72439" spn="Nextel" /> <!--Brazil-->
+  <spnOverride numeric="72415" spn="Sercomtel" /> <!--Brazil-->
+  <spnOverride numeric="72402" spn="TIM" /> <!--Brazil-->
+  <spnOverride numeric="72403" spn="TIM" /> <!--Brazil-->
+  <spnOverride numeric="72404" spn="TIM" /> <!--Brazil-->
+  <spnOverride numeric="72408" spn="TIM" /> <!--Brazil-->
+  <spnOverride numeric="72431" spn="TNL PCS" /> <!--Brazil-->
+  <spnOverride numeric="72406" spn="Vivo" /> <!--Brazil-->
+  <spnOverride numeric="72410" spn="Vivo" /> <!--Brazil-->
+  <spnOverride numeric="72411" spn="Vivo" /> <!--Brazil-->
+  <spnOverride numeric="72423" spn="Vivo" /> <!--Brazil-->
+  <spnOverride numeric="348170" spn="Cable &amp; Wireless" /> <!--British Virgin Islands (United Kingdom)-->
+  <spnOverride numeric="348570" spn="Caribbean Cellular Telephone" /> <!--British Virgin Islands (United Kingdom)-->
+  <spnOverride numeric="348770" spn="Digicel" /> <!--British Virgin Islands (United Kingdom)-->
+  <spnOverride numeric="52802" spn="B-Mobile" /> <!--Brunei-->
+  <spnOverride numeric="52811" spn="DTSCom" /> <!--Brunei-->
+  <spnOverride numeric="52801" spn="Jabatan Telekom" /> <!--Brunei-->
+  <spnOverride numeric="28405" spn="GLOBUL" /> <!--Bulgaria-->
+  <spnOverride numeric="28401" spn="M-Tel" /> <!--Bulgaria-->
+  <spnOverride numeric="28404" spn="Undisclosed" /> <!--Bulgaria-->
+  <spnOverride numeric="28403" spn="Vivatel" /> <!--Bulgaria-->
+  <spnOverride numeric="61301" spn="Onatel" /> <!--Burkina Faso-->
+  <spnOverride numeric="61303" spn="Telecel Faso" /> <!--Burkina Faso-->
+  <spnOverride numeric="61302" spn="Zain" /> <!--Burkina Faso-->
+  <spnOverride numeric="64202" spn="Africell" /> <!--Burundi-->
+  <spnOverride numeric="64208" spn="HiTs Telecom" /> <!--Burundi-->
+  <spnOverride numeric="64207" spn="Smart Mobile" /> <!--Burundi-->
+  <spnOverride numeric="64201" spn="Spacetel" /> <!--Burundi-->
+  <spnOverride numeric="64203" spn="Telecel" /> <!--Burundi-->
+  <spnOverride numeric="64282" spn="U-COM Burundi" /> <!--Burundi-->
+  <spnOverride numeric="45609" spn="Beeline" /> <!--Cambodia-->
+  <spnOverride numeric="45618" spn="Camshin / Shinawatra" /> <!--Cambodia-->
+  <spnOverride numeric="45611" spn="Excell" /> <!--Cambodia-->
+  <spnOverride numeric="45602" spn="hello" /> <!--Cambodia-->
+  <spnOverride numeric="45608" spn="Metfone" /> <!--Cambodia-->
+  <spnOverride numeric="45601" spn="Mobitel" /> <!--Cambodia-->
+  <spnOverride numeric="45604" spn="qb" /> <!--Cambodia-->
+  <spnOverride numeric="45603" spn="S Telecom" /> <!--Cambodia-->
+  <spnOverride numeric="45606" spn="Smart Mobile" /> <!--Cambodia-->
+  <spnOverride numeric="45605" spn="Star-Cell" /> <!--Cambodia-->
+  <spnOverride numeric="62401" spn="MTN Cameroon" /> <!--Cameroon-->
+  <spnOverride numeric="62402" spn="Orange" /> <!--Cameroon-->
+  <spnOverride numeric="302290" spn="Airtel Wireless" /> <!--Canada-->
+  <spnOverride numeric="302652" spn="BC Tel Mobility" /> <!--Canada-->
+  <spnOverride numeric="302610" spn="Bell" /> <!--Canada-->
+  <spnOverride numeric="302640" spn="Bell" /> <!--Canada-->
+  <spnOverride numeric="302880" spn="Bell / Telus / SaskTel" /> <!--Canada-->
+  <spnOverride numeric="302651" spn="Bell Mobility" /> <!--Canada-->
+  <spnOverride numeric="302380" spn="DMTS" /> <!--Canada-->
+  <spnOverride numeric="302370" spn="Fido" /> <!--Canada-->
+  <spnOverride numeric="302350" spn="FIRST" /> <!--Canada-->
+  <spnOverride numeric="302710" spn="Globalstar" /> <!--Canada-->
+  <spnOverride numeric="302620" spn="ICE Wireless" /> <!--Canada-->
+  <spnOverride numeric="302701" spn="MB Tel Mobility" /> <!--Canada-->
+  <spnOverride numeric="302320" spn="Mobilicity" /> <!--Canada-->
+  <spnOverride numeric="302702" spn="MT&amp;T Mobility" /> <!--Canada-->
+  <spnOverride numeric="302660" spn="MTS" /> <!--Canada-->
+  <spnOverride numeric="302655" spn="MTS Mobility" /> <!--Canada-->
+  <spnOverride numeric="302703" spn="New Tel Mobility" /> <!--Canada-->
+  <spnOverride numeric="302720" spn="Rogers Wireless" /> <!--Canada-->
+  <spnOverride numeric="302654" spn="Sask Tel Mobility" /> <!--Canada-->
+  <spnOverride numeric="302680" spn="SaskTel" /> <!--Canada-->
+  <spnOverride numeric="302780" spn="SaskTel" /> <!--Canada-->
+  <spnOverride numeric="302656" spn="Tbay Mobility" /> <!--Canada-->
+  <spnOverride numeric="302220" spn="Telus" /> <!--Canada-->
+  <spnOverride numeric="302221" spn="Telus" /> <!--Canada-->
+  <spnOverride numeric="302657" spn="Telus (Quebec) Mobility" /> <!--Canada-->
+  <spnOverride numeric="302360" spn="Telus Mobility" /> <!--Canada-->
+  <spnOverride numeric="302361" spn="Telus Mobility" /> <!--Canada-->
+  <spnOverride numeric="302653" spn="Telus Mobility" /> <!--Canada-->
+  <spnOverride numeric="302500" spn="Videotron" /> <!--Canada-->
+  <spnOverride numeric="302510" spn="Videotron" /> <!--Canada-->
+  <spnOverride numeric="302490" spn="WIND Mobile" /> <!--Canada-->
+  <spnOverride numeric="62501" spn="CVMOVEL" /> <!--Cape Verde-->
+  <spnOverride numeric="62502" spn="T+" /> <!--Cape Verde-->
+  <spnOverride numeric="346140" spn="Cable &amp; Wireless" /> <!--Cayman Islands (United Kingdom)-->
+  <spnOverride numeric="346050" spn="Digicel" /> <!--Cayman Islands (United Kingdom)-->
+  <spnOverride numeric="62301" spn="CTP" /> <!--Central African Republic-->
+  <spnOverride numeric="62304" spn="Nationlink" /> <!--Central African Republic-->
+  <spnOverride numeric="62303" spn="Orange" /> <!--Central African Republic-->
+  <spnOverride numeric="62302" spn="TC" /> <!--Central African Republic-->
+  <spnOverride numeric="73003" spn="Claro" /> <!--Chile-->
+  <spnOverride numeric="73001" spn="Entel" /> <!--Chile-->
+  <spnOverride numeric="73010" spn="Entel" /> <!--Chile-->
+  <spnOverride numeric="73002" spn="movistar" /> <!--Chile-->
+  <spnOverride numeric="73004" spn="Nextel" /> <!--Chile-->
+  <spnOverride numeric="73008" spn="VTR MOvil" /> <!--Chile-->
+  <spnOverride numeric="73099" spn="Will" /> <!--Chile-->
+  <spnOverride numeric="46006" spn="(unknown)" /> <!--China-->
+  <spnOverride numeric="46000" spn="China Mobile" /> <!--China-->
+  <spnOverride numeric="46002" spn="China Mobile" /> <!--China-->
+  <spnOverride numeric="46007" spn="China Mobile" /> <!--China-->
+  <spnOverride numeric="46003" spn="China Telecom" /> <!--China-->
+  <spnOverride numeric="46005" spn="China Telecom" /> <!--China-->
+  <spnOverride numeric="46020" spn="China Tietong" /> <!--China-->
+  <spnOverride numeric="46001" spn="China Unicom" /> <!--China-->
+  <spnOverride numeric="732001" spn="Colombia Telecomunicaciones S.A. - Telecom" /> <!--Colombia-->
+  <spnOverride numeric="732101" spn="Comcel" /> <!--Colombia-->
+  <spnOverride numeric="732002" spn="Edatel" /> <!--Colombia-->
+  <spnOverride numeric="732102" spn="movistar" /> <!--Colombia-->
+  <spnOverride numeric="732123" spn="movistar" /> <!--Colombia-->
+  <spnOverride numeric="732103" spn="Tigo" /> <!--Colombia-->
+  <spnOverride numeric="732111" spn="Tigo" /> <!--Colombia-->
+  <spnOverride numeric="65401" spn="HURI - SNPT" /> <!--Comoros-->
+  <spnOverride numeric="54801" spn="Telecom Cook" /> <!--Cook Islands-->
+  <spnOverride numeric="71201" spn="ICE" /> <!--Costa Rica-->
+  <spnOverride numeric="71202" spn="ICE" /> <!--Costa Rica-->
+  <spnOverride numeric="71203" spn="ICE" /> <!--Costa Rica-->
+  <spnOverride numeric="71204" spn="movistar" /> <!--Costa Rica-->
+  <spnOverride numeric="61201" spn="Cora de Comstar" /> <!--Cote d'Ivoire-->
+  <spnOverride numeric="61204" spn="KoZ" /> <!--Cote d'Ivoire-->
+  <spnOverride numeric="61202" spn="Moov" /> <!--Cote d'Ivoire-->
+  <spnOverride numeric="61205" spn="MTN" /> <!--Cote d'Ivoire-->
+  <spnOverride numeric="61203" spn="Orange" /> <!--Cote d'Ivoire-->
+  <spnOverride numeric="61206" spn="ORICEL" /> <!--Cote d'Ivoire-->
+  <spnOverride numeric="21901" spn="T-Mobile" /> <!--Croatia-->
+  <spnOverride numeric="21902" spn="Tele2" /> <!--Croatia-->
+  <spnOverride numeric="21910" spn="VIPnet" /> <!--Croatia-->
+  <spnOverride numeric="36801" spn="ETECSA" /> <!--Cuba-->
+  <spnOverride numeric="28001" spn="Cytamobile-Vodafone" /> <!--Cyprus-->
+  <spnOverride numeric="28010" spn="MTN" /> <!--Cyprus-->
+  <spnOverride numeric="62204" spn="Salam" /> <!--Czad-->
+  <spnOverride numeric="62202" spn="TAWALI" /> <!--Czad-->
+  <spnOverride numeric="62203" spn="TIGO - Millicom" /> <!--Czad-->
+  <spnOverride numeric="62201" spn="Zain" /> <!--Czad-->
+  <spnOverride numeric="23002" spn="EUROTEL PRAHA" /> <!--Czech Republic-->
+  <spnOverride numeric="23003" spn="OSKAR" /> <!--Czech Republic-->
+  <spnOverride numeric="23006" spn="OSNO TELECOMUNICATION, s.r.o." /> <!--Czech Republic-->
+  <spnOverride numeric="23098" spn="SeDC s.o." /> <!--Czech Republic-->
+  <spnOverride numeric="23001" spn="T-Mobile" /> <!--Czech Republic-->
+  <spnOverride numeric="23005" spn="TRAVEL TELEKOMMUNIKATION, s.r.o." /> <!--Czech Republic-->
+  <spnOverride numeric="23004" spn="U:fon" /> <!--Czech Republic-->
+  <spnOverride numeric="23099" spn="Vodafone Czech Republic a.s., R&amp;D Centre at FEE, CTU" /> <!--Czech Republic-->
+  <spnOverride numeric="63086" spn="CCT" /> <!--Democratic Republic of Congo-->
+  <spnOverride numeric="63004" spn="Cellco" /> <!--Democratic Republic of Congo-->
+  <spnOverride numeric="63010" spn="Libertis Telecom" /> <!--Democratic Republic of Congo-->
+  <spnOverride numeric="63089" spn="SAIT Telecom" /> <!--Democratic Republic of Congo-->
+  <spnOverride numeric="63005" spn="Supercell" /> <!--Democratic Republic of Congo-->
+  <spnOverride numeric="63001" spn="Vodacom" /> <!--Democratic Republic of Congo-->
+  <spnOverride numeric="63002" spn="Zain" /> <!--Democratic Republic of Congo-->
+  <spnOverride numeric="23806" spn="3" /> <!--Denmark-->
+  <spnOverride numeric="23805" spn="ApS KBUS" /> <!--Denmark-->
+  <spnOverride numeric="23807" spn="Barablu Mobile Ltd." /> <!--Denmark-->
+  <spnOverride numeric="23809" spn="Dansk Beredskabskommunikation A/S" /> <!--Denmark-->
+  <spnOverride numeric="23811" spn="Dansk Beredskabskommunikation A/S" /> <!--Denmark-->
+  <spnOverride numeric="23840" spn="Ericsson Danmark A/S" /> <!--Denmark-->
+  <spnOverride numeric="23812" spn="Lycamobile Denmark Ltd" /> <!--Denmark-->
+  <spnOverride numeric="23803" spn="MIGway A/S" /> <!--Denmark-->
+  <spnOverride numeric="23877" spn="Sonofon" /> <!--Denmark-->
+  <spnOverride numeric="23801" spn="TDC" /> <!--Denmark-->
+  <spnOverride numeric="23810" spn="TDC" /> <!--Denmark-->
+  <spnOverride numeric="23802" spn="Telenor" /> <!--Denmark-->
+  <spnOverride numeric="23820" spn="Telia" /> <!--Denmark-->
+  <spnOverride numeric="23830" spn="Telia" /> <!--Denmark-->
+  <spnOverride numeric="63801" spn="Evatis" /> <!--Djibouti-->
+  <spnOverride numeric="366110" spn="Cable &amp; Wireless" /> <!--Dominica-->
+  <spnOverride numeric="366020" spn="Digicel" /> <!--Dominica-->
+  <spnOverride numeric="37002" spn="Claro" /> <!--Dominican Republic-->
+  <spnOverride numeric="37001" spn="Orange" /> <!--Dominican Republic-->
+  <spnOverride numeric="37003" spn="Tricom S.A." /> <!--Dominican Republic-->
+  <spnOverride numeric="37004" spn="ViVa" /> <!--Dominican Republic-->
+  <spnOverride numeric="51402" spn="Timor Telecom" /> <!--East Timor-->
+  <spnOverride numeric="74002" spn="Alegro" /> <!--Ecuador-->
+  <spnOverride numeric="74000" spn="Movistar" /> <!--Ecuador-->
+  <spnOverride numeric="74001" spn="Porta" /> <!--Ecuador-->
+  <spnOverride numeric="60203" spn="Etisalat" /> <!--Egypt-->
+  <spnOverride numeric="60201" spn="Mobinil" /> <!--Egypt-->
+  <spnOverride numeric="60202" spn="Vodafone" /> <!--Egypt-->
+  <spnOverride numeric="70610" spn="Claro" /> <!--El Salvador-->
+  <spnOverride numeric="70611" spn="Claro" /> <!--El Salvador-->
+  <spnOverride numeric="70601" spn="CTE Telecom Personal" /> <!--El Salvador-->
+  <spnOverride numeric="70602" spn="digicel" /> <!--El Salvador-->
+  <spnOverride numeric="70604" spn="movistar" /> <!--El Salvador-->
+  <spnOverride numeric="70603" spn="Telemovil EL Salvador" /> <!--El Salvador-->
+  <spnOverride numeric="62703" spn="Hits GQ" /> <!--Equatorial Guinea-->
+  <spnOverride numeric="62701" spn="Orange GQ" /> <!--Equatorial Guinea-->
+  <spnOverride numeric="65701" spn="Eritel" /> <!--Eritrea-->
+  <spnOverride numeric="24805" spn="AS Bravocom Mobiil" /> <!--Estonia-->
+  <spnOverride numeric="24802" spn="Elisa" /> <!--Estonia-->
+  <spnOverride numeric="24801" spn="EMT" /> <!--Estonia-->
+  <spnOverride numeric="24804" spn="OY Top Connect" /> <!--Estonia-->
+  <spnOverride numeric="24806" spn="OY ViaTel" /> <!--Estonia-->
+  <spnOverride numeric="24803" spn="Tele 2" /> <!--Estonia-->
+  <spnOverride numeric="63601" spn="ETMTN" /> <!--Ethiopia-->
+  <spnOverride numeric="28801" spn="Faroese Telecom" /> <!--Faroe Islands (Denmark)-->
+  <spnOverride numeric="28802" spn="Vodafone" /> <!--Faroe Islands (Denmark)-->
+  <spnOverride numeric="54202" spn="Digicel" /> <!--Fiji-->
+  <spnOverride numeric="54201" spn="Vodafone" /> <!--Fiji-->
+  <spnOverride numeric="24414" spn="AMT" /> <!--Finland-->
+  <spnOverride numeric="24403" spn="DNA" /> <!--Finland-->
+  <spnOverride numeric="24412" spn="DNA" /> <!--Finland-->
+  <spnOverride numeric="24405" spn="Elisa" /> <!--Finland-->
+  <spnOverride numeric="24407" spn="Nokia" /> <!--Finland-->
+  <spnOverride numeric="24415" spn="SAMK" /> <!--Finland-->
+  <spnOverride numeric="24421" spn="Saunalahti" /> <!--Finland-->
+  <spnOverride numeric="24429" spn="Scnl Truphone" /> <!--Finland-->
+  <spnOverride numeric="24491" spn="Sonera" /> <!--Finland-->
+  <spnOverride numeric="24410" spn="TDC Oy" /> <!--Finland-->
+  <spnOverride numeric="24408" spn="Unknown" /> <!--Finland-->
+  <spnOverride numeric="24411" spn="VIRVE" /> <!--Finland-->
+  <spnOverride numeric="20820" spn="Bouygues" /> <!--France-->
+  <spnOverride numeric="20821" spn="Bouygues" /> <!--France-->
+  <spnOverride numeric="20888" spn="Bouygues" /> <!--France-->
+  <spnOverride numeric="20801" spn="France Telecom Mobile" /> <!--France-->
+  <spnOverride numeric="20814" spn="Free Mobile" /> <!--France-->
+  <spnOverride numeric="20815" spn="Free Mobile" /> <!--France-->
+  <spnOverride numeric="20805" spn="Globalstar Europe" /> <!--France-->
+  <spnOverride numeric="20806" spn="Globalstar Europe" /> <!--France-->
+  <spnOverride numeric="20807" spn="Globalstar Europe" /> <!--France-->
+  <spnOverride numeric="20800" spn="Orange" /> <!--France-->
+  <spnOverride numeric="20802" spn="Orange" /> <!--France-->
+  <spnOverride numeric="20810" spn="SFR" /> <!--France-->
+  <spnOverride numeric="20811" spn="SFR" /> <!--France-->
+  <spnOverride numeric="20813" spn="SFR" /> <!--France-->
+  <spnOverride numeric="20822" spn="Transatel Mobile" /> <!--France-->
+  <spnOverride numeric="54720" spn="VINI" /> <!--French Polynesia (France)-->
+  <spnOverride numeric="62804" spn="Azur" /> <!--Gabon-->
+  <spnOverride numeric="62801" spn="Libertis" /> <!--Gabon-->
+  <spnOverride numeric="62802" spn="Moov (Telecel) Gabon S.A." /> <!--Gabon-->
+  <spnOverride numeric="62803" spn="Zain" /> <!--Gabon-->
+  <spnOverride numeric="60702" spn="Africel" /> <!--Gambia-->
+  <spnOverride numeric="60703" spn="Comium" /> <!--Gambia-->
+  <spnOverride numeric="60701" spn="Gamcel" /> <!--Gambia-->
+  <spnOverride numeric="60704" spn="QCell" /> <!--Gambia-->
+  <spnOverride numeric="28988" spn="A-Mobile" /> <!--Georgia-->
+  <spnOverride numeric="28967" spn="Aquafon" /> <!--Georgia-->
+  <spnOverride numeric="28204" spn="Beeline" /> <!--Georgia-->
+  <spnOverride numeric="28201" spn="Geocell" /> <!--Georgia-->
+  <spnOverride numeric="28203" spn="Iberiatel" /> <!--Georgia-->
+  <spnOverride numeric="28202" spn="Magti" /> <!--Georgia-->
+  <spnOverride numeric="28205" spn="Silknet" /> <!--Georgia-->
+  <spnOverride numeric="26242" spn="27C3" /> <!--Germany-->
+  <spnOverride numeric="26215" spn="Airdata" /> <!--Germany-->
+  <spnOverride numeric="26210" spn="Arcor AG &amp; Co" /> <!--Germany-->
+  <spnOverride numeric="26260" spn="DB Telematik" /> <!--Germany-->
+  <spnOverride numeric="262901" spn="Debitel" /> <!--Germany-->
+  <spnOverride numeric="26212" spn="Dolphin Telecom" /> <!--Germany-->
+  <spnOverride numeric="26203" spn="E-Plus" /> <!--Germany-->
+  <spnOverride numeric="26205" spn="E-Plus" /> <!--Germany-->
+  <spnOverride numeric="26277" spn="E-Plus" /> <!--Germany-->
+  <spnOverride numeric="26214" spn="Group 3G UMTS" /> <!--Germany-->
+  <spnOverride numeric="26243" spn="LYCA" /> <!--Germany-->
+  <spnOverride numeric="26213" spn="Mobilcom Multimedia" /> <!--Germany-->
+  <spnOverride numeric="26292" spn="Nash Technologies" /> <!--Germany-->
+  <spnOverride numeric="26207" spn="O2" /> <!--Germany-->
+  <spnOverride numeric="26208" spn="O2" /> <!--Germany-->
+  <spnOverride numeric="26211" spn="O2" /> <!--Germany-->
+  <spnOverride numeric="26276" spn="Siemens AG" /> <!--Germany-->
+  <spnOverride numeric="26201" spn="T-Mobile" /> <!--Germany-->
+  <spnOverride numeric="26206" spn="T-Mobile" /> <!--Germany-->
+  <spnOverride numeric="26216" spn="vistream" /> <!--Germany-->
+  <spnOverride numeric="26202" spn="Vodafone" /> <!--Germany-->
+  <spnOverride numeric="26204" spn="Vodafone" /> <!--Germany-->
+  <spnOverride numeric="26209" spn="Vodafone" /> <!--Germany-->
+  <spnOverride numeric="62006" spn="Airtel" /> <!--Ghana-->
+  <spnOverride numeric="62002" spn="Ghana Telecom Mobile" /> <!--Ghana-->
+  <spnOverride numeric="62004" spn="Kasapa / Hutchison Telecom" /> <!--Ghana-->
+  <spnOverride numeric="62001" spn="MTN" /> <!--Ghana-->
+  <spnOverride numeric="62003" spn="tiGO" /> <!--Ghana-->
+  <spnOverride numeric="26606" spn="CTS Mobile" /> <!--Gibraltar (United Kingdom)-->
+  <spnOverride numeric="26601" spn="GibTel" /> <!--Gibraltar (United Kingdom)-->
+  <spnOverride numeric="20201" spn="Cosmote" /> <!--Greece-->
+  <spnOverride numeric="20205" spn="Vodafone" /> <!--Greece-->
+  <spnOverride numeric="20209" spn="Wind" /> <!--Greece-->
+  <spnOverride numeric="20210" spn="Wind" /> <!--Greece-->
+  <spnOverride numeric="29001" spn="TELE Greenland A/S" /> <!--Greenland (Denmark)-->
+  <spnOverride numeric="352110" spn="Cable &amp; Wireless" /> <!--Grenada-->
+  <spnOverride numeric="352030" spn="Digicel" /> <!--Grenada-->
+  <spnOverride numeric="34020" spn="Digicel" /> <!--Guadeloupe (France)-->
+  <spnOverride numeric="34008" spn="MIO GSM" /> <!--Guadeloupe (France)-->
+  <spnOverride numeric="34001" spn="Orange" /> <!--Guadeloupe (France)-->
+  <spnOverride numeric="34002" spn="Outremer" /> <!--Guadeloupe (France)-->
+  <spnOverride numeric="34003" spn="Telcell" /> <!--Guadeloupe (France)-->
+  <spnOverride numeric="310033" spn="Guam Telephone Authority" /> <!--Guam (United States)-->
+  <spnOverride numeric="310370" spn="Guamcell" /> <!--Guam (United States)-->
+  <spnOverride numeric="310470" spn="Guamcell" /> <!--Guam (United States)-->
+  <spnOverride numeric="311250" spn="i CAN_GSM" /> <!--Guam (United States)-->
+  <spnOverride numeric="310032" spn="IT&amp;E Wireless" /> <!--Guam (United States)-->
+  <spnOverride numeric="310140" spn="mPulse" /> <!--Guam (United States)-->
+  <spnOverride numeric="70401" spn="Claro" /> <!--Guatemala-->
+  <spnOverride numeric="70402" spn="Comcel / Tigo" /> <!--Guatemala-->
+  <spnOverride numeric="70403" spn="movistar" /> <!--Guatemala-->
+  <spnOverride numeric="73801" spn="Digicel" /> <!--Guiana-->
+  <spnOverride numeric="73802" spn="GT&amp;T Cellink Plus" /> <!--Guiana-->
+  <spnOverride numeric="61105" spn="Cellcom" /> <!--Guinea-->
+  <spnOverride numeric="61102" spn="Lagui" /> <!--Guinea-->
+  <spnOverride numeric="61104" spn="MTN" /> <!--Guinea-->
+  <spnOverride numeric="61101" spn="Spacetel" /> <!--Guinea-->
+  <spnOverride numeric="61103" spn="Telecel Guinee" /> <!--Guinea-->
+  <spnOverride numeric="63202" spn="Areeba" /> <!--Guinea-Bissau-->
+  <spnOverride numeric="63203" spn="Orange" /> <!--Guinea-Bissau-->
+  <spnOverride numeric="372010" spn="Comcel / Voila" /> <!--Haiti-->
+  <spnOverride numeric="37202" spn="Digicel" /> <!--Haiti-->
+  <spnOverride numeric="37203" spn="NATCOM" /> <!--Haiti-->
+  <spnOverride numeric="20414" spn="6Gmobile" /> <!--Holland (Netherlands)-->
+  <spnOverride numeric="20423" spn="ASPIDER Solutions Nederland B.V." /> <!--Holland (Netherlands)-->
+  <spnOverride numeric="20427" spn="Breezz Nederland B.V." /> <!--Holland (Netherlands)-->
+  <spnOverride numeric="20425" spn="CapX B.V." /> <!--Holland (Netherlands)-->
+  <spnOverride numeric="20407" spn="eleena (MVNE)" /> <!--Holland (Netherlands)-->
+  <spnOverride numeric="20405" spn="Elephant Talk Communications Premium Rate Services" /> <!--Holland (Netherlands)-->
+  <spnOverride numeric="20417" spn="Intercity Mobile Communications B.V." /> <!--Holland (Netherlands)-->
+  <spnOverride numeric="20408" spn="KPN" /> <!--Holland (Netherlands)-->
+  <spnOverride numeric="20410" spn="KPN" /> <!--Holland (Netherlands)-->
+  <spnOverride numeric="20469" spn="KPN Mobile The Netherlands B.V." /> <!--Holland (Netherlands)-->
+  <spnOverride numeric="20409" spn="Lycamobile" /> <!--Holland (Netherlands)-->
+  <spnOverride numeric="20422" spn="Ministerie van Defensie" /> <!--Holland (Netherlands)-->
+  <spnOverride numeric="20419" spn="Mixe Communication Solutions B.V." /> <!--Holland (Netherlands)-->
+  <spnOverride numeric="20406" spn="Mundio Mobile (Netherlands) Ltd" /> <!--Holland (Netherlands)-->
+  <spnOverride numeric="20421" spn="NS Railinfrabeheer B.V." /> <!--Holland (Netherlands)-->
+  <spnOverride numeric="20420" spn="Orange Nederland" /> <!--Holland (Netherlands)-->
+  <spnOverride numeric="20424" spn="Private Mobility Nederland B.V." /> <!--Holland (Netherlands)-->
+  <spnOverride numeric="20467" spn="RadioAccess B.V." /> <!--Holland (Netherlands)-->
+  <spnOverride numeric="20426" spn="SpeakUp B.V." /> <!--Holland (Netherlands)-->
+  <spnOverride numeric="20416" spn="T-Mobile / Ben" /> <!--Holland (Netherlands)-->
+  <spnOverride numeric="20402" spn="Tele2 Netherlands" /> <!--Holland (Netherlands)-->
+  <spnOverride numeric="20412" spn="Telfort / O2" /> <!--Holland (Netherlands)-->
+  <spnOverride numeric="20413" spn="Unica Installatietechniek B.V" /> <!--Holland (Netherlands)-->
+  <spnOverride numeric="20468" spn="Unify Group Holding B.V." /> <!--Holland (Netherlands)-->
+  <spnOverride numeric="20418" spn="UPC Nederland B.V." /> <!--Holland (Netherlands)-->
+  <spnOverride numeric="20401" spn="VastMobiel B.V." /> <!--Holland (Netherlands)-->
+  <spnOverride numeric="20404" spn="Vodafone" /> <!--Holland (Netherlands)-->
+  <spnOverride numeric="20403" spn="Voiceworks B.V." /> <!--Holland (Netherlands)-->
+  <spnOverride numeric="70802" spn="Celtel / Tigo" /> <!--Honduras-->
+  <spnOverride numeric="70801" spn="Claro" /> <!--Honduras-->
+  <spnOverride numeric="70840" spn="DIGICEL" /> <!--Honduras-->
+  <spnOverride numeric="70830" spn="Hondutel" /> <!--Honduras-->
+  <spnOverride numeric="45403" spn="3 (3G)" /> <!--Hong Kong (People's Republic of China)-->
+  <spnOverride numeric="45405" spn="3 CDMA" /> <!--Hong Kong (People's Republic of China)-->
+  <spnOverride numeric="45404" spn="3 Dual (2G)" /> <!--Hong Kong (People's Republic of China)-->
+  <spnOverride numeric="45412" spn="C Peoples" /> <!--Hong Kong (People's Republic of China)-->
+  <spnOverride numeric="45409" spn="China Motion Telecom" /> <!--Hong Kong (People's Republic of China)-->
+  <spnOverride numeric="45407" spn="China Unicom" /> <!--Hong Kong (People's Republic of China)-->
+  <spnOverride numeric="45411" spn="China-Hongkong Telecom" /> <!--Hong Kong (People's Republic of China)-->
+  <spnOverride numeric="45401" spn="CITIC Telecom 1616" /> <!--Hong Kong (People's Republic of China)-->
+  <spnOverride numeric="45400" spn="CSL" /> <!--Hong Kong (People's Republic of China)-->
+  <spnOverride numeric="45402" spn="CSL 3G" /> <!--Hong Kong (People's Republic of China)-->
+  <spnOverride numeric="45418" spn="Hong Kong CSL Limited" /> <!--Hong Kong (People's Republic of China)-->
+  <spnOverride numeric="45414" spn="Hutchison Telecom" /> <!--Hong Kong (People's Republic of China)-->
+  <spnOverride numeric="45410" spn="New World" /> <!--Hong Kong (People's Republic of China)-->
+  <spnOverride numeric="45416" spn="PCCW" /> <!--Hong Kong (People's Republic of China)-->
+  <spnOverride numeric="45419" spn="PCCW" /> <!--Hong Kong (People's Republic of China)-->
+  <spnOverride numeric="45429" spn="PCCW" /> <!--Hong Kong (People's Republic of China)-->
+  <spnOverride numeric="45415" spn="SmarTone Mobile Comms" /> <!--Hong Kong (People's Republic of China)-->
+  <spnOverride numeric="45417" spn="SmarTone Mobile Comms" /> <!--Hong Kong (People's Republic of China)-->
+  <spnOverride numeric="45406" spn="Smartone-Vodafone" /> <!--Hong Kong (People's Republic of China)-->
+  <spnOverride numeric="45408" spn="Trident" /> <!--Hong Kong (People's Republic of China)-->
+  <spnOverride numeric="21601" spn="Pannon" /> <!--Hungary-->
+  <spnOverride numeric="21630" spn="T-Mobile" /> <!--Hungary-->
+  <spnOverride numeric="21670" spn="Vodafone" /> <!--Hungary-->
+  <spnOverride numeric="27407" spn="IceCell" /> <!--Iceland-->
+  <spnOverride numeric="27411" spn="Nova" /> <!--Iceland-->
+  <spnOverride numeric="27406" spn="N'll nIu ehf" /> <!--Iceland-->
+  <spnOverride numeric="27408" spn="On-waves" /> <!--Iceland-->
+  <spnOverride numeric="27401" spn="Siminn" /> <!--Iceland-->
+  <spnOverride numeric="27412" spn="Tal" /> <!--Iceland-->
+  <spnOverride numeric="27404" spn="Viking" /> <!--Iceland-->
+  <spnOverride numeric="27402" spn="Vodafone" /> <!--Iceland-->
+  <spnOverride numeric="27403" spn="Vodafone" /> <!--Iceland-->
+  <spnOverride numeric="40417" spn="AIRCEL" /> <!--India-->
+  <spnOverride numeric="40425" spn="AIRCEL" /> <!--India-->
+  <spnOverride numeric="40428" spn="AIRCEL" /> <!--India-->
+  <spnOverride numeric="40429" spn="AIRCEL" /> <!--India-->
+  <spnOverride numeric="40437" spn="AIRCEL" /> <!--India-->
+  <spnOverride numeric="40491" spn="AIRCEL" /> <!--India-->
+  <spnOverride numeric="405082" spn="AIRCEL" /> <!--India-->
+  <spnOverride numeric="405800" spn="AIRCEL" /> <!--India-->
+  <spnOverride numeric="405801" spn="AIRCEL" /> <!--India-->
+  <spnOverride numeric="405802" spn="AIRCEL" /> <!--India-->
+  <spnOverride numeric="405803" spn="AIRCEL" /> <!--India-->
+  <spnOverride numeric="405804" spn="AIRCEL" /> <!--India-->
+  <spnOverride numeric="405805" spn="AIRCEL" /> <!--India-->
+  <spnOverride numeric="405806" spn="AIRCEL" /> <!--India-->
+  <spnOverride numeric="405807" spn="AIRCEL" /> <!--India-->
+  <spnOverride numeric="405808" spn="AIRCEL" /> <!--India-->
+  <spnOverride numeric="405809" spn="AIRCEL" /> <!--India-->
+  <spnOverride numeric="405810" spn="AIRCEL" /> <!--India-->
+  <spnOverride numeric="405811" spn="AIRCEL" /> <!--India-->
+  <spnOverride numeric="405812" spn="AIRCEL" /> <!--India-->
+  <spnOverride numeric="405813" spn="AIRCEL" /> <!--India-->
+  <spnOverride numeric="40460" spn="Aircell Digilink" /> <!--India-->
+  <spnOverride numeric="40415" spn="Aircell Digilink Essar Cellph." /> <!--India-->
+  <spnOverride numeric="40406" spn="Airtel" /> <!--India-->
+  <spnOverride numeric="40410" spn="Airtel" /> <!--India-->
+  <spnOverride numeric="40431" spn="Airtel" /> <!--India-->
+  <spnOverride numeric="40440" spn="Airtel" /> <!--India-->
+  <spnOverride numeric="40445" spn="Airtel" /> <!--India-->
+  <spnOverride numeric="40449" spn="Airtel" /> <!--India-->
+  <spnOverride numeric="40470" spn="Airtel" /> <!--India-->
+  <spnOverride numeric="40494" spn="Airtel" /> <!--India-->
+  <spnOverride numeric="40495" spn="Airtel" /> <!--India-->
+  <spnOverride numeric="40497" spn="Airtel" /> <!--India-->
+  <spnOverride numeric="40498" spn="Airtel" /> <!--India-->
+  <spnOverride numeric="40551" spn="Airtel" /> <!--India-->
+  <spnOverride numeric="40552" spn="Airtel" /> <!--India-->
+  <spnOverride numeric="40553" spn="AirTel" /> <!--India-->
+  <spnOverride numeric="40554" spn="AirTel" /> <!--India-->
+  <spnOverride numeric="40555" spn="AirTel" /> <!--India-->
+  <spnOverride numeric="40556" spn="AirTel" /> <!--India-->
+  <spnOverride numeric="40570" spn="AirTel" /> <!--India-->
+  <spnOverride numeric="40496" spn="Airtel - Haryana" /> <!--India-->
+  <spnOverride numeric="40402" spn="Airtel - Punjab" /> <!--India-->
+  <spnOverride numeric="40403" spn="Airtel / Bharti Telenet" /> <!--India-->
+  <spnOverride numeric="40493" spn="Airtel Gujrat" /> <!--India-->
+  <spnOverride numeric="40490" spn="Airtel Maharashtra &amp; Goa" /> <!--India-->
+  <spnOverride numeric="40492" spn="Airtel Mumbai" /> <!--India-->
+  <spnOverride numeric="40443" spn="BPL Mobile Cellular" /> <!--India-->
+  <spnOverride numeric="40421" spn="BPL Mobile Mumbai" /> <!--India-->
+  <spnOverride numeric="40427" spn="BPL USWest Cellular / Cellular Comms" /> <!--India-->
+  <spnOverride numeric="40434" spn="BSNL" /> <!--India-->
+  <spnOverride numeric="40438" spn="BSNL" /> <!--India-->
+  <spnOverride numeric="40451" spn="BSNL" /> <!--India-->
+  <spnOverride numeric="40453" spn="BSNL" /> <!--India-->
+  <spnOverride numeric="40454" spn="BSNL" /> <!--India-->
+  <spnOverride numeric="40455" spn="BSNL" /> <!--India-->
+  <spnOverride numeric="40457" spn="BSNL" /> <!--India-->
+  <spnOverride numeric="40458" spn="BSNL" /> <!--India-->
+  <spnOverride numeric="40459" spn="BSNL" /> <!--India-->
+  <spnOverride numeric="40464" spn="BSNL" /> <!--India-->
+  <spnOverride numeric="40471" spn="BSNL" /> <!--India-->
+  <spnOverride numeric="40473" spn="BSNL" /> <!--India-->
+  <spnOverride numeric="40474" spn="BSNL" /> <!--India-->
+  <spnOverride numeric="40475" spn="BSNL" /> <!--India-->
+  <spnOverride numeric="40476" spn="BSNL" /> <!--India-->
+  <spnOverride numeric="40477" spn="BSNL" /> <!--India-->
+  <spnOverride numeric="40480" spn="BSNL" /> <!--India-->
+  <spnOverride numeric="40481" spn="BSNL" /> <!--India-->
+  <spnOverride numeric="40462" spn="BSNL J&amp;K" /> <!--India-->
+  <spnOverride numeric="40472" spn="BSNL Kerala" /> <!--India-->
+  <spnOverride numeric="40466" spn="BSNL Maharashtra &amp; Goa" /> <!--India-->
+  <spnOverride numeric="40478" spn="BTA Cellcom" /> <!--India-->
+  <spnOverride numeric="40448" spn="Dishnet Wireless" /> <!--India-->
+  <spnOverride numeric="40482" spn="Escorts" /> <!--India-->
+  <spnOverride numeric="40487" spn="Escorts Telecom" /> <!--India-->
+  <spnOverride numeric="40488" spn="Escorts Telecom" /> <!--India-->
+  <spnOverride numeric="40489" spn="Escorts Telecom" /> <!--India-->
+  <spnOverride numeric="40411" spn="Essar / Sterling Cellular" /> <!--India-->
+  <spnOverride numeric="405912" spn="Etisalat DB(cheers)" /> <!--India-->
+  <spnOverride numeric="405913" spn="Etisalat DB(cheers)" /> <!--India-->
+  <spnOverride numeric="405914" spn="Etisalat DB(cheers)" /> <!--India-->
+  <spnOverride numeric="405917" spn="Etisalat DB(cheers)" /> <!--India-->
+  <spnOverride numeric="40566" spn="Hutch" /> <!--India-->
+  <spnOverride numeric="40486" spn="Hutchinson Essar South" /> <!--India-->
+  <spnOverride numeric="40413" spn="Hutchison Essar South" /> <!--India-->
+  <spnOverride numeric="40484" spn="Hutchison Essar South" /> <!--India-->
+  <spnOverride numeric="40419" spn="IDEA" /> <!--India-->
+  <spnOverride numeric="405799" spn="IDEA" /> <!--India-->
+  <spnOverride numeric="405845" spn="IDEA" /> <!--India-->
+  <spnOverride numeric="405848" spn="IDEA" /> <!--India-->
+  <spnOverride numeric="405850" spn="IDEA" /> <!--India-->
+  <spnOverride numeric="40586" spn="IDEA" /> <!--India-->
+  <spnOverride numeric="40412" spn="Idea (Escotel) Haryana" /> <!--India-->
+  <spnOverride numeric="40456" spn="Idea (Escotel) UP West" /> <!--India-->
+  <spnOverride numeric="40404" spn="IDEA CELLULAR - Delhi" /> <!--India-->
+  <spnOverride numeric="40424" spn="IDEA Cellular - Gujarat" /> <!--India-->
+  <spnOverride numeric="40422" spn="IDEA Cellular - Maharashtra" /> <!--India-->
+  <spnOverride numeric="405855" spn="Loop Mobile" /> <!--India-->
+  <spnOverride numeric="405864" spn="Loop Mobile" /> <!--India-->
+  <spnOverride numeric="405865" spn="Loop Mobile" /> <!--India-->
+  <spnOverride numeric="40468" spn="MTNL - Delhi" /> <!--India-->
+  <spnOverride numeric="40469" spn="MTNL - Mumbai" /> <!--India-->
+  <spnOverride numeric="40450" spn="Reliance" /> <!--India-->
+  <spnOverride numeric="40452" spn="Reliance" /> <!--India-->
+  <spnOverride numeric="40467" spn="Reliance" /> <!--India-->
+  <spnOverride numeric="40483" spn="Reliance" /> <!--India-->
+  <spnOverride numeric="40485" spn="Reliance" /> <!--India-->
+  <spnOverride numeric="40501" spn="Reliance" /> <!--India-->
+  <spnOverride numeric="40503" spn="Reliance" /> <!--India-->
+  <spnOverride numeric="40504" spn="Reliance" /> <!--India-->
+  <spnOverride numeric="40509" spn="Reliance" /> <!--India-->
+  <spnOverride numeric="40510" spn="Reliance" /> <!--India-->
+  <spnOverride numeric="40513" spn="Reliance" /> <!--India-->
+  <spnOverride numeric="40409" spn="Reliance Telecom Private" /> <!--India-->
+  <spnOverride numeric="40436" spn="Reliance Telecom Private" /> <!--India-->
+  <spnOverride numeric="40441" spn="RPG MAA" /> <!--India-->
+  <spnOverride numeric="405881" spn="S Tel" /> <!--India-->
+  <spnOverride numeric="40444" spn="Spice Telecom - Karnataka" /> <!--India-->
+  <spnOverride numeric="40414" spn="Spice Telecom - Punjab" /> <!--India-->
+  <spnOverride numeric="40442" spn="Srinivas Cellcom / Aircel" /> <!--India-->
+  <spnOverride numeric="40407" spn="TATA Cellular / Idea Cellular" /> <!--India-->
+  <spnOverride numeric="405025" spn="TATA Teleservice" /> <!--India-->
+  <spnOverride numeric="405026" spn="TATA Teleservice" /> <!--India-->
+  <spnOverride numeric="405027" spn="TATA Teleservice" /> <!--India-->
+  <spnOverride numeric="405029" spn="TATA Teleservice" /> <!--India-->
+  <spnOverride numeric="405030" spn="TATA Teleservice" /> <!--India-->
+  <spnOverride numeric="405031" spn="TATA Teleservice" /> <!--India-->
+  <spnOverride numeric="405032" spn="TATA Teleservice" /> <!--India-->
+  <spnOverride numeric="405033" spn="TATA Teleservice" /> <!--India-->
+  <spnOverride numeric="405034" spn="TATA Teleservice" /> <!--India-->
+  <spnOverride numeric="405035" spn="TATA Teleservice" /> <!--India-->
+  <spnOverride numeric="405036" spn="TATA Teleservice" /> <!--India-->
+  <spnOverride numeric="405037" spn="TATA Teleservice" /> <!--India-->
+  <spnOverride numeric="405038" spn="TATA Teleservice" /> <!--India-->
+  <spnOverride numeric="405039" spn="TATA Teleservice" /> <!--India-->
+  <spnOverride numeric="405040" spn="TATA Teleservice" /> <!--India-->
+  <spnOverride numeric="405041" spn="TATA Teleservice" /> <!--India-->
+  <spnOverride numeric="405042" spn="TATA Teleservice" /> <!--India-->
+  <spnOverride numeric="405043" spn="TATA Teleservice" /> <!--India-->
+  <spnOverride numeric="405044" spn="TATA Teleservice" /> <!--India-->
+  <spnOverride numeric="405045" spn="TATA Teleservice" /> <!--India-->
+  <spnOverride numeric="405046" spn="TATA Teleservice" /> <!--India-->
+  <spnOverride numeric="405047" spn="TATA Teleservice" /> <!--India-->
+  <spnOverride numeric="405818" spn="Uninor" /> <!--India-->
+  <spnOverride numeric="405819" spn="Uninor" /> <!--India-->
+  <spnOverride numeric="405820" spn="Uninor" /> <!--India-->
+  <spnOverride numeric="405821" spn="Uninor" /> <!--India-->
+  <spnOverride numeric="405822" spn="Uninor" /> <!--India-->
+  <spnOverride numeric="405844" spn="Uninor" /> <!--India-->
+  <spnOverride numeric="405875" spn="Uninor" /> <!--India-->
+  <spnOverride numeric="405880" spn="Uninor" /> <!--India-->
+  <spnOverride numeric="405927" spn="Uninor" /> <!--India-->
+  <spnOverride numeric="405929" spn="Uninor" /> <!--India-->
+  <spnOverride numeric="405824" spn="Videocon Datacom" /> <!--India-->
+  <spnOverride numeric="405827" spn="Videocon Datacom" /> <!--India-->
+  <spnOverride numeric="405834" spn="Videocon Datacom" /> <!--India-->
+  <spnOverride numeric="40420" spn="Vodafone" /> <!--India-->
+  <spnOverride numeric="40446" spn="Vodafone" /> <!--India-->
+  <spnOverride numeric="40405" spn="Vodafone - Gujarat" /> <!--India-->
+  <spnOverride numeric="40401" spn="Vodafone - Haryana" /> <!--India-->
+  <spnOverride numeric="40430" spn="Vodafone - Kolkata" /> <!--India-->
+  <spnOverride numeric="405750" spn="Vodafone IN" /> <!--India-->
+  <spnOverride numeric="405751" spn="Vodafone IN" /> <!--India-->
+  <spnOverride numeric="405752" spn="Vodafone IN" /> <!--India-->
+  <spnOverride numeric="405753" spn="Vodafone IN" /> <!--India-->
+  <spnOverride numeric="405754" spn="Vodafone IN" /> <!--India-->
+  <spnOverride numeric="405755" spn="Vodafone IN" /> <!--India-->
+  <spnOverride numeric="405756" spn="Vodafone IN" /> <!--India-->
+  <spnOverride numeric="51089" spn="3" /> <!--Indonesia-->
+  <spnOverride numeric="51008" spn="AXIS" /> <!--Indonesia-->
+  <spnOverride numeric="51027" spn="Ceria" /> <!--Indonesia-->
+  <spnOverride numeric="51099" spn="Esia" /> <!--Indonesia-->
+  <spnOverride numeric="51028" spn="Fren/Hepi" /> <!--Indonesia-->
+  <spnOverride numeric="51021" spn="IM3" /> <!--Indonesia-->
+  <spnOverride numeric="51001" spn="INDOSAT" /> <!--Indonesia-->
+  <spnOverride numeric="51000" spn="PSN" /> <!--Indonesia-->
+  <spnOverride numeric="51009" spn="SMART" /> <!--Indonesia-->
+  <spnOverride numeric="51003" spn="StarOne" /> <!--Indonesia-->
+  <spnOverride numeric="51007" spn="TelkomFlexi" /> <!--Indonesia-->
+  <spnOverride numeric="51020" spn="TELKOMMobile" /> <!--Indonesia-->
+  <spnOverride numeric="51010" spn="Telkomsel" /> <!--Indonesia-->
+  <spnOverride numeric="51011" spn="XL" /> <!--Indonesia-->
+  <spnOverride numeric="43235" spn="Irancell" /> <!--Iran-->
+  <spnOverride numeric="43293" spn="Iraphone" /> <!--Iran-->
+  <spnOverride numeric="43211" spn="MCI" /> <!--Iran-->
+  <spnOverride numeric="43219" spn="MTCE" /> <!--Iran-->
+  <spnOverride numeric="43232" spn="Taliya" /> <!--Iran-->
+  <spnOverride numeric="43270" spn="TCI" /> <!--Iran-->
+  <spnOverride numeric="43214" spn="TKC" /> <!--Iran-->
+  <spnOverride numeric="41805" spn="Asia Cell" /> <!--Iraq-->
+  <spnOverride numeric="41850" spn="Asia Cell" /> <!--Iraq-->
+  <spnOverride numeric="41840" spn="Korek" /> <!--Iraq-->
+  <spnOverride numeric="41845" spn="Mobitel" /> <!--Iraq-->
+  <spnOverride numeric="41892" spn="Omnnea" /> <!--Iraq-->
+  <spnOverride numeric="41808" spn="SanaTel" /> <!--Iraq-->
+  <spnOverride numeric="41820" spn="Zain IQ" /> <!--Iraq-->
+  <spnOverride numeric="41830" spn="Zain IQ" /> <!--Iraq-->
+  <spnOverride numeric="27205" spn="3" /> <!--Ireland-->
+  <spnOverride numeric="27204" spn="Access Telecom" /> <!--Ireland-->
+  <spnOverride numeric="27209" spn="Clever Communications" /> <!--Ireland-->
+  <spnOverride numeric="27200" spn="E-Mobile" /> <!--Ireland-->
+  <spnOverride numeric="27207" spn="Eircom" /> <!--Ireland-->
+  <spnOverride numeric="27211" spn="Liffey Telecom" /> <!--Ireland-->
+  <spnOverride numeric="27203" spn="Meteor" /> <!--Ireland-->
+  <spnOverride numeric="27202" spn="O2" /> <!--Ireland-->
+  <spnOverride numeric="272020" spn="Tesco Mobile" /> <!--Ireland-->
+  <spnOverride numeric="27201" spn="Vodafone" /> <!--Ireland-->
+  <spnOverride numeric="42502" spn="Cellcom" /> <!--Israel-->
+  <spnOverride numeric="42577" spn="Mirs" /> <!--Israel-->
+  <spnOverride numeric="42501" spn="Orange" /> <!--Israel-->
+  <spnOverride numeric="-" spn="Partner" /> <!--Israel-->
+  <spnOverride numeric="42503" spn="Pelephone" /> <!--Israel-->
+  <spnOverride numeric="22299" spn="3 Italia" /> <!--Italy-->
+  <spnOverride numeric="22298" spn="Blu" /> <!--Italy-->
+  <spnOverride numeric="22202" spn="Elsacom" /> <!--Italy-->
+  <spnOverride numeric="22277" spn="IPSE 2000" /> <!--Italy-->
+  <spnOverride numeric="22207" spn="Noverca" /> <!--Italy-->
+  <spnOverride numeric="22230" spn="RFI" /> <!--Italy-->
+  <spnOverride numeric="22201" spn="TIM" /> <!--Italy-->
+  <spnOverride numeric="22210" spn="Vodafone" /> <!--Italy-->
+  <spnOverride numeric="22288" spn="Wind" /> <!--Italy-->
+  <spnOverride numeric="338020" spn="Cable &amp; Wireless" /> <!--Jamaica-->
+  <spnOverride numeric="338180" spn="Cable &amp; Wireless" /> <!--Jamaica-->
+  <spnOverride numeric="338070" spn="Claro" /> <!--Jamaica-->
+  <spnOverride numeric="338050" spn="Digicel" /> <!--Jamaica-->
+  <spnOverride numeric="44001" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44002" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44003" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44009" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44010" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44011" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44012" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44013" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44014" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44015" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44016" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44017" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44018" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44019" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44021" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44022" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44023" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44024" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44025" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44026" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44027" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44028" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44029" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44030" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44031" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44032" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44033" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44034" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44035" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44036" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44037" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44038" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44039" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44049" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44058" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44060" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44061" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44062" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44063" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44064" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44065" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44066" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44067" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44068" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44069" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44087" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44099" spn="DoCoMo" /> <!--Japan-->
+  <spnOverride numeric="44000" spn="eMobile" /> <!--Japan-->
+  <spnOverride numeric="44007" spn="KDDI" /> <!--Japan-->
+  <spnOverride numeric="44008" spn="KDDI" /> <!--Japan-->
+  <spnOverride numeric="44050" spn="KDDI" /> <!--Japan-->
+  <spnOverride numeric="44051" spn="KDDI" /> <!--Japan-->
+  <spnOverride numeric="44052" spn="KDDI" /> <!--Japan-->
+  <spnOverride numeric="44053" spn="KDDI" /> <!--Japan-->
+  <spnOverride numeric="44054" spn="KDDI" /> <!--Japan-->
+  <spnOverride numeric="44055" spn="KDDI" /> <!--Japan-->
+  <spnOverride numeric="44056" spn="KDDI" /> <!--Japan-->
+  <spnOverride numeric="44070" spn="KDDI" /> <!--Japan-->
+  <spnOverride numeric="44071" spn="KDDI" /> <!--Japan-->
+  <spnOverride numeric="44072" spn="KDDI" /> <!--Japan-->
+  <spnOverride numeric="44073" spn="KDDI" /> <!--Japan-->
+  <spnOverride numeric="44074" spn="KDDI" /> <!--Japan-->
+  <spnOverride numeric="44075" spn="KDDI" /> <!--Japan-->
+  <spnOverride numeric="44076" spn="KDDI" /> <!--Japan-->
+  <spnOverride numeric="44077" spn="KDDI" /> <!--Japan-->
+  <spnOverride numeric="44079" spn="KDDI" /> <!--Japan-->
+  <spnOverride numeric="44088" spn="KDDI" /> <!--Japan-->
+  <spnOverride numeric="44089" spn="KDDI" /> <!--Japan-->
+  <spnOverride numeric="44078" spn="Okinawa Cellular Telephone" /> <!--Japan-->
+  <spnOverride numeric="44020" spn="SoftBank" /> <!--Japan-->
+  <spnOverride numeric="44080" spn="TU-KA" /> <!--Japan-->
+  <spnOverride numeric="44081" spn="TU-KA" /> <!--Japan-->
+  <spnOverride numeric="44082" spn="TU-KA" /> <!--Japan-->
+  <spnOverride numeric="44083" spn="TU-KA" /> <!--Japan-->
+  <spnOverride numeric="44084" spn="TU-KA" /> <!--Japan-->
+  <spnOverride numeric="44085" spn="TU-KA" /> <!--Japan-->
+  <spnOverride numeric="44086" spn="TU-KA" /> <!--Japan-->
+  <spnOverride numeric="44004" spn="Vodafone" /> <!--Japan-->
+  <spnOverride numeric="44006" spn="Vodafone" /> <!--Japan-->
+  <spnOverride numeric="44040" spn="Vodafone" /> <!--Japan-->
+  <spnOverride numeric="44041" spn="Vodafone" /> <!--Japan-->
+  <spnOverride numeric="44042" spn="Vodafone" /> <!--Japan-->
+  <spnOverride numeric="44043" spn="Vodafone" /> <!--Japan-->
+  <spnOverride numeric="44044" spn="Vodafone" /> <!--Japan-->
+  <spnOverride numeric="44045" spn="Vodafone" /> <!--Japan-->
+  <spnOverride numeric="44046" spn="Vodafone" /> <!--Japan-->
+  <spnOverride numeric="44047" spn="Vodafone" /> <!--Japan-->
+  <spnOverride numeric="44048" spn="Vodafone" /> <!--Japan-->
+  <spnOverride numeric="44090" spn="Vodafone" /> <!--Japan-->
+  <spnOverride numeric="44092" spn="Vodafone" /> <!--Japan-->
+  <spnOverride numeric="44093" spn="Vodafone" /> <!--Japan-->
+  <spnOverride numeric="44094" spn="Vodafone" /> <!--Japan-->
+  <spnOverride numeric="44095" spn="Vodafone" /> <!--Japan-->
+  <spnOverride numeric="44096" spn="Vodafone" /> <!--Japan-->
+  <spnOverride numeric="44097" spn="Vodafone" /> <!--Japan-->
+  <spnOverride numeric="44098" spn="Vodafone" /> <!--Japan-->
+  <spnOverride numeric="41677" spn="Orange" /> <!--Jordan-->
+  <spnOverride numeric="41603" spn="Umniah" /> <!--Jordan-->
+  <spnOverride numeric="41602" spn="XPress Telecom" /> <!--Jordan-->
+  <spnOverride numeric="41601" spn="Zain" /> <!--Jordan-->
+  <spnOverride numeric="40101" spn="Beeline" /> <!--Kazakhstan-->
+  <spnOverride numeric="40107" spn="Dalacom" /> <!--Kazakhstan-->
+  <spnOverride numeric="40102" spn="K'Cell" /> <!--Kazakhstan-->
+  <spnOverride numeric="40108" spn="Kazakhtelecom" /> <!--Kazakhstan-->
+  <spnOverride numeric="40177" spn="Mobile Telecom Service" /> <!--Kazakhstan-->
+  <spnOverride numeric="63907" spn="Orange Kenya" /> <!--Kenya-->
+  <spnOverride numeric="63902" spn="Safaricom" /> <!--Kenya-->
+  <spnOverride numeric="63905" spn="yu" /> <!--Kenya-->
+  <spnOverride numeric="63903" spn="Zain" /> <!--Kenya-->
+  <spnOverride numeric="54509" spn="Kiribati Frigate" /> <!--Kiribati-->
+  <spnOverride numeric="41904" spn="Viva" /> <!--Kuwait-->
+  <spnOverride numeric="41903" spn="Wataniya" /> <!--Kuwait-->
+  <spnOverride numeric="41902" spn="Zain" /> <!--Kuwait-->
+  <spnOverride numeric="43701" spn="Bitel" /> <!--Kyrgyzstan-->
+  <spnOverride numeric="43703" spn="Fonex" /> <!--Kyrgyzstan-->
+  <spnOverride numeric="43705" spn="MegaCom" /> <!--Kyrgyzstan-->
+  <spnOverride numeric="43709" spn="O!" /> <!--Kyrgyzstan-->
+  <spnOverride numeric="45702" spn="ETL" /> <!--Laos-->
+  <spnOverride numeric="45701" spn="LaoTel" /> <!--Laos-->
+  <spnOverride numeric="45703" spn="LAT" /> <!--Laos-->
+  <spnOverride numeric="45708" spn="Tigo" /> <!--Laos-->
+  <spnOverride numeric="24705" spn="Bite" /> <!--Latvia-->
+  <spnOverride numeric="24709" spn="Camel Mobile" /> <!--Latvia-->
+  <spnOverride numeric="24708" spn="IZZI" /> <!--Latvia-->
+  <spnOverride numeric="24701" spn="LMT" /> <!--Latvia-->
+  <spnOverride numeric="24707" spn="MTS" /> <!--Latvia-->
+  <spnOverride numeric="24706" spn="Rigatta" /> <!--Latvia-->
+  <spnOverride numeric="24702" spn="Tele2" /> <!--Latvia-->
+  <spnOverride numeric="24703" spn="TRIATEL" /> <!--Latvia-->
+  <spnOverride numeric="41501" spn="Alfa" /> <!--Lebanon-->
+  <spnOverride numeric="41503" spn="MTC-Touch" /> <!--Lebanon-->
+  <spnOverride numeric="41505" spn="Ogero Mobile" /> <!--Lebanon-->
+  <spnOverride numeric="65102" spn="Econet Ezin-cel" /> <!--Lesotho-->
+  <spnOverride numeric="65101" spn="Vodacom" /> <!--Lesotho-->
+  <spnOverride numeric="60602" spn="Al-Jeel Phone" /> <!--Libya-->
+  <spnOverride numeric="60606" spn="Hatef Libya" /> <!--Libya-->
+  <spnOverride numeric="60603" spn="Libya Phone" /> <!--Libya-->
+  <spnOverride numeric="60600" spn="Libyana" /> <!--Libya-->
+  <spnOverride numeric="60601" spn="Madar" /> <!--Libya-->
+  <spnOverride numeric="29504" spn="Cubic Telecom" /> <!--Liechtenstein-->
+  <spnOverride numeric="29505" spn="FL1" /> <!--Liechtenstein-->
+  <spnOverride numeric="29502" spn="Orange" /> <!--Liechtenstein-->
+  <spnOverride numeric="29501" spn="Swisscom" /> <!--Liechtenstein-->
+  <spnOverride numeric="29577" spn="Tele 2" /> <!--Liechtenstein-->
+  <spnOverride numeric="24602" spn="BITE" /> <!--Lithuania-->
+  <spnOverride numeric="24605" spn="LitRail" /> <!--Lithuania-->
+  <spnOverride numeric="24606" spn="Mediafon" /> <!--Lithuania-->
+  <spnOverride numeric="24601" spn="Omnitel" /> <!--Lithuania-->
+  <spnOverride numeric="24603" spn="Tele 2" /> <!--Lithuania-->
+  <spnOverride numeric="61807" spn="Cellcom" /> <!--Livery-->
+  <spnOverride numeric="61804" spn="Comium Liberi" /> <!--Livery-->
+  <spnOverride numeric="61802" spn="Libercell" /> <!--Livery-->
+  <spnOverride numeric="61820" spn="LIBTELCO" /> <!--Livery-->
+  <spnOverride numeric="61801" spn="Lonestar Cell" /> <!--Livery-->
+  <spnOverride numeric="27001" spn="LuxGSM" /> <!--Luksemburg-->
+  <spnOverride numeric="27077" spn="Tango" /> <!--Luksemburg-->
+  <spnOverride numeric="27099" spn="Voxmobile" /> <!--Luksemburg-->
+  <spnOverride numeric="45503" spn="3" /> <!--Macao (People's Republic of China)-->
+  <spnOverride numeric="45505" spn="3" /> <!--Macao (People's Republic of China)-->
+  <spnOverride numeric="45502" spn="China Telecom" /> <!--Macao (People's Republic of China)-->
+  <spnOverride numeric="45501" spn="CTM" /> <!--Macao (People's Republic of China)-->
+  <spnOverride numeric="45504" spn="CTM" /> <!--Macao (People's Republic of China)-->
+  <spnOverride numeric="45500" spn="SmarTone" /> <!--Macao (People's Republic of China)-->
+  <spnOverride numeric="64602" spn="Orange" /> <!--Madagascar-->
+  <spnOverride numeric="64603" spn="Sacel" /> <!--Madagascar-->
+  <spnOverride numeric="64604" spn="Telma" /> <!--Madagascar-->
+  <spnOverride numeric="64601" spn="Zain" /> <!--Madagascar-->
+  <spnOverride numeric="65001" spn="TNM" /> <!--Malawi-->
+  <spnOverride numeric="65010" spn="Zain" /> <!--Malawi-->
+  <spnOverride numeric="50201" spn="ATUR 450" /> <!--Malaysia-->
+  <spnOverride numeric="502151" spn="Baraka Telecom Sdn Bhd (MVNE)" /> <!--Malaysia-->
+  <spnOverride numeric="50213" spn="Celcom" /> <!--Malaysia-->
+  <spnOverride numeric="50219" spn="Celcom" /> <!--Malaysia-->
+  <spnOverride numeric="50216" spn="DiGi" /> <!--Malaysia-->
+  <spnOverride numeric="50210" spn="DiGi Telecommunications" /> <!--Malaysia-->
+  <spnOverride numeric="50220" spn="Electcoms Wireless Sdn Bhd" /> <!--Malaysia-->
+  <spnOverride numeric="50212" spn="Maxis" /> <!--Malaysia-->
+  <spnOverride numeric="50217" spn="Maxis" /> <!--Malaysia-->
+  <spnOverride numeric="50214" spn="Telekom Malaysia Berhad for PSTN SMS" /> <!--Malaysia-->
+  <spnOverride numeric="50211" spn="TM Homeline" /> <!--Malaysia-->
+  <spnOverride numeric="502150" spn="Tune Talk Sdn Bhd" /> <!--Malaysia-->
+  <spnOverride numeric="50218" spn="U Mobile" /> <!--Malaysia-->
+  <spnOverride numeric="502152" spn="Yes" /> <!--Malaysia-->
+  <spnOverride numeric="47201" spn="Dhiraagu" /> <!--Maldives-->
+  <spnOverride numeric="47202" spn="Wataniya" /> <!--Maldives-->
+  <spnOverride numeric="61001" spn="Malitel" /> <!--Mali-->
+  <spnOverride numeric="61002" spn="Orange" /> <!--Mali-->
+  <spnOverride numeric="27821" spn="GO" /> <!--Malta-->
+  <spnOverride numeric="27877" spn="Melita" /> <!--Malta-->
+  <spnOverride numeric="27801" spn="Vodafone" /> <!--Malta-->
+  <spnOverride numeric="60902" spn="Chinguitel" /> <!--Mauretania-->
+  <spnOverride numeric="60901" spn="Mattel" /> <!--Mauretania-->
+  <spnOverride numeric="60910" spn="Mauritel" /> <!--Mauretania-->
+  <spnOverride numeric="61710" spn="Emtel" /> <!--Mauritius-->
+  <spnOverride numeric="61702" spn="Mahanagar Telephone (Mauritius) Ltd." /> <!--Mauritius-->
+  <spnOverride numeric="61701" spn="Orange" /> <!--Mauritius-->
+  <spnOverride numeric="334050" spn="Iusacell" /> <!--Mexico-->
+  <spnOverride numeric="33403" spn="movistar" /> <!--Mexico-->
+  <spnOverride numeric="334030" spn="movistar" /> <!--Mexico-->
+  <spnOverride numeric="33401" spn="Nextel" /> <!--Mexico-->
+  <spnOverride numeric="334010" spn="Nextel" /> <!--Mexico-->
+  <spnOverride numeric="33402" spn="Telcel" /> <!--Mexico-->
+  <spnOverride numeric="334020" spn="Telcel" /> <!--Mexico-->
+  <spnOverride numeric="55001" spn="FSM Telecom" /> <!--Micronesia-->
+  <spnOverride numeric="25904" spn="Eventis" /> <!--Moldova-->
+  <spnOverride numeric="25903" spn="IDC" /> <!--Moldova-->
+  <spnOverride numeric="25902" spn="Moldcell" /> <!--Moldova-->
+  <spnOverride numeric="25901" spn="Orange" /> <!--Moldova-->
+  <spnOverride numeric="25905" spn="UnitE" /> <!--Moldova-->
+  <spnOverride numeric="25999" spn="UnitE" /> <!--Moldova-->
+  <spnOverride numeric="21201" spn="Office des Telephones" /> <!--Monaco-->
+  <spnOverride numeric="42898" spn="G.Mobile" /> <!--Mongolia-->
+  <spnOverride numeric="42899" spn="MobiCom" /> <!--Mongolia-->
+  <spnOverride numeric="42891" spn="Skytel" /> <!--Mongolia-->
+  <spnOverride numeric="42888" spn="Unitel" /> <!--Mongolia-->
+  <spnOverride numeric="29703" spn="m:tel CG" /> <!--Montenegro-->
+  <spnOverride numeric="22004" spn="T-Mobile" /> <!--Montenegro-->
+  <spnOverride numeric="29702" spn="T-Mobile" /> <!--Montenegro-->
+  <spnOverride numeric="29704" spn="T-Mobile" /> <!--Montenegro-->
+  <spnOverride numeric="29701" spn="Telenor Montenegro" /> <!--Montenegro-->
+  <spnOverride numeric="60401" spn="IAM" /> <!--Morocco-->
+  <spnOverride numeric="60405" spn="INWI" /> <!--Morocco-->
+  <spnOverride numeric="60400" spn="Meditel" /> <!--Morocco-->
+  <spnOverride numeric="64301" spn="mCel" /> <!--Mozambique-->
+  <spnOverride numeric="64304" spn="Vodacom" /> <!--Mozambique-->
+  <spnOverride numeric="41401" spn="MPT" /> <!--Myanmar-->
+  <spnOverride numeric="64903" spn="Cell One" /> <!--Namibia-->
+  <spnOverride numeric="64901" spn="MTC" /> <!--Namibia-->
+  <spnOverride numeric="64902" spn="switch" /> <!--Namibia-->
+  <spnOverride numeric="53602" spn="Digicel" /> <!--Nauru-->
+  <spnOverride numeric="42902" spn="Mero Mobile" /> <!--Nepal-->
+  <spnOverride numeric="42901" spn="Nepal Telecom" /> <!--Nepal-->
+  <spnOverride numeric="42904" spn="SmartCell" /> <!--Nepal-->
+  <spnOverride numeric="42903" spn="United Telecom Limited" /> <!--Nepal-->
+  <spnOverride numeric="36294" spn="Bayus" /> <!--Netherlands Antilles (Netherlands)-->
+  <spnOverride numeric="36269" spn="Digicel" /> <!--Netherlands Antilles (Netherlands)-->
+  <spnOverride numeric="36295" spn="MIO" /> <!--Netherlands Antilles (Netherlands)-->
+  <spnOverride numeric="36251" spn="Telcell" /> <!--Netherlands Antilles (Netherlands)-->
+  <spnOverride numeric="36291" spn="UTS" /> <!--Netherlands Antilles (Netherlands)-->
+  <spnOverride numeric="54601" spn="Mobilis" /> <!--New Caledonia (France)-->
+  <spnOverride numeric="53024" spn="NZ Comms" /> <!--New Zealand-->
+  <spnOverride numeric="53000" spn="Telecom" /> <!--New Zealand-->
+  <spnOverride numeric="53002" spn="Telecom" /> <!--New Zealand-->
+  <spnOverride numeric="53005" spn="Telecom" /> <!--New Zealand-->
+  <spnOverride numeric="53004" spn="TelstraClear" /> <!--New Zealand-->
+  <spnOverride numeric="53001" spn="Vodafone" /> <!--New Zealand-->
+  <spnOverride numeric="53003" spn="Woosh" /> <!--New Zealand-->
+  <spnOverride numeric="71021" spn="Claro" /> <!--Nicaragua-->
+  <spnOverride numeric="71030" spn="movistar" /> <!--Nicaragua-->
+  <spnOverride numeric="71073" spn="SERCOM" /> <!--Nicaragua-->
+  <spnOverride numeric="61404" spn="Orange" /> <!--Niger-->
+  <spnOverride numeric="61401" spn="SahelCom" /> <!--Niger-->
+  <spnOverride numeric="61403" spn="Telecel" /> <!--Niger-->
+  <spnOverride numeric="61402" spn="Zain" /> <!--Niger-->
+  <spnOverride numeric="62160" spn="Etisalat" /> <!--Nigeria-->
+  <spnOverride numeric="62150" spn="Glo" /> <!--Nigeria-->
+  <spnOverride numeric="62140" spn="M-Tel" /> <!--Nigeria-->
+  <spnOverride numeric="62130" spn="MTN" /> <!--Nigeria-->
+  <spnOverride numeric="62125" spn="Visafone" /> <!--Nigeria-->
+  <spnOverride numeric="62120" spn="Zain" /> <!--Nigeria-->
+  <spnOverride numeric="55501" spn="Telecom Niue" /> <!--Niue-->
+  <spnOverride numeric="467192" spn="Koryolink" /> <!--North Korea-->
+  <spnOverride numeric="467193" spn="SUN NET" /> <!--North Korea-->
+  <spnOverride numeric="24209" spn="Barablu Mobile Norway Ltd" /> <!--Norway-->
+  <spnOverride numeric="24206" spn="Ice" /> <!--Norway-->
+  <spnOverride numeric="24220" spn="Jernbaneverket AS" /> <!--Norway-->
+  <spnOverride numeric="24223" spn="Lyca" /> <!--Norway-->
+  <spnOverride numeric="24203" spn="MTU" /> <!--Norway-->
+  <spnOverride numeric="24202" spn="NetCom" /> <!--Norway-->
+  <spnOverride numeric="24205" spn="Network Norway" /> <!--Norway-->
+  <spnOverride numeric="24211" spn="SystemNet" /> <!--Norway-->
+  <spnOverride numeric="24208" spn="TDC Mobil AS" /> <!--Norway-->
+  <spnOverride numeric="24204" spn="Tele2" /> <!--Norway-->
+  <spnOverride numeric="24201" spn="Telenor" /> <!--Norway-->
+  <spnOverride numeric="--" spn="Telia" /> <!--Norway-->
+  <spnOverride numeric="24207" spn="Ventelo" /> <!--Norway-->
+  <spnOverride numeric="42203" spn="Nawras" /> <!--Oman-->
+  <spnOverride numeric="42202" spn="Oman Mobile" /> <!--Oman-->
+  <spnOverride numeric="25030" spn="Megafon" /> <!--Osetia-->
+  <spnOverride numeric="41008" spn="Instaphone" /> <!--Pakistan-->
+  <spnOverride numeric="41001" spn="Mobilink" /> <!--Pakistan-->
+  <spnOverride numeric="41006" spn="Telenor" /> <!--Pakistan-->
+  <spnOverride numeric="41003" spn="Ufone" /> <!--Pakistan-->
+  <spnOverride numeric="41007" spn="Warid" /> <!--Pakistan-->
+  <spnOverride numeric="41004" spn="Zong" /> <!--Pakistan-->
+  <spnOverride numeric="55280" spn="Palau Mobile" /> <!--Palau-->
+  <spnOverride numeric="55201" spn="PNCC" /> <!--Palau-->
+  <spnOverride numeric="42505" spn="JAWWAL" /> <!--Palestine-->
+  <spnOverride numeric="42506" spn="Wataniya" /> <!--Palestine-->
+  <spnOverride numeric="71401" spn="Cable &amp; Wireless" /> <!--Panama-->
+  <spnOverride numeric="71404" spn="Digicel" /> <!--Panama-->
+  <spnOverride numeric="71403" spn="laro" /> <!--Panama-->
+  <spnOverride numeric="71402" spn="movistar" /> <!--Panama-->
+  <spnOverride numeric="53701" spn="B-Mobile" /> <!--Papua New Guinea-->
+  <spnOverride numeric="53703" spn="Digicel" /> <!--Papua New Guinea-->
+  <spnOverride numeric="74402" spn="Claro" /> <!--Paraguay-->
+  <spnOverride numeric="74406" spn="Copaco" /> <!--Paraguay-->
+  <spnOverride numeric="74405" spn="Personal" /> <!--Paraguay-->
+  <spnOverride numeric="74404" spn="Tigo" /> <!--Paraguay-->
+  <spnOverride numeric="74401" spn="VOX" /> <!--Paraguay-->
+  <spnOverride numeric="71610" spn="Claro" /> <!--Peru-->
+  <spnOverride numeric="71606" spn="movistar" /> <!--Peru-->
+  <spnOverride numeric="71607" spn="NEXTEL" /> <!--Peru-->
+  <spnOverride numeric="51511" spn="ACeS Philippines" /> <!--Philippines-->
+  <spnOverride numeric="51505" spn="Digitel" /> <!--Philippines-->
+  <spnOverride numeric="51502" spn="Globe" /> <!--Philippines-->
+  <spnOverride numeric="51501" spn="Islacom" /> <!--Philippines-->
+  <spnOverride numeric="51588" spn="Nextel" /> <!--Philippines-->
+  <spnOverride numeric="51518" spn="Red Mobile" /> <!--Philippines-->
+  <spnOverride numeric="51503" spn="Smart Gold" /> <!--Philippines-->
+  <spnOverride numeric="26017" spn="Aero2" /> <!--Poland-->
+  <spnOverride numeric="26015" spn="CenterNet" /> <!--Poland-->
+  <spnOverride numeric="26012" spn="Cyfrowy Polsat" /> <!--Poland-->
+  <spnOverride numeric="26008" spn="E-Telko" /> <!--Poland-->
+  <spnOverride numeric="26016" spn="Mobyland" /> <!--Poland-->
+  <spnOverride numeric="26011" spn="Nordisk Polska" /> <!--Poland-->
+  <spnOverride numeric="26003" spn="Orange" /> <!--Poland-->
+  <spnOverride numeric="26006" spn="Play" /> <!--Poland-->
+  <spnOverride numeric="26001" spn="Plus" /> <!--Poland-->
+  <spnOverride numeric="26005" spn="Polska Telefonia" /> <!--Poland-->
+  <spnOverride numeric="26007" spn="Premium Internet" /> <!--Poland-->
+  <spnOverride numeric="26013" spn="Sferia" /> <!--Poland-->
+  <spnOverride numeric="26002" spn="T-mobile" /> <!--Poland-->
+  <spnOverride numeric="26004" spn="Tele2" /> <!--Poland-->
+  <spnOverride numeric="26010" spn="Telefony Opalenickie" /> <!--Poland-->
+  <spnOverride numeric="26009" spn="Telekomunikacja Kolejowa" /> <!--Poland-->
+  <spnOverride numeric="26803" spn="Optimus" /> <!--Portugal-->
+  <spnOverride numeric="26806" spn="TMN" /> <!--Portugal-->
+  <spnOverride numeric="26801" spn="Vodafone" /> <!--Portugal-->
+  <spnOverride numeric="26821" spn="Zapp" /> <!--Portugal-->
+  <spnOverride numeric="33011" spn="Claro" /> <!--Puerto Rico-->
+  <spnOverride numeric="330110" spn="Claro" /> <!--Puerto Rico-->
+  <spnOverride numeric="33000" spn="Open Mobile" /> <!--Puerto Rico-->
+  <spnOverride numeric="42705" spn="Ministry of Interior" /> <!--Qatar-->
+  <spnOverride numeric="42701" spn="Qatarnet" /> <!--Qatar-->
+  <spnOverride numeric="42702" spn="Vodafone" /> <!--Qatar-->
+  <spnOverride numeric="62910" spn="Libertis Telecom" /> <!--Republic of Congo-->
+  <spnOverride numeric="62907" spn="Warid Telecom" /> <!--Republic of Congo-->
+  <spnOverride numeric="62901" spn="Zain" /> <!--Republic of Congo-->
+  <spnOverride numeric="29402" spn="Cosmofon" /> <!--Republic of Macedonia-->
+  <spnOverride numeric="29401" spn="T-Mobile" /> <!--Republic of Macedonia-->
+  <spnOverride numeric="29403" spn="VIP" /> <!--Republic of Macedonia-->
+  <spnOverride numeric="64700" spn="Orange" /> <!--Reunion (France)-->
+  <spnOverride numeric="64702" spn="Outremer" /> <!--Reunion (France)-->
+  <spnOverride numeric="64710" spn="SFR Reunion" /> <!--Reunion (France)-->
+  <spnOverride numeric="22603" spn="Cosmote" /> <!--Romania-->
+  <spnOverride numeric="22605" spn="DIGI.mobil" /> <!--Romania-->
+  <spnOverride numeric="22611" spn="Enigma-System" /> <!--Romania-->
+  <spnOverride numeric="22610" spn="Orange" /> <!--Romania-->
+  <spnOverride numeric="22602" spn="Romtelecom" /> <!--Romania-->
+  <spnOverride numeric="22601" spn="Vodafone" /> <!--Romania-->
+  <spnOverride numeric="22604" spn="Zapp" /> <!--Romania-->
+  <spnOverride numeric="22606" spn="Zapp" /> <!--Romania-->
+  <spnOverride numeric="25012" spn="Baykalwestcom" /> <!--Russian Federation-->
+  <spnOverride numeric="25028" spn="Beeline" /> <!--Russian Federation-->
+  <spnOverride numeric="25099" spn="Beeline" /> <!--Russian Federation-->
+  <spnOverride numeric="25010" spn="DTC" /> <!--Russian Federation-->
+  <spnOverride numeric="25005" spn="ETK" /> <!--Russian Federation-->
+  <spnOverride numeric="25019" spn="INDIGO" /> <!--Russian Federation-->
+  <spnOverride numeric="25013" spn="KUGSM" /> <!--Russian Federation-->
+  <spnOverride numeric="25002" spn="MegaFon" /> <!--Russian Federation-->
+  <spnOverride numeric="25023" spn="Mobicom - Novosibirsk" /> <!--Russian Federation-->
+  <spnOverride numeric="25035" spn="MOTIV" /> <!--Russian Federation-->
+  <spnOverride numeric="25001" spn="MTS" /> <!--Russian Federation-->
+  <spnOverride numeric="25003" spn="NCC" /> <!--Russian Federation-->
+  <spnOverride numeric="25016" spn="NTC" /> <!--Russian Federation-->
+  <spnOverride numeric="25011" spn="Orensot" /> <!--Russian Federation-->
+  <spnOverride numeric="25092" spn="Primtelefon" /> <!--Russian Federation-->
+  <spnOverride numeric="25004" spn="Sibchallenge" /> <!--Russian Federation-->
+  <spnOverride numeric="25006" spn="Skylink" /> <!--Russian Federation-->
+  <spnOverride numeric="25009" spn="Skylink" /> <!--Russian Federation-->
+  <spnOverride numeric="25007" spn="SMARTS" /> <!--Russian Federation-->
+  <spnOverride numeric="25014" spn="SMARTS" /> <!--Russian Federation-->
+  <spnOverride numeric="25015" spn="SMARTS" /> <!--Russian Federation-->
+  <spnOverride numeric="25044" spn="Stavtelesot / North Caucasian GSM" /> <!--Russian Federation-->
+  <spnOverride numeric="25038" spn="Tambov GSM" /> <!--Russian Federation-->
+  <spnOverride numeric="25020" spn="Tele2" /> <!--Russian Federation-->
+  <spnOverride numeric="25093" spn="Telecom XXI" /> <!--Russian Federation-->
+  <spnOverride numeric="25017" spn="Utel" /> <!--Russian Federation-->
+  <spnOverride numeric="25039" spn="Utel" /> <!--Russian Federation-->
+  <spnOverride numeric="63510" spn="MTN" /> <!--Rwanda-->
+  <spnOverride numeric="63512" spn="Rwandatel" /> <!--Rwanda-->
+  <spnOverride numeric="63513" spn="Tigo" /> <!--Rwanda-->
+  <spnOverride numeric="356110" spn="Cable &amp; Wireless" /> <!--Saint Kitts and Nevis-->
+  <spnOverride numeric="356070" spn="Chippie" /> <!--Saint Kitts and Nevis-->
+  <spnOverride numeric="356050" spn="Digicel" /> <!--Saint Kitts and Nevis-->
+  <spnOverride numeric="358110" spn="Cable &amp; Wireless" /> <!--Saint Lucia-->
+  <spnOverride numeric="358050" spn="Digicel" /> <!--Saint Lucia-->
+  <spnOverride numeric="360110" spn="Cable &amp; Wireless" /> <!--Saint Vincent and the Grenadines-->
+  <spnOverride numeric="360100" spn="Cingular Wireless" /> <!--Saint Vincent and the Grenadines-->
+  <spnOverride numeric="360050" spn="Digicel" /> <!--Saint Vincent and the Grenadines-->
+  <spnOverride numeric="360070" spn="Digicel" /> <!--Saint Vincent and the Grenadines-->
+  <spnOverride numeric="30801" spn="Ameris" /> <!--Saint-Pierre and Miquelon (France)-->
+  <spnOverride numeric="54901" spn="Digicel" /> <!--Samoa-->
+  <spnOverride numeric="54927" spn="SamoaTel" /> <!--Samoa-->
+  <spnOverride numeric="29201" spn="PRIMA" /> <!--San Marino-->
+  <spnOverride numeric="62601" spn="CSTmovel" /> <!--Sao Tome and Principe-->
+  <spnOverride numeric="42007" spn="EAE" /> <!--Saudi Arabia-->
+  <spnOverride numeric="42003" spn="Mobily" /> <!--Saudi Arabia-->
+  <spnOverride numeric="42001" spn="STC" /> <!--Saudi Arabia-->
+  <spnOverride numeric="42004" spn="Zain SA" /> <!--Saudi Arabia-->
+  <spnOverride numeric="60803" spn="Expresso" /> <!--Senegal-->
+  <spnOverride numeric="60802" spn="Sentel GSM" /> <!--Senegal-->
+  <spnOverride numeric="60801" spn="Sonatel ALIZE" /> <!--Senegal-->
+  <spnOverride numeric="22003" spn="Telekom Srbija" /> <!--Serbia-->
+  <spnOverride numeric="22001" spn="Telenor" /> <!--Serbia-->
+  <spnOverride numeric="22005" spn="VIP Mobile" /> <!--Serbia-->
+  <spnOverride numeric="63301" spn="Cable &amp; Wireless (Seychelles) Ltd." /> <!--Seychelles-->
+  <spnOverride numeric="63302" spn="Mediatech International" /> <!--Seychelles-->
+  <spnOverride numeric="63310" spn="Telecom Airtel" /> <!--Seychelles-->
+  <spnOverride numeric="61905" spn="Africell" /> <!--Sierra Leone-->
+  <spnOverride numeric="61904" spn="Comium" /> <!--Sierra Leone-->
+  <spnOverride numeric="61903" spn="Datatel" /> <!--Sierra Leone-->
+  <spnOverride numeric="61902" spn="Millicom" /> <!--Sierra Leone-->
+  <spnOverride numeric="61925" spn="Mobitel" /> <!--Sierra Leone-->
+  <spnOverride numeric="61901" spn="Zain" /> <!--Sierra Leone-->
+  <spnOverride numeric="52512" spn="Digital Trunked Radio Network" /> <!--Singapore-->
+  <spnOverride numeric="52503" spn="M1" /> <!--Singapore-->
+  <spnOverride numeric="52501" spn="SingTel" /> <!--Singapore-->
+  <spnOverride numeric="52502" spn="SingTel-G18" /> <!--Singapore-->
+  <spnOverride numeric="52505" spn="StarHub" /> <!--Singapore-->
+  <spnOverride numeric="23105" spn="Mobile Entertainment Company" /> <!--Slovakia-->
+  <spnOverride numeric="23106" spn="O2" /> <!--Slovakia-->
+  <spnOverride numeric="23101" spn="Orange" /> <!--Slovakia-->
+  <spnOverride numeric="23102" spn="T-Mobile" /> <!--Slovakia-->
+  <spnOverride numeric="23104" spn="T-Mobile" /> <!--Slovakia-->
+  <spnOverride numeric="23103" spn="Unient Communications" /> <!--Slovakia-->
+  <spnOverride numeric="23199" spn="eSR" /> <!--Slovakia-->
+  <spnOverride numeric="29341" spn="Mobitel" /> <!--Slovenia-->
+  <spnOverride numeric="29340" spn="SI.mobil - Vodafone" /> <!--Slovenia-->
+  <spnOverride numeric="29364" spn="T-2" /> <!--Slovenia-->
+  <spnOverride numeric="29370" spn="Tusmobil" /> <!--Slovenia-->
+  <spnOverride numeric="54001" spn="BREEZE" /> <!--Solomon Islands-->
+  <spnOverride numeric="5401" spn="BREEZE" /> <!--Solomon Islands-->
+  <spnOverride numeric="63730" spn="Golis" /> <!--Somalia-->
+  <spnOverride numeric="63725" spn="Hormuud" /> <!--Somalia-->
+  <spnOverride numeric="63710" spn="Nationlink" /> <!--Somalia-->
+  <spnOverride numeric="63760" spn="Nationlink Telecom" /> <!--Somalia-->
+  <spnOverride numeric="63704" spn="Somafone" /> <!--Somalia-->
+  <spnOverride numeric="638" spn="Telcom Mobile" /> <!--Somalia-->
+  <spnOverride numeric="63701" spn="Telesom" /> <!--Somalia-->
+  <spnOverride numeric="63782" spn="Telesom" /> <!--Somalia-->
+  <spnOverride numeric="65530" spn="Bokamoso Consortium" /> <!--South Africa-->
+  <spnOverride numeric="65521" spn="Cape Town Metropolitan Council" /> <!--South Africa-->
+  <spnOverride numeric="65507" spn="Cell C" /> <!--South Africa-->
+  <spnOverride numeric="65532" spn="Ilizwi Telecommunications" /> <!--South Africa-->
+  <spnOverride numeric="65531" spn="Karabo Telecoms (Pty) Ltd." /> <!--South Africa-->
+  <spnOverride numeric="65510" spn="MTN" /> <!--South Africa-->
+  <spnOverride numeric="65513" spn="Neotel" /> <!--South Africa-->
+  <spnOverride numeric="65511" spn="SAPS Gauteng" /> <!--South Africa-->
+  <spnOverride numeric="65506" spn="Sentech" /> <!--South Africa-->
+  <spnOverride numeric="65502" spn="Telkom Mobile / 8.ta" /> <!--South Africa-->
+  <spnOverride numeric="65533" spn="Thinta Thinta Telecommunications" /> <!--South Africa-->
+  <spnOverride numeric="65501" spn="Vodacom" /> <!--South Africa-->
+  <spnOverride numeric="45004" spn="KT" /> <!--South Korea-->
+  <spnOverride numeric="45008" spn="KTF" /> <!--South Korea-->
+  <spnOverride numeric="45002" spn="KTF CDMA" /> <!--South Korea-->
+  <spnOverride numeric="45006" spn="LGU+" /> <!--South Korea-->
+  <spnOverride numeric="45003" spn="Power 017" /> <!--South Korea-->
+  <spnOverride numeric="45005" spn="SK Telecom" /> <!--South Korea-->
+  <spnOverride numeric="21423" spn="BARABLU" /> <!--Spain-->
+  <spnOverride numeric="21415" spn="BT" /> <!--Spain-->
+  <spnOverride numeric="21422" spn="DigiMobil" /> <!--Spain-->
+  <spnOverride numeric="21424" spn="Eroski" /> <!--Spain-->
+  <spnOverride numeric="21408" spn="Euskaltel" /> <!--Spain-->
+  <spnOverride numeric="21420" spn="Fonyou" /> <!--Spain-->
+  <spnOverride numeric="21425" spn="LycaMobile" /> <!--Spain-->
+  <spnOverride numeric="21407" spn="movistar" /> <!--Spain-->
+  <spnOverride numeric="21417" spn="MUbil R" /> <!--Spain-->
+  <spnOverride numeric="21418" spn="ONO" /> <!--Spain-->
+  <spnOverride numeric="21403" spn="Orange" /> <!--Spain-->
+  <spnOverride numeric="21409" spn="Orange" /> <!--Spain-->
+  <spnOverride numeric="21419" spn="Simyo" /> <!--Spain-->
+  <spnOverride numeric="21416" spn="TeleCable" /> <!--Spain-->
+  <spnOverride numeric="21405" spn="TME" /> <!--Spain-->
+  <spnOverride numeric="21401" spn="Vodafone" /> <!--Spain-->
+  <spnOverride numeric="21406" spn="Vodafone" /> <!--Spain-->
+  <spnOverride numeric="21404" spn="Yoigo" /> <!--Spain-->
+  <spnOverride numeric="41305" spn="Airtel" /> <!--Sri Lanka-->
+  <spnOverride numeric="41302" spn="Dialog" /> <!--Sri Lanka-->
+  <spnOverride numeric="41308" spn="Hutch Sri Lanka" /> <!--Sri Lanka-->
+  <spnOverride numeric="41301" spn="Mobitel" /> <!--Sri Lanka-->
+  <spnOverride numeric="41303" spn="Tigo" /> <!--Sri Lanka-->
+  <spnOverride numeric="63401" spn="Mobitel / Mobile Telephone Company" /> <!--Sudan-->
+  <spnOverride numeric="63402" spn="MTN" /> <!--Sudan-->
+  <spnOverride numeric="63407" spn="Sudani One" /> <!--Sudan-->
+  <spnOverride numeric="63405" spn="Vivacell" /> <!--Sudan-->
+  <spnOverride numeric="74603" spn="Digicel" /> <!--Suriname-->
+  <spnOverride numeric="74602" spn="Telesu" /> <!--Suriname-->
+  <spnOverride numeric="74604" spn="Uniqa" /> <!--Suriname-->
+  <spnOverride numeric="65310" spn="Swazi MTN" /> <!--Swaziland-->
+  <spnOverride numeric="24002" spn="3 HUTCHISON" /> <!--Sweden-->
+  <spnOverride numeric="24004" spn="3G Infrastructure Services" /> <!--Sweden-->
+  <spnOverride numeric="24016" spn="42IT" /> <!--Sweden-->
+  <spnOverride numeric="24021" spn="Banverket" /> <!--Sweden-->
+  <spnOverride numeric="24012" spn="Barablu Mobile Scandinavia" /> <!--Sweden-->
+  <spnOverride numeric="24026" spn="Beepsend" /> <!--Sweden-->
+  <spnOverride numeric="24025" spn="DigiTelMobile" /> <!--Sweden-->
+  <spnOverride numeric="24017" spn="Gotanet" /> <!--Sweden-->
+  <spnOverride numeric="24000" spn="Halebop" /> <!--Sweden-->
+  <spnOverride numeric="24011" spn="Lindholmen Science Park" /> <!--Sweden-->
+  <spnOverride numeric="24033" spn="Mobile Arts AB" /> <!--Sweden-->
+  <spnOverride numeric="24003" spn="Nordisk Mobiltelefon" /> <!--Sweden-->
+  <spnOverride numeric="24010" spn="SpringMobil" /> <!--Sweden-->
+  <spnOverride numeric="24024" spn="Sweden 2G" /> <!--Sweden-->
+  <spnOverride numeric="24024" spn="Sweden 2G" /> <!--Sweden-->
+  <spnOverride numeric="24005" spn="Sweden 3G" /> <!--Sweden-->
+  <spnOverride numeric="24014" spn="TDC Mobil" /> <!--Sweden-->
+  <spnOverride numeric="24007" spn="Tele2Comviq" /> <!--Sweden-->
+  <spnOverride numeric="24006" spn="Telenor" /> <!--Sweden-->
+  <spnOverride numeric="24008" spn="Telenor" /> <!--Sweden-->
+  <spnOverride numeric="24009" spn="Telenor Mobile Sverige" /> <!--Sweden-->
+  <spnOverride numeric="24001" spn="TeliaSonera Mobile Networks" /> <!--Sweden-->
+  <spnOverride numeric="24013" spn="Ventelo Sverige" /> <!--Sweden-->
+  <spnOverride numeric="24020" spn="Wireless Maingate" /> <!--Sweden-->
+  <spnOverride numeric="24015" spn="Wireless Maingate Nordic" /> <!--Sweden-->
+  <spnOverride numeric="22850" spn="3G Mobile AG" /> <!--Switzerland-->
+  <spnOverride numeric="22851" spn="BebbiCell AG" /> <!--Switzerland-->
+  <spnOverride numeric="22807" spn="IN&amp;Phone" /> <!--Switzerland-->
+  <spnOverride numeric="22803" spn="Orange" /> <!--Switzerland-->
+  <spnOverride numeric="22806" spn="SBB AG" /> <!--Switzerland-->
+  <spnOverride numeric="22802" spn="Sunrise" /> <!--Switzerland-->
+  <spnOverride numeric="22801" spn="Swisscom" /> <!--Switzerland-->
+  <spnOverride numeric="22808" spn="Tele2" /> <!--Switzerland-->
+  <spnOverride numeric="22805" spn="Togewanet AG (Comfone)" /> <!--Switzerland-->
+  <spnOverride numeric="41702" spn="MTN Syria" /> <!--Syria-->
+  <spnOverride numeric="41701" spn="SyriaTel" /> <!--Syria-->
+  <spnOverride numeric="46602" spn="APTG" /> <!--Taiwan-->
+  <spnOverride numeric="46605" spn="APTG" /> <!--Taiwan-->
+  <spnOverride numeric="46611" spn="Chunghwa LDM" /> <!--Taiwan-->
+  <spnOverride numeric="46692" spn="Chungwa" /> <!--Taiwan-->
+  <spnOverride numeric="46601" spn="FarEasTone" /> <!--Taiwan-->
+  <spnOverride numeric="46688" spn="KG Telecom" /> <!--Taiwan-->
+  <spnOverride numeric="46693" spn="MobiTai" /> <!--Taiwan-->
+  <spnOverride numeric="46697" spn="Taiwan Mobile" /> <!--Taiwan-->
+  <spnOverride numeric="46699" spn="TransAsia" /> <!--Taiwan-->
+  <spnOverride numeric="46606" spn="Tuntex" /> <!--Taiwan-->
+  <spnOverride numeric="46689" spn="VIBO" /> <!--Taiwan-->
+  <spnOverride numeric="43604" spn="Babilon-M" /> <!--Tajikistan-->
+  <spnOverride numeric="43605" spn="CTJTHSC Tajik-tel" /> <!--Tajikistan-->
+  <spnOverride numeric="43602" spn="Indigo" /> <!--Tajikistan-->
+  <spnOverride numeric="43603" spn="MLT" /> <!--Tajikistan-->
+  <spnOverride numeric="43601" spn="Somoncom" /> <!--Tajikistan-->
+  <spnOverride numeric="43612" spn="Tcell" /> <!--Tajikistan-->
+  <spnOverride numeric="64009" spn="Hits" /> <!--Tanzania-->
+  <spnOverride numeric="64002" spn="Mobitel" /> <!--Tanzania-->
+  <spnOverride numeric="64006" spn="Sasatel" /> <!--Tanzania-->
+  <spnOverride numeric="64011" spn="SmileCom" /> <!--Tanzania-->
+  <spnOverride numeric="64001" spn="Tritel" /> <!--Tanzania-->
+  <spnOverride numeric="64007" spn="TTCL Mobile" /> <!--Tanzania-->
+  <spnOverride numeric="64008" spn="TTCL Mobile" /> <!--Tanzania-->
+  <spnOverride numeric="64004" spn="Vodacom" /> <!--Tanzania-->
+  <spnOverride numeric="64005" spn="Zain" /> <!--Tanzania-->
+  <spnOverride numeric="64003" spn="Zantel" /> <!--Tanzania-->
+  <spnOverride numeric="52015" spn="ACT Mobile" /> <!--Thailand-->
+  <spnOverride numeric="52001" spn="Advanced Info Service" /> <!--Thailand-->
+  <spnOverride numeric="52023" spn="Advanced Info Service" /> <!--Thailand-->
+  <spnOverride numeric="52000" spn="CAT CDMA" /> <!--Thailand-->
+  <spnOverride numeric="52002" spn="CAT CDMA" /> <!--Thailand-->
+  <spnOverride numeric="52018" spn="DTAC" /> <!--Thailand-->
+  <spnOverride numeric="52099" spn="True Move" /> <!--Thailand-->
+  <spnOverride numeric="52010" spn="WCS IQ" /> <!--Thailand-->
+  <spnOverride numeric="61503" spn="Moov" /> <!--Togo-->
+  <spnOverride numeric="61505" spn="Telecel" /> <!--Togo-->
+  <spnOverride numeric="61501" spn="Togo Cell" /> <!--Togo-->
+  <spnOverride numeric="53988" spn="Digicel" /> <!--Tonga-->
+  <spnOverride numeric="53943" spn="Shoreline Communication" /> <!--Tonga-->
+  <spnOverride numeric="53901" spn="Tonga Communications Corporation" /> <!--Tonga-->
+  <spnOverride numeric="37412" spn="bmobile" /> <!--Trinidad and Tobago-->
+  <spnOverride numeric="37413" spn="Digicel" /> <!--Trinidad and Tobago-->
+  <spnOverride numeric="374130" spn="Digicel" /> <!--Trinidad and Tobago-->
+  <spnOverride numeric="60501" spn="Orange" /> <!--Tunisia-->
+  <spnOverride numeric="60502" spn="Tunicell" /> <!--Tunisia-->
+  <spnOverride numeric="60503" spn="Tunisiana" /> <!--Tunisia-->
+  <spnOverride numeric="28603" spn="Avea" /> <!--Turkey-->
+  <spnOverride numeric="28604" spn="Aycell" /> <!--Turkey-->
+  <spnOverride numeric="28601" spn="Turkcell" /> <!--Turkey-->
+  <spnOverride numeric="28602" spn="Vodafone" /> <!--Turkey-->
+  <spnOverride numeric="43801" spn="MTS" /> <!--Turkmenistan-->
+  <spnOverride numeric="43802" spn="TM-Cell" /> <!--Turkmenistan-->
+  <spnOverride numeric="55301" spn="TTC" /> <!--Tuvalu-->
+  <spnOverride numeric="64110" spn="MTN" /> <!--Uganda-->
+  <spnOverride numeric="64114" spn="Orange" /> <!--Uganda-->
+  <spnOverride numeric="64111" spn="Uganda Telecom Ltd." /> <!--Uganda-->
+  <spnOverride numeric="64122" spn="Warid Telecom" /> <!--Uganda-->
+  <spnOverride numeric="64101" spn="Zain" /> <!--Uganda-->
+  <spnOverride numeric="25502" spn="Beeline" /> <!--Ukraine-->
+  <spnOverride numeric="25523" spn="CDMA Ukraine" /> <!--Ukraine-->
+  <spnOverride numeric="25505" spn="Golden Telecom" /> <!--Ukraine-->
+  <spnOverride numeric="25504" spn="IT" /> <!--Ukraine-->
+  <spnOverride numeric="25503" spn="Kyivstar" /> <!--Ukraine-->
+  <spnOverride numeric="25506" spn="life:)" /> <!--Ukraine-->
+  <spnOverride numeric="25501" spn="MTS" /> <!--Ukraine-->
+  <spnOverride numeric="25521" spn="PEOPLEnet" /> <!--Ukraine-->
+  <spnOverride numeric="25507" spn="Utel" /> <!--Ukraine-->
+  <spnOverride numeric="42403" spn="du" /> <!--United Arab Emirates-->
+  <spnOverride numeric="42402" spn="Etisalat" /> <!--United Arab Emirates-->
+  <spnOverride numeric="23420" spn="3 Hutchison" /> <!--United Kingdom-->
+  <spnOverride numeric="23400" spn="BT" /> <!--United Kingdom-->
+  <spnOverride numeric="23455" spn="Cable &amp; Wireless / Sure Mobile (Isle of Man)" /> <!--United Kingdom-->
+  <spnOverride numeric="23418" spn="Cloud9" /> <!--United Kingdom-->
+  <spnOverride numeric="23403" spn="Jersey Telenet" /> <!--United Kingdom-->
+  <spnOverride numeric="23450" spn="JT-Wave" /> <!--United Kingdom-->
+  <spnOverride numeric="23458" spn="Manx Telecom" /> <!--United Kingdom-->
+  <spnOverride numeric="23401" spn="MCom" /> <!--United Kingdom-->
+  <spnOverride numeric="23402" spn="O2" /> <!--United Kingdom-->
+  <spnOverride numeric="23410" spn="O2" /> <!--United Kingdom-->
+  <spnOverride numeric="23411" spn="O2" /> <!--United Kingdom-->
+  <spnOverride numeric="23433" spn="Orange" /> <!--United Kingdom-->
+  <spnOverride numeric="23434" spn="Orange" /> <!--United Kingdom-->
+  <spnOverride numeric="23412" spn="Railtrack" /> <!--United Kingdom-->
+  <spnOverride numeric="23422" spn="Routo Telecom" /> <!--United Kingdom-->
+  <spnOverride numeric="23409" spn="Sure Mobile" /> <!--United Kingdom-->
+  <spnOverride numeric="23430" spn="T-Mobile" /> <!--United Kingdom-->
+  <spnOverride numeric="23419" spn="Telaware" /> <!--United Kingdom-->
+  <spnOverride numeric="234100" spn="Tesco Mobile" /> <!--United Kingdom-->
+  <spnOverride numeric="23477" spn="Unknown" /> <!--United Kingdom-->
+  <spnOverride numeric="23431" spn="Virgin" /> <!--United Kingdom-->
+  <spnOverride numeric="23432" spn="Virgin" /> <!--United Kingdom-->
+  <spnOverride numeric="23415" spn="Vodafone" /> <!--United Kingdom-->
+  <spnOverride numeric="310880" spn="Advantage" /> <!--United States-->
+  <spnOverride numeric="310850" spn="Aeris" /> <!--United States-->
+  <spnOverride numeric="310640" spn="Airadigm" /> <!--United States-->
+  <spnOverride numeric="310780" spn="Airlink PCS" /> <!--United States-->
+  <spnOverride numeric="310034" spn="Airpeak" /> <!--United States-->
+  <spnOverride numeric="310510" spn="Airtel" /> <!--United States-->
+  <spnOverride numeric="310430" spn="Alaska Digitel" /> <!--United States-->
+  <spnOverride numeric="310500" spn="Alltel" /> <!--United States-->
+  <spnOverride numeric="310590" spn="Alltel" /> <!--United States-->
+  <spnOverride numeric="310630" spn="AmeriLink PCS" /> <!--United States-->
+  <spnOverride numeric="310038" spn="AT&amp;T" /> <!--United States-->
+  <spnOverride numeric="310090" spn="AT&amp;T" /> <!--United States-->
+  <spnOverride numeric="310150" spn="AT&amp;T" /> <!--United States-->
+  <spnOverride numeric="310170" spn="AT&amp;T" /> <!--United States-->
+  <spnOverride numeric="310410" spn="AT&amp;T" /> <!--United States-->
+  <spnOverride numeric="310560" spn="AT&amp;T" /> <!--United States-->
+  <spnOverride numeric="310680" spn="AT&amp;T" /> <!--United States-->
+  <spnOverride numeric="310380" spn="AT&amp;T Mobility" /> <!--United States-->
+  <spnOverride numeric="310980" spn="AT&amp;T Mobility" /> <!--United States-->
+  <spnOverride numeric="310990" spn="AT&amp;T Mobility" /> <!--United States-->
+  <spnOverride numeric="310830" spn="Caprock" /> <!--United States-->
+  <spnOverride numeric="310350" spn="Carolina Phone" /> <!--United States-->
+  <spnOverride numeric="311130" spn="Cell One Amarillo" /> <!--United States-->
+  <spnOverride numeric="310320" spn="Cellular One" /> <!--United States-->
+  <spnOverride numeric="310440" spn="Cellular One" /> <!--United States-->
+  <spnOverride numeric="310390" spn="Cellular One of East Texas" /> <!--United States-->
+  <spnOverride numeric="311190" spn="Cellular Properties" /> <!--United States-->
+  <spnOverride numeric="310030" spn="Centennial" /> <!--United States-->
+  <spnOverride numeric="311010" spn="Chariton Valley" /> <!--United States-->
+  <spnOverride numeric="310570" spn="Chinook Wireless" /> <!--United States-->
+  <spnOverride numeric="310480" spn="Choice Phone" /> <!--United States-->
+  <spnOverride numeric="311120" spn="Choice Phone" /> <!--United States-->
+  <spnOverride numeric="310420" spn="Cincinnati Bell" /> <!--United States-->
+  <spnOverride numeric="311180" spn="Cingular Wireless" /> <!--United States-->
+  <spnOverride numeric="310620" spn="Coleman County Telecom" /> <!--United States-->
+  <spnOverride numeric="311040" spn="Commnet Wireless" /> <!--United States-->
+  <spnOverride numeric="310040" spn="Concho" /> <!--United States-->
+  <spnOverride numeric="310690" spn="Conestoga" /> <!--United States-->
+  <spnOverride numeric="310060" spn="Consolidated Telcom" /> <!--United States-->
+  <spnOverride numeric="310740" spn="Convey" /> <!--United States-->
+  <spnOverride numeric="310080" spn="Corr" /> <!--United States-->
+  <spnOverride numeric="310016" spn="Cricket Communications" /> <!--United States-->
+  <spnOverride numeric="310940" spn="Digital Cellular" /> <!--United States-->
+  <spnOverride numeric="310190" spn="Dutch Harbor" /> <!--United States-->
+  <spnOverride numeric="311070" spn="Easterbrooke" /> <!--United States-->
+  <spnOverride numeric="311160" spn="Endless Mountains Wireless" /> <!--United States-->
+  <spnOverride numeric="310610" spn="Epic Touch" /> <!--United States-->
+  <spnOverride numeric="311060" spn="Farmers Cellular" /> <!--United States-->
+  <spnOverride numeric="311210" spn="Farmers Cellular" /> <!--United States-->
+  <spnOverride numeric="310311" spn="Farmers Wireless" /> <!--United States-->
+  <spnOverride numeric="310910" spn="First Cellular" /> <!--United States-->
+  <spnOverride numeric="310300" spn="Get Mobile Inc" /> <!--United States-->
+  <spnOverride numeric="310970" spn="Globalstar" /> <!--United States-->
+  <spnOverride numeric="311100" spn="High Plains Wireless" /> <!--United States-->
+  <spnOverride numeric="311110" spn="High Plains Wireless" /> <!--United States-->
+  <spnOverride numeric="310070" spn="Highland Cellular" /> <!--United States-->
+  <spnOverride numeric="310400" spn="i CAN_GSM" /> <!--United States-->
+  <spnOverride numeric="310770" spn="i wireless" /> <!--United States-->
+  <spnOverride numeric="311030" spn="Indigo Wireless" /> <!--United States-->
+  <spnOverride numeric="310650" spn="Jasper" /> <!--United States-->
+  <spnOverride numeric="311090" spn="Long Lines Wireless" /> <!--United States-->
+  <spnOverride numeric="310010" spn="MCI" /> <!--United States-->
+  <spnOverride numeric="310000" spn="Mid-Tex Cellular" /> <!--United States-->
+  <spnOverride numeric="311000" spn="Mid-Tex Cellular" /> <!--United States-->
+  <spnOverride numeric="311020" spn="Missouri RSA 5 Partnership" /> <!--United States-->
+  <spnOverride numeric="310013" spn="MobileTel" /> <!--United States-->
+  <spnOverride numeric="316010" spn="Nextel" /> <!--United States-->
+  <spnOverride numeric="310017" spn="North Sight Communications Inc." /> <!--United States-->
+  <spnOverride numeric="310670" spn="Northstar" /> <!--United States-->
+  <spnOverride numeric="310540" spn="Oklahoma Western" /> <!--United States-->
+  <spnOverride numeric="310870" spn="PACE" /> <!--United States-->
+  <spnOverride numeric="310760" spn="Panhandle" /> <!--United States-->
+  <spnOverride numeric="311170" spn="PetroCom" /> <!--United States-->
+  <spnOverride numeric="311080" spn="Pine Cellular" /> <!--United States-->
+  <spnOverride numeric="310790" spn="PinPoint" /> <!--United States-->
+  <spnOverride numeric="310100" spn="Plateau Wireless" /> <!--United States-->
+  <spnOverride numeric="310960" spn="Plateau Wireless" /> <!--United States-->
+  <spnOverride numeric="310110" spn="PTI Pacifica" /> <!--United States-->
+  <spnOverride numeric="310730" spn="SeaMobile" /> <!--United States-->
+  <spnOverride numeric="310046" spn="SIMMETRY" /> <!--United States-->
+  <spnOverride numeric="310460" spn="Simmetry" /> <!--United States-->
+  <spnOverride numeric="316011" spn="Southern Communications Services" /> <!--United States-->
+  <spnOverride numeric="310120" spn="Sprint" /> <!--United States-->
+  <spnOverride numeric="311140" spn="Sprocket" /> <!--United States-->
+  <spnOverride numeric="310490" spn="SunCom" /> <!--United States-->
+  <spnOverride numeric="310026" spn="T-Mobile" /> <!--United States-->
+  <spnOverride numeric="310160" spn="T-Mobile" /> <!--United States-->
+  <spnOverride numeric="310200" spn="T-Mobile" /> <!--United States-->
+  <spnOverride numeric="310210" spn="T-Mobile" /> <!--United States-->
+  <spnOverride numeric="310220" spn="T-Mobile" /> <!--United States-->
+  <spnOverride numeric="310230" spn="T-Mobile" /> <!--United States-->
+  <spnOverride numeric="310240" spn="T-Mobile" /> <!--United States-->
+  <spnOverride numeric="310250" spn="T-Mobile" /> <!--United States-->
+  <spnOverride numeric="310260" spn="T-Mobile" /> <!--United States-->
+  <spnOverride numeric="310270" spn="T-Mobile" /> <!--United States-->
+  <spnOverride numeric="310280" spn="T-Mobile" /> <!--United States-->
+  <spnOverride numeric="310290" spn="T-Mobile" /> <!--United States-->
+  <spnOverride numeric="310310" spn="T-Mobile" /> <!--United States-->
+  <spnOverride numeric="310330" spn="T-Mobile" /> <!--United States-->
+  <spnOverride numeric="310580" spn="T-Mobile" /> <!--United States-->
+  <spnOverride numeric="310660" spn="T-Mobile" /> <!--United States-->
+  <spnOverride numeric="310800" spn="T-Mobile" /> <!--United States-->
+  <spnOverride numeric="310900" spn="Taylor" /> <!--United States-->
+  <spnOverride numeric="310014" spn="Testing" /> <!--United States-->
+  <spnOverride numeric="310020" spn="Union Telephone Company" /> <!--United States-->
+  <spnOverride numeric="310520" spn="VeriSign" /> <!--United States-->
+  <spnOverride numeric="20404" spn="Verizon" /> <!--United States-->
+  <spnOverride numeric="246081" spn="Verizon" /> <!--United States-->
+  <spnOverride numeric="310004" spn="Verizon" /> <!--United States-->
+  <spnOverride numeric="310012" spn="Verizon" /> <!--United States-->
+  <spnOverride numeric="311480" spn="Verizon" /> <!--United States-->
+  <spnOverride numeric="310450" spn="Viaero" /> <!--United States-->
+  <spnOverride numeric="310180" spn="West Central" /> <!--United States-->
+  <spnOverride numeric="310530" spn="West Virginia Wireless" /> <!--United States-->
+  <spnOverride numeric="310340" spn="Westlink" /> <!--United States-->
+  <spnOverride numeric="311050" spn="Wikes Cellular" /> <!--United States-->
+  <spnOverride numeric="311150" spn="Wilkes Cellular" /> <!--United States-->
+  <spnOverride numeric="310890" spn="Wireless Alliance" /> <!--United States-->
+  <spnOverride numeric="310950" spn="XIT Wireless" /> <!--United States-->
+  <spnOverride numeric="74800" spn="Ancel" /> <!--Uruguay-->
+  <spnOverride numeric="74801" spn="Ancel" /> <!--Uruguay-->
+  <spnOverride numeric="74810" spn="Claro" /> <!--Uruguay-->
+  <spnOverride numeric="74807" spn="Movistar" /> <!--Uruguay-->
+  <spnOverride numeric="43404" spn="Beeline" /> <!--Uzbekistan-->
+  <spnOverride numeric="43401" spn="Buztel" /> <!--Uzbekistan-->
+  <spnOverride numeric="43407" spn="MTS" /> <!--Uzbekistan-->
+  <spnOverride numeric="43406" spn="Perfectum Mobile" /> <!--Uzbekistan-->
+  <spnOverride numeric="43405" spn="Ucell" /> <!--Uzbekistan-->
+  <spnOverride numeric="43402" spn="Uzmacom" /> <!--Uzbekistan-->
+  <spnOverride numeric="54101" spn="SMILE" /> <!--Vanuatu-->
+  <spnOverride numeric="73401" spn="Digitel" /> <!--Venezuela-->
+  <spnOverride numeric="73402" spn="Digitel" /> <!--Venezuela-->
+  <spnOverride numeric="73403" spn="Digitel" /> <!--Venezuela-->
+  <spnOverride numeric="73406" spn="Movilnet" /> <!--Venezuela-->
+  <spnOverride numeric="73404" spn="movistar" /> <!--Venezuela-->
+  <spnOverride numeric="45208" spn="3G EVNTelecom" /> <!--Vietnam-->
+  <spnOverride numeric="45207" spn="Beeline VN" /> <!--Vietnam-->
+  <spnOverride numeric="45206" spn="E-Mobile" /> <!--Vietnam-->
+  <spnOverride numeric="45205" spn="HT Mobile" /> <!--Vietnam-->
+  <spnOverride numeric="45201" spn="MobiFone" /> <!--Vietnam-->
+  <spnOverride numeric="45203" spn="S-Fone" /> <!--Vietnam-->
+  <spnOverride numeric="45204" spn="Viettel Mobile" /> <!--Vietnam-->
+  <spnOverride numeric="45202" spn="Vinaphone" /> <!--Vietnam-->
+  <spnOverride numeric="376350" spn="C&amp;W" /> <!--Wyspy Turks i Caicos-->
+  <spnOverride numeric="33805" spn="Digicel" /> <!--Wyspy Turks i Caicos-->
+  <spnOverride numeric="376352" spn="Islandcom" /> <!--Wyspy Turks i Caicos-->
+  <spnOverride numeric="42104" spn="HiTS-UNITEL" /> <!--Yemen-->
+  <spnOverride numeric="42102" spn="MTN" /> <!--Yemen-->
+  <spnOverride numeric="42101" spn="SabaFon" /> <!--Yemen-->
+  <spnOverride numeric="42103" spn="Yemen Mobile" /> <!--Yemen-->
+  <spnOverride numeric="64502" spn="MTN" /> <!--Zambia-->
+  <spnOverride numeric="64501" spn="Zain" /> <!--Zambia-->
+  <spnOverride numeric="64503" spn="ZAMTEL" /> <!--Zambia-->
+  <spnOverride numeric="64804" spn="Econet" /> <!--Zimbabwe-->
+  <spnOverride numeric="64801" spn="Net*One" /> <!--Zimbabwe-->
+  <spnOverride numeric="64803" spn="Telecel" /> <!--Zimbabwe-->
+</spnOverrides>
