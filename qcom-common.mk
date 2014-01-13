@@ -17,6 +17,10 @@
 PRODUCT_COPY_FILES += \
     device/samsung/qcom-common/media/media_codecs.xml:system/etc/media_codecs.xml
 
+# samsung selective operator override
+PRODUCT_COPY_FILES += \
+    device/samsung/qcom-common/SamsungOperatorOverride.xml:system/etc/SamsungOperatorOverride.xml
+
 # QCOM Display
 PRODUCT_PACKAGES += \
     libgenlock \
