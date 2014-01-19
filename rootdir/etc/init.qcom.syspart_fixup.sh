@@ -50,6 +50,12 @@ fi
 # timing critical tasks in a separate process to
 # prevent slowdown at boot.
 
+# Run variant script
+if [ -f /system/bin/variant.sh ]; then
+  /system/bin/sh /system/bin/variant.sh
+  /system/bin/rm /system/bin/variant.sh
+fi
+
 # Run modem link script
 if [ -f /system/etc/init.qcom.modem_links.sh ]; then
   /system/bin/sh /system/etc/init.qcom.modem_links.sh
