@@ -38,7 +38,7 @@ mount_needed=false;
 if [ ! -f /system/etc/boot_fixup ];then
 # This should be the first command
 # remount system as read-write.
-  mount -o rw,remount,barrier=1 /system
+  mount -o rw,remount /system
   mount_needed=true;
 fi
 
@@ -87,5 +87,5 @@ touch /system/etc/boot_fixup
 if $mount_needed ;then
 # This should be the last command
 # remount system as read-only.
-  mount -o ro,remount,barrier=1 /system
+  mount -o ro,remount /system
 fi
