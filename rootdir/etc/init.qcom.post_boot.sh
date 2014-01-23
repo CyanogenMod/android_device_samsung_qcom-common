@@ -310,11 +310,7 @@ case "$target" in
         echo 1 > /sys/module/msm_pm/modes/cpu1/retention/idle_enabled
         echo 1 > /sys/module/msm_pm/modes/cpu2/retention/idle_enabled
         echo 1 > /sys/module/msm_pm/modes/cpu3/retention/idle_enabled
-        echo 1 > /sys/module/msm_pm/modes/cpu0/retention/suspend_enabled
-        echo 1 > /sys/module/msm_pm/modes/cpu1/retention/suspend_enabled
-        echo 1 > /sys/module/msm_pm/modes/cpu2/retention/suspend_enabled
-        echo 1 > /sys/module/msm_pm/modes/cpu3/retention/suspend_enabled
-        echo 1 > /sys/module/msm_thermal/core_control/enabled
+        echo 0 > /sys/module/msm_thermal/core_control/enabled
         echo 1 > /sys/devices/system/cpu/cpu1/online
         echo 1 > /sys/devices/system/cpu/cpu2/online
         echo 1 > /sys/devices/system/cpu/cpu3/online
