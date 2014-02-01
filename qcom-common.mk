@@ -14,8 +14,11 @@
 
 
 # Media config
-PRODUCT_COPY_FILES += \
-    device/samsung/qcom-common/media/media_codecs.xml:system/etc/media_codecs.xml
+ifeq ($(TARGET_BOARD_PLATFORM),msm8974)
+PRODUCT_COPY_FILES += device/samsung/qcom-common/media/media_codes_8974.xml:system/etc/media_codecs.xml
+else
+PRODUCT_COPY_FILES += device/samsung/qcom-common/media/media_codecs.xml:system/etc/media_codecs.xml
+endif
 
 # QCOM Display
 PRODUCT_PACKAGES += \
@@ -55,6 +58,7 @@ PRODUCT_PACKAGES += \
     setup_fs
 
 # Thermal profiles
+ifneq ($(TARGET_BOARD_PLATFORM),msm8974)
 PRODUCT_PACKAGES += \
     thermald-8064ab.conf \
     thermald-8064.conf \
@@ -63,7 +67,9 @@ PRODUCT_PACKAGES += \
     thermald-8960.conf \
     thermald-8260a.conf \
     thermald-8960ab.conf \
-    thermal-engine-8064ab.conf
+    thermal-engine-8064ab.conf \
+    init.qcom.thermal_conf.sh
+endif
 
 # Init scripts
 PRODUCT_PACKAGES += \
@@ -79,7 +85,6 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.sh \
     lpm.rc \
     init.qcom.lpm_boot.sh \
-    init.qcom.thermal_conf.sh \
     init.recovery.qcom.rc \
     init.qcom.ril.sh
 
