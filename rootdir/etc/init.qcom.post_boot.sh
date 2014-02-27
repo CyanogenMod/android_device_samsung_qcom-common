@@ -559,6 +559,20 @@ esac
 
 # Post-setup services
 case "$target" in
+    "msm8960")
+        soc_id=`cat /sys/devices/system/soc/soc0/id`
+        case "$soc_id" in
+             "153") #8064 v2
+                 start thermal-engine
+             ;;
+
+	     *) #all targets except 8064 v2
+		 start thermald
+	     ;;
+        esac
+    ;;
+esac
+case "$target" in
     "msm8660" | "msm8960" | "msm8226" | "msm8610")
         start mpdecision
     ;;
