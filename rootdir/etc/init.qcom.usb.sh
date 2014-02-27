@@ -88,8 +88,44 @@ echo 1  > /sys/class/android_usb/f_mass_storage/lun/nofua
 usb_config=`getprop persist.sys.usb.config`
 case "$usb_config" in
     "" | "adb") #USB persist config not set, select default configuration
-        setprop persist.sys.usb.config mtp
-        ;;
+        case $target in
+	    "apq8064" | "fusion3")
+				setprop persist.sys.usb.config mtp
+				;;
+            "msm8960" | "msm8974")
+                case "$baseband" in
+                    "mdm")
+#                         setprop persist.sys.usb.config diag,diag_mdm,serial_hsic,serial_tty,rmnet_hsic,mass_storage,adb
+						 setprop persist.sys.usb.config mtp
+                    ;;
+                    "sglte")
+#                         setprop persist.sys.usb.config diag,diag_mdm,serial_smd,serial_tty,serial_hsuart,rmnet_hsuart,mass_storage,adb
+						 setprop persist.sys.usb.config mtp
+                    ;;
+                    *)
+#                         setprop persist.sys.usb.config diag,serial_smd,serial_tty,rmnet_bam,mass_storage,adb
+						 setprop persist.sys.usb.config mtp
+                    ;;
+                esac
+            ;;
+            "msm7627a")
+                setprop persist.sys.usb.config diag,serial_smd,serial_tty,rmnet_smd,mass_storage,adb
+            ;;
+            * )
+                case "$baseband" in
+                    "svlte2a")
+                         setprop persist.sys.usb.config diag,diag_mdm,serial_sdio,serial_smd,rmnet_smd_sdio,mass_storage,adb
+                    ;;
+                    "csfb")
+                         setprop persist.sys.usb.config diag,diag_mdm,serial_sdio,serial_tty,rmnet_sdio,mass_storage,adb
+                    ;;
+                    *)
+                         setprop persist.sys.usb.config diag,serial_tty,serial_tty,rmnet_smd,mass_storage,adb
+                    ;;
+                esac
+            ;;
+        esac
+    ;;
     * ) ;; #USB persist config exists, do nothing
 esac
 
@@ -100,7 +136,7 @@ target=`getprop ro.product.device`
 cdromname="/system/etc/cdrom_install.iso"
 cdromenable=`getprop persist.service.cdrom.enable`
 case "$target" in
-        "msm8226" | "msm8610")
+        "msm7627a")
                 case "$cdromenable" in
                         0)
                                 echo "" > /sys/class/android_usb/android0/f_mass_storage/lun0/file
@@ -114,24 +150,11 @@ case "$target" in
 esac
 
 #
-# Do target specific things
+# Select USB BAM - 2.0 or 3.0
 #
 case "$target" in
     "msm8974")
-# Select USB BAM - 2.0 or 3.0
-        echo ssusb > /sys/bus/platform/devices/usb_bam/enable
-    ;;
-    "apq8084")
-	if [ "$baseband" == "apq" ]; then
-		echo "msm_hsic_host" > /sys/bus/platform/drivers/xhci_msm_hsic/unbind
-	fi
-    ;;
-    "msm8226")
-         if [ -e /sys/bus/platform/drivers/msm_hsic_host ]; then
-             if [ ! -L /sys/bus/usb/devices/1-1 ]; then
-                 echo msm_hsic_host > /sys/bus/platform/drivers/msm_hsic_host/unbind
-             fi
-         fi
+        echo hsusb > /sys/bus/platform/devices/usb_bam/enable
     ;;
 esac
 
