@@ -159,17 +159,8 @@ case "$target" in
          echo 80 > /sys/devices/system/cpu/cpufreq/interactive/sync_freq_load_threshold
          echo 95 > /sys/devices/system/cpu/cpufreq/interactive/go_hispeed_load
          echo 1 > /sys/devices/system/cpu/cpufreq/interactive/io_is_busy
-         chown -h system /sys/devices/system/cpu/cpufreq/interactive/above_hispeed_delay
-         chown -h system /sys/devices/system/cpu/cpufreq/interactive/boost
-         chown -h system /sys/devices/system/cpu/cpufreq/interactive/boostpulse
-         chown -h system /sys/devices/system/cpu/cpufreq/interactive/boostpulse_duration
-         chown -h system /sys/devices/system/cpu/cpufreq/interactive/go_hispeed_load
-         chown -h system /sys/devices/system/cpu/cpufreq/interactive/hispeed_freq
-         chown -h system /sys/devices/system/cpu/cpufreq/interactive/io_is_busy
-         chown -h system /sys/devices/system/cpu/cpufreq/interactive/min_sample_time
-         chown -h system /sys/devices/system/cpu/cpufreq/interactive/target_loads
-         chown -h system /sys/devices/system/cpu/cpufreq/interactive/timer_rate
-         chown -h system /sys/devices/system/cpu/cpufreq/interactive/timer_slack
+         chown -h system:system /sys/devices/system/cpu/cpufreq/interactive/*
+         chmod -h 0664 /sys/devices/system/cpu/cpufreq/interactive/*
          echo 384000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
          echo 384000 > /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq
          echo 384000 > /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq
