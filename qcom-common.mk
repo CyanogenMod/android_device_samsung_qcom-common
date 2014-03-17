@@ -94,4 +94,4 @@ PRODUCT_PACKAGES += charger charger_res_images
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
 # Common overlay
-PRODUCT_PACKAGE_OVERLAYS += device/samsung/qcom-common/overlay
+DEVICE_PACKAGE_OVERLAYS += device/samsung/qcom-common/overlay
