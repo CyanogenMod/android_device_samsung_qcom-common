@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="cdma_system_select_choices">
+        <!-- System select dialog screen, setting option name -->
+        <item>Home only</item>                          <!-- 0. CDMA_RM_HOME, "Sprint only" in TW. -->
+    <!--<item>Affiliated Networks</item>-->             <!-- 1. CDMA_RM_AFFILIATED, uses home network. -->
+    <!--<item>Automatic</item>-->                       <!-- 2. CDMA_RM_ANY, uses home network only? -->
+    <!--<item>Cellular A Band</item>-->                 <!-- 3. CDMA_RM_AUTOMATIC_A, RIL returns GENERIC_FAILURE. -->
+    <!--<item>Cellular B Band</item>-->                 <!-- 4. CDMA_RM_AUTOMATIC_B, RIL returns GENERIC_FAILURE. -->
+        <item>Auto: Domestic Roaming</item>             <!-- 5. CDMA_RM_DOMESTIC, Domestic Voice(+Data) in TW. -->
+        <item>Auto: International Roaming</item>        <!-- 6. CDMA_RM_INTERNATIONAL, International Voice(+Data) in TW. -->
+        <item>Auto: Domestic &amp; International</item> <!-- 7. CDMA_RM_DOMESTIC_INTERNATIONAL, Domestic+International Voice(+Data) in TW. -->
+        <item>Auto: No Roaming</item>                   <!-- 8. CDMA_RM_BLANK, all "Roaming settings" disabled in TW, not sure how it differs from #0. -->
+    </string-array>
+    <string-array name="cdma_system_select_values" translatable="false">
+        <!-- Do not translate. -->
+        <item>"0"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"7"</item>
+        <item>"8"</item>
+    </string-array>
+</resources>
