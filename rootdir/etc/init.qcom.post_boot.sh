@@ -155,10 +155,12 @@ case "$target" in
          echo 1134000 > /sys/devices/system/cpu/cpufreq/interactive/hispeed_freq
          echo 30000 > /sys/devices/system/cpu/cpufreq/interactive/above_hispeed_delay
          echo 30000 > /sys/devices/system/cpu/cpufreq/interactive/timer_rate
-         echo 960000 > /sys/devices/system/cpu/cpufreq/interactive/sync_freq
+         echo 1026000 > /sys/devices/system/cpu/cpufreq/interactive/sync_freq
          echo 80 > /sys/devices/system/cpu/cpufreq/interactive/sync_freq_load_threshold
          echo 95 > /sys/devices/system/cpu/cpufreq/interactive/go_hispeed_load
          echo 1 > /sys/devices/system/cpu/cpufreq/interactive/io_is_busy
+         echo 1134000 > /sys/devices/system/cpu/cpufreq/interactive/up_threshold_any_cpu_freq
+         echo 70 > /sys/devices/system/cpu/cpufreq/interactive/up_threshold_any_cpu_load
          chown -h system:system /sys/devices/system/cpu/cpufreq/interactive/*
          chmod -h 0664 /sys/devices/system/cpu/cpufreq/interactive/*
          echo 384000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
@@ -175,11 +177,11 @@ case "$target" in
          chown -h system /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq
          echo 1 > /dev/cpuctl/apps/cpu.notify_on_migrate
          echo 1 > /sys/module/msm_thermal/core_control/enabled
-         chown -h root.system /sys/devices/system/cpu/mfreq
+         chown -h system.system /sys/devices/system/cpu/mfreq
          chmod -h 220 /sys/devices/system/cpu/mfreq
-         chown -h root.system /sys/devices/system/cpu/cpu1/online
-         chown -h root.system /sys/devices/system/cpu/cpu2/online
-         chown -h root.system /sys/devices/system/cpu/cpu3/online
+         chown -h system.system /sys/devices/system/cpu/cpu1/online
+         chown -h system.system /sys/devices/system/cpu/cpu2/online
+         chown -h system.system /sys/devices/system/cpu/cpu3/online
          chmod -h 664 /sys/devices/system/cpu/cpu1/online
          chmod -h 664 /sys/devices/system/cpu/cpu2/online
          chmod -h 664 /sys/devices/system/cpu/cpu3/online
