@@ -15,7 +15,7 @@
 
 # Media config
 ifeq ($(TARGET_BOARD_PLATFORM),msm8974)
-PRODUCT_COPY_FILES += device/samsung/qcom-common/media/media_codes_8974.xml:system/etc/media_codecs.xml
+PRODUCT_COPY_FILES += device/samsung/qcom-common/media/media_codecs_8974.xml:system/etc/media_codecs.xml
 else
 PRODUCT_COPY_FILES += device/samsung/qcom-common/media/media_codecs.xml:system/etc/media_codecs.xml
 endif
