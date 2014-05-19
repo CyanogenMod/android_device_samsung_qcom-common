@@ -58,7 +58,7 @@ PRODUCT_PACKAGES += \
     setup_fs
 
 # Thermal profiles
-ifneq ($(TARGET_BOARD_PLATFORM),msm8974)
+ifeq ($(BOARD_USES_THERMALD), true)
 PRODUCT_PACKAGES += \
     thermald-8064ab.conf \
     thermald-8064.conf \
