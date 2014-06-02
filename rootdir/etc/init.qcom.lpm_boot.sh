@@ -37,58 +37,95 @@
 # Allow persistent usb charging disabling
 # User needs to set usb charging disabled in persist.usb.chgdisabled
 #
+
+target=`getprop ro.board.platform`
+
 echo 1 > /sys/devices/system/cpu/cpu1/online
 echo 1 > /sys/devices/system/cpu/cpu2/online
 echo 1 > /sys/devices/system/cpu/cpu3/online
 
-if [ -d /sys/module/lpm_resources ]; then
-    echo 2 > /sys/module/lpm_resources/enable_low_power/l2
-    echo 1 > /sys/module/lpm_resources/enable_low_power/pxo
-    echo 1 > /sys/module/lpm_resources/enable_low_power/vdd_dig
-    echo 1 > /sys/module/lpm_resources/enable_low_power/vdd_mem
-else
-    echo 1 > /sys/module/rpm_resources/enable_low_power/l2
-    echo 1 > /sys/module/rpm_resources/enable_low_power/pxo
-    echo 1 > /sys/module/rpm_resources/enable_low_power/vdd_dig
-    echo 1 > /sys/module/rpm_resources/enable_low_power/vdd_mem
-fi
+case "$target" in
+    "msm8660" | "msm8960")
 
-echo 1 > /sys/module/pm_8x60/modes/cpu0/power_collapse/suspend_enabled
-echo 1 > /sys/module/pm_8x60/modes/cpu1/power_collapse/suspend_enabled
-echo 1 > /sys/module/pm_8x60/modes/cpu2/power_collapse/suspend_enabled
-echo 1 > /sys/module/pm_8x60/modes/cpu3/power_collapse/suspend_enabled
-echo 1 > /sys/module/pm_8x60/modes/cpu0/standalone_power_collapse/suspend_enabled
-echo 1 > /sys/module/pm_8x60/modes/cpu1/standalone_power_collapse/suspend_enabled
-echo 1 > /sys/module/pm_8x60/modes/cpu2/standalone_power_collapse/suspend_enabled
-echo 1 > /sys/module/pm_8x60/modes/cpu3/standalone_power_collapse/suspend_enabled
-echo 1 > /sys/module/pm_8x60/modes/cpu0/standalone_power_collapse/idle_enabled
-echo 1 > /sys/module/pm_8x60/modes/cpu1/standalone_power_collapse/idle_enabled
-echo 1 > /sys/module/pm_8x60/modes/cpu2/standalone_power_collapse/idle_enabled
-echo 1 > /sys/module/pm_8x60/modes/cpu3/standalone_power_collapse/idle_enabled
-echo 0 > /sys/module/pm_8x60/modes/cpu0/power_collapse/idle_enabled
-echo 0 > /sys/module/pm_8x60/modes/cpu1/power_collapse/idle_enabled
-echo 0 > /sys/module/pm_8x60/modes/cpu2/power_collapse/idle_enabled
-echo 0 > /sys/module/pm_8x60/modes/cpu3/power_collapse/idle_enabled
-echo 1 > /sys/module/pm_8660/modes/cpu0/power_collapse/suspend_enabled
-echo 1 > /sys/module/pm_8660/modes/cpu1/power_collapse/suspend_enabled
-echo 1 > /sys/module/pm_8660/modes/cpu2/power_collapse/suspend_enabled
-echo 1 > /sys/module/pm_8660/modes/cpu3/power_collapse/suspend_enabled
-echo 1 > /sys/module/pm_8660/modes/cpu0/standalone_power_collapse/suspend_enabled
-echo 1 > /sys/module/pm_8660/modes/cpu1/standalone_power_collapse/suspend_enabled
-echo 1 > /sys/module/pm_8660/modes/cpu2/standalone_power_collapse/suspend_enabled
-echo 1 > /sys/module/pm_8660/modes/cpu3/standalone_power_collapse/suspend_enabled
-echo 0 > /sys/module/pm_8660/modes/cpu0/standalone_power_collapse/idle_enabled
-echo 0 > /sys/module/pm_8660/modes/cpu1/standalone_power_collapse/idle_enabled
-echo 0 > /sys/module/pm_8660/modes/cpu2/standalone_power_collapse/idle_enabled
-echo 0 > /sys/module/pm_8660/modes/cpu3/standalone_power_collapse/idle_enabled
-echo 0 > /sys/module/pm_8660/modes/cpu0/power_collapse/idle_enabled
-echo 0 > /sys/module/pm_8660/modes/cpu1/power_collapse/idle_enabled
-echo 0 > /sys/module/pm_8660/modes/cpu2/power_collapse/idle_enabled
-echo 0 > /sys/module/pm_8660/modes/cpu3/power_collapse/idle_enabled
-echo "powersave" > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
-echo "powersave" > /sys/devices/system/cpu/cpu1/cpufreq/scaling_governor
-echo "powersave" > /sys/devices/system/cpu/cpu2/cpufreq/scaling_governor
-echo "powersave" > /sys/devices/system/cpu/cpu3/cpufreq/scaling_governor
-echo 0 > /sys/devices/system/cpu/cpu1/online
-echo 0 > /sys/devices/system/cpu/cpu2/online
-echo 0 > /sys/devices/system/cpu/cpu3/online
+        if [ -d /sys/module/lpm_resources ]; then
+            echo 2 > /sys/module/lpm_resources/enable_low_power/l2
+            echo 1 > /sys/module/lpm_resources/enable_low_power/pxo
+            echo 1 > /sys/module/lpm_resources/enable_low_power/vdd_dig
+            echo 1 > /sys/module/lpm_resources/enable_low_power/vdd_mem
+        else
+            echo 1 > /sys/module/rpm_resources/enable_low_power/l2
+            echo 1 > /sys/module/rpm_resources/enable_low_power/pxo
+            echo 1 > /sys/module/rpm_resources/enable_low_power/vdd_dig
+            echo 1 > /sys/module/rpm_resources/enable_low_power/vdd_mem
+        fi
+
+        echo 1 > /sys/module/pm_8x60/modes/cpu0/power_collapse/suspend_enabled
+        echo 1 > /sys/module/pm_8x60/modes/cpu1/power_collapse/suspend_enabled
+        echo 1 > /sys/module/pm_8x60/modes/cpu2/power_collapse/suspend_enabled
+        echo 1 > /sys/module/pm_8x60/modes/cpu3/power_collapse/suspend_enabled
+        echo 1 > /sys/module/pm_8x60/modes/cpu0/standalone_power_collapse/suspend_enabled
+        echo 1 > /sys/module/pm_8x60/modes/cpu1/standalone_power_collapse/suspend_enabled
+        echo 1 > /sys/module/pm_8x60/modes/cpu2/standalone_power_collapse/suspend_enabled
+        echo 1 > /sys/module/pm_8x60/modes/cpu3/standalone_power_collapse/suspend_enabled
+        echo 1 > /sys/module/pm_8x60/modes/cpu0/standalone_power_collapse/idle_enabled
+        echo 1 > /sys/module/pm_8x60/modes/cpu1/standalone_power_collapse/idle_enabled
+        echo 1 > /sys/module/pm_8x60/modes/cpu2/standalone_power_collapse/idle_enabled
+        echo 1 > /sys/module/pm_8x60/modes/cpu3/standalone_power_collapse/idle_enabled
+        echo 0 > /sys/module/pm_8x60/modes/cpu0/power_collapse/idle_enabled
+        echo 0 > /sys/module/pm_8x60/modes/cpu1/power_collapse/idle_enabled
+        echo 0 > /sys/module/pm_8x60/modes/cpu2/power_collapse/idle_enabled
+        echo 0 > /sys/module/pm_8x60/modes/cpu3/power_collapse/idle_enabled
+        echo 1 > /sys/module/pm_8660/modes/cpu0/power_collapse/suspend_enabled
+        echo 1 > /sys/module/pm_8660/modes/cpu1/power_collapse/suspend_enabled
+        echo 1 > /sys/module/pm_8660/modes/cpu2/power_collapse/suspend_enabled
+        echo 1 > /sys/module/pm_8660/modes/cpu3/power_collapse/suspend_enabled
+        echo 1 > /sys/module/pm_8660/modes/cpu0/standalone_power_collapse/suspend_enabled
+        echo 1 > /sys/module/pm_8660/modes/cpu1/standalone_power_collapse/suspend_enabled
+        echo 1 > /sys/module/pm_8660/modes/cpu2/standalone_power_collapse/suspend_enabled
+        echo 1 > /sys/module/pm_8660/modes/cpu3/standalone_power_collapse/suspend_enabled
+        echo 0 > /sys/module/pm_8660/modes/cpu0/standalone_power_collapse/idle_enabled
+        echo 0 > /sys/module/pm_8660/modes/cpu1/standalone_power_collapse/idle_enabled
+        echo 0 > /sys/module/pm_8660/modes/cpu2/standalone_power_collapse/idle_enabled
+        echo 0 > /sys/module/pm_8660/modes/cpu3/standalone_power_collapse/idle_enabled
+        echo 0 > /sys/module/pm_8660/modes/cpu0/power_collapse/idle_enabled
+        echo 0 > /sys/module/pm_8660/modes/cpu1/power_collapse/idle_enabled
+        echo 0 > /sys/module/pm_8660/modes/cpu2/power_collapse/idle_enabled
+        echo 0 > /sys/module/pm_8660/modes/cpu3/power_collapse/idle_enabled
+        echo "powersave" > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+        echo "powersave" > /sys/devices/system/cpu/cpu1/cpufreq/scaling_governor
+        echo "powersave" > /sys/devices/system/cpu/cpu2/cpufreq/scaling_governor
+        echo "powersave" > /sys/devices/system/cpu/cpu3/cpufreq/scaling_governor
+        echo 0 > /sys/devices/system/cpu/cpu1/online
+        echo 0 > /sys/devices/system/cpu/cpu2/online
+        echo 0 > /sys/devices/system/cpu/cpu3/online
+    ;;
+esac
+
+case "$target" in
+    "msm8974")
+        echo 2 > /sys/module/lpm_levels/enable_low_power/l2
+        echo 1 > /sys/module/msm_pm/modes/cpu0/power_collapse/suspend_enabled
+        echo 1 > /sys/module/msm_pm/modes/cpu1/power_collapse/suspend_enabled
+        echo 1 > /sys/module/msm_pm/modes/cpu2/power_collapse/suspend_enabled
+        echo 1 > /sys/module/msm_pm/modes/cpu3/power_collapse/suspend_enabled
+        echo 1 > /sys/module/msm_pm/modes/cpu0/standalone_power_collapse/suspend_enabled
+        echo 1 > /sys/module/msm_pm/modes/cpu1/standalone_power_collapse/suspend_enabled
+        echo 1 > /sys/module/msm_pm/modes/cpu2/standalone_power_collapse/suspend_enabled
+        echo 1 > /sys/module/msm_pm/modes/cpu3/standalone_power_collapse/suspend_enabled
+        echo 0 > /sys/module/msm_pm/modes/cpu0/standalone_power_collapse/idle_enabled
+        echo 0 > /sys/module/msm_pm/modes/cpu1/standalone_power_collapse/idle_enabled
+        echo 0 > /sys/module/msm_pm/modes/cpu2/standalone_power_collapse/idle_enabled
+        echo 0 > /sys/module/msm_pm/modes/cpu3/standalone_power_collapse/idle_enabled
+        echo 0 > /sys/module/msm_pm/modes/cpu0/power_collapse/idle_enabled
+        echo 0 > /sys/module/msm_pm/modes/cpu1/power_collapse/idle_enabled
+        echo 0 > /sys/module/msm_pm/modes/cpu2/power_collapse/idle_enabled
+        echo 0 > /sys/module/msm_pm/modes/cpu3/power_collapse/idle_enabled
+        echo "powersave" > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+        echo "powersave" > /sys/devices/system/cpu/cpu1/cpufreq/scaling_governor
+        echo "powersave" > /sys/devices/system/cpu/cpu2/cpufreq/scaling_governor
+        echo "powersave" > /sys/devices/system/cpu/cpu3/cpufreq/scaling_governor
+        echo 0 > /sys/devices/system/cpu/cpu1/online
+        echo 0 > /sys/devices/system/cpu/cpu2/online
+        echo 0 > /sys/devices/system/cpu/cpu3/online
+    ;;
+esac

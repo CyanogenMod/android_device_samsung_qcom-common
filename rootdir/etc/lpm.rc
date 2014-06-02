@@ -23,7 +23,7 @@ loglevel 3
     write /proc/sys/kernel/sched_compat_yield 1
     write /proc/sys/kernel/sched_child_runs_first 0
 
-on boot
+on charger
     # change cpufreq governor
     exec /system/bin/sh /init.qcom.lpm_boot.sh
 
