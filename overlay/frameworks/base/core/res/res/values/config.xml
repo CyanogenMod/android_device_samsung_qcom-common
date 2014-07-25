@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /*
-** Copyright 2013, The Android Open Source Project
+** Copyright 2014, The CyanogenMod Project
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
 ** you may not use this file except in compliance with the License.
@@ -17,12 +17,16 @@
 */
 -->
 
-<!-- These resources are around just to allow their values to be customized
-     for different hardware and product builds. -->
 <resources>
 
-    <!-- Should "4G" be shown instead of "LTE" when the network is
-         NETWORK_TYPE_LTE? -->
-    <bool name="config_show4GForLTE">false</bool>
+    <!-- Our amoled doesn't animate well. needed for crt effect -->
+    <bool name="config_animateScreenLights">false</bool>
+
+    <!-- Flag indicating whether we should enable the automatic brightness in Settings.
+         config_hardware_automatic_brightness_available is not set, so we will use software implementation -->
+    <bool name="config_automatic_brightness_available">true</bool>
+
+    <!-- If this is true, the screen will come on when you unplug usb/power/whatever. -->
+    <bool name="config_unplugTurnsOnScreen">true</bool>
 
 </resources>
