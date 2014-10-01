@@ -27,8 +27,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.hwc.mdpcomp.enable=true
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.telephony.call_ring.multiple=0 \
-    ro.telephony.ril_class=SamsungQualcommRIL
+    ro.telephony.call_ring.multiple=0
 
 # Charger
 PRODUCT_PACKAGES += \
