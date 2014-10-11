@@ -42,7 +42,5 @@ PRODUCT_PACKAGES += \
 
 # Recovery
 PRODUCT_PACKAGES += \
-    init.recovery.qcom.rc
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/recovery/postrecoveryboot.sh:recovery/root/sbin/postrecoveryboot.sh
+    init.recovery.qcom.rc \
+    postrecoveryboot.sh
