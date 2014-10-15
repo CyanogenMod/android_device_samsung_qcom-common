@@ -45,4 +45,5 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/recovery/postrecoveryboot.sh:recovery/root/sbin/postrecoveryboot.sh
+    device/samsung/qcom-common/recovery/postrecoveryboot.sh:root/sbin/postrecoveryboot.sh
+
