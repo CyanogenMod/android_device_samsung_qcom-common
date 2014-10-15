@@ -39,10 +39,3 @@ PRODUCT_PACKAGES += \
     make_ext4fs \
     e2fsck \
     setup_fs
-
-# Recovery
-PRODUCT_PACKAGES += \
-    init.recovery.qcom.rc
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/recovery/postrecoveryboot.sh:recovery/root/sbin/postrecoveryboot.sh
