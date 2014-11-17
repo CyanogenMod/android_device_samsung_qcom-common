@@ -39,7 +39,6 @@ TARGET_USES_ION := true
 BOARD_HAL_STATIC_LIBRARIES := libhealthd.qcom
 
 # Qualcomm support
-COMMON_GLOBAL_CFLAGS += -DQCOM_HARDWARE
 BOARD_USES_QCOM_HARDWARE := true
 
 # Recovery
