@@ -15,25 +15,25 @@
 ** See the License for the specific language governing permissions and
 ** limitations under the License.
 */
--->
+
 
 <resources>
 
-    <!-- Defines the shutdown options shown in the reboot dialog. -->
+    <!-- Defines the shutdown options shown in the reboot dialog.
         <array name="shutdown_reboot_options" translatable="false">
         <item>@string/reboot_reboot</item>
         <item>@string/reboot_soft</item>
         <item>@string/reboot_recovery</item>
         <item>@string/reboot_download</item>
-    </array>
+    </array> -->
 
     <!-- Do not translate. Defines the shutdown actions passed to the kernel.
-         The first item should be empty for regular reboot. -->
+         The first item should be empty for regular reboot. 
         <string-array name="shutdown_reboot_actions" translatable="false">
         <item></item>
         <item>soft_reboot</item>
         <item>recovery</item>
         <item>download</item>
-    </string-array>
+    </string-array> -->
 
-</resources>
+</resources> -->
