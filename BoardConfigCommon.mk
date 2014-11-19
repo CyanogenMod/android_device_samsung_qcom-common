@@ -41,6 +41,9 @@ BOARD_HAL_STATIC_LIBRARIES := libhealthd.qcom
 # Qualcomm support
 BOARD_USES_QCOM_HARDWARE := true
 
+#ICU Symbols Compatibility
+TARGET_USES_ICU_COMPAT_SYMBOLS := true
+
 # Recovery
 TARGET_RECOVERY_DEVICE_DIRS += device/samsung/qcom-common
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
