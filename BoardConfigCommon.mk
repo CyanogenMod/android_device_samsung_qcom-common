@@ -45,3 +45,6 @@ BOARD_USES_QCOM_HARDWARE := true
 # Recovery
 TARGET_RECOVERY_DEVICE_DIRS += device/samsung/qcom-common
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
+
+# SELinux
+include device/qcom/sepolicy/sepolicy.mk
