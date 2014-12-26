@@ -31,7 +31,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Charger
 PRODUCT_PACKAGES += \
-    charger \
     charger_res_images
 
 # Filesystem management tools
