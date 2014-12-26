@@ -25,9 +25,6 @@ TARGET_CPU_SMP := true
 TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
 
-# Charger
-BOARD_CHARGER_RES := device/samsung/qcom-common/charger
-
 # CMHW
 BOARD_HARDWARE_CLASS += hardware/samsung/cmhw
 
