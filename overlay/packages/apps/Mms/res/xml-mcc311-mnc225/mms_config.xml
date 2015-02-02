@@ -22,8 +22,4 @@
          via multi media message. -->
     <bool name="enableMultipartSMS">false</bool>
 
-    <!-- If true, the text message will be split every 160 characters.
-         If false, the text will never be split before being sent. -->
-    <bool name="enableSplitSMS">true</bool>
-
 </mms_config>

@@ -62,10 +62,6 @@
          via multi media message. -->
     <bool name="enableMultipartSMS">true</bool>
 
-    <!-- If true, the text message will be split every 160 characters.
-        If false, the text will never be split before being sent. -->
-    <bool name="enableSplitSMS">false</bool>
-
     <!-- If enableMultipartSMS is true and smsToMmsTextThreshold > 1, then multi-part SMS messages
          will be converted into a single mms message. For example, if the mms_config.xml file
          specifies <int name="smsToMmsTextThreshold">7</int>, then on the 8th sms segment, the
