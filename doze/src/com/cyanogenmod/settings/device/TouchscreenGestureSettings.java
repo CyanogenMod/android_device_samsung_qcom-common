@@ -69,7 +69,7 @@ public class TouchscreenGestureSettings extends PreferenceActivity {
 
     private boolean isDozeEnabled() {
         return Settings.Secure.getInt(getContentResolver(),
-                Settings.Secure.DOZE_ENABLED, 1) != 0;
+                Settings.Secure.DOZE_ENABLED, 0) != 0;
     }
 
     private Preference.OnPreferenceChangeListener mAmbientDisplayPrefListener =
