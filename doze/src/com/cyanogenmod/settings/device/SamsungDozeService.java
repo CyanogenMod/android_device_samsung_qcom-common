@@ -116,7 +116,7 @@ public class SamsungDozeService extends Service {
         SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(mContext);
         loadPreferences(sharedPrefs);
         sharedPrefs.registerOnSharedPreferenceChangeListener(mPrefListener);
-        if (!isInteractive() && isDozeEnabled()) {
+        if (!isInteractive() && (mHandwaveGestureEnabled || mPocketGestureEnabled)) {
             mSensor.enable();
         }
     }
@@ -155,7 +155,7 @@ public class SamsungDozeService extends Service {
 
     private void onDisplayOff() {
         if (DEBUG) Log.d(TAG, "Display off");
-        if (isDozeEnabled()) {
+        if (mHandwaveGestureEnabled || mPocketGestureEnabled) {
             mSensor.enable();
         }
     }
