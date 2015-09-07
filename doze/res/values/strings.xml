@@ -25,6 +25,9 @@
     <string name="hand_wave_gesture_title">Hand wave</string>
     <string name="hand_wave_gesture_summary">Pulse notifications on hand wave</string>
 
+    <string name="pick_up_gesture_title">Pick-up</string>
+    <string name="pick_up_gesture_summary">Pulse notifications on pick-up</string>
+
     <string name="pocket_gesture_title">Pocket</string>
     <string name="pocket_gesture_summary">Pulse notifications on removal from pocket</string>
 

@@ -30,12 +30,14 @@ import android.view.MenuItem;
 public class TouchscreenGestureSettings extends PreferenceActivity {
 
     private static final String KEY_AMBIENT_DISPLAY_ENABLE = "ambient_display_enable";
-    private static final String KEY_HAND_WAVE = "gesture_hand_wave";
+    private static final String KEY_GESTURE_HAND_WAVE = "gesture_hand_wave";
+    private static final String KEY_GESTURE_PICK_UP = "gesture_pick_up";
     private static final String KEY_GESTURE_POCKET = "gesture_pocket";
     private static final String KEY_PROXIMITY_WAKE = "proximity_wake_enable";
 
     private SwitchPreference mAmbientDisplayPreference;
     private SwitchPreference mHandwavePreference;
+    private SwitchPreference mPickupPreference;
     private SwitchPreference mPocketPreference;
     private SwitchPreference mProximityWakePreference;
 
@@ -45,20 +47,25 @@ public class TouchscreenGestureSettings extends PreferenceActivity {
         addPreferencesFromResource(R.xml.gesture_panel);
         boolean dozeEnabled = isDozeEnabled();
         mAmbientDisplayPreference =
-            (SwitchPreference) findPreference(KEY_AMBIENT_DISPLAY_ENABLE);
-        // Read from DOZE_ENABLED secure setting
+                (SwitchPreference) findPreference(KEY_AMBIENT_DISPLAY_ENABLE);
         mAmbientDisplayPreference.setChecked(dozeEnabled);
-        mAmbientDisplayPreference.setOnPreferenceChangeListener(mAmbientDisplayPrefListener);
+        mAmbientDisplayPreference.setOnPreferenceChangeListener(
+                mAmbientDisplayPrefListener);
         mHandwavePreference =
-            (SwitchPreference) findPreference(KEY_HAND_WAVE);
+                (SwitchPreference) findPreference(KEY_GESTURE_HAND_WAVE);
         mHandwavePreference.setEnabled(dozeEnabled);
-        mHandwavePreference.setOnPreferenceChangeListener(mProximityListener);
+        mHandwavePreference.setOnPreferenceChangeListener(
+                mGesturePrefListener);
+        mPickupPreference =
+                (SwitchPreference) findPreference(KEY_GESTURE_PICK_UP);
+        mPickupPreference.setEnabled(dozeEnabled);
         mPocketPreference =
-            (SwitchPreference) findPreference(KEY_GESTURE_POCKET);
+                (SwitchPreference) findPreference(KEY_GESTURE_POCKET);
         mPocketPreference.setEnabled(dozeEnabled);
         mProximityWakePreference =
-            (SwitchPreference) findPreference(KEY_PROXIMITY_WAKE);
-        mProximityWakePreference.setOnPreferenceChangeListener(mProximityListener);
+                (SwitchPreference) findPreference(KEY_PROXIMITY_WAKE);
+        mProximityWakePreference.setOnPreferenceChangeListener(
+                mGesturePrefListener);
 
         final ActionBar actionBar = getActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
@@ -101,18 +108,19 @@ public class TouchscreenGestureSettings extends PreferenceActivity {
             boolean ret = enableDoze(enable);
             if (ret) {
                 mHandwavePreference.setEnabled(enable);
+                mPickupPreference.setEnabled(enable);
                 mPocketPreference.setEnabled(enable);
             }
             return ret;
         }
     };
 
-    private Preference.OnPreferenceChangeListener mProximityListener =
+    private Preference.OnPreferenceChangeListener mGesturePrefListener =
         new Preference.OnPreferenceChangeListener() {
         @Override
         public boolean onPreferenceChange(Preference preference, Object newValue) {
             if ((boolean) newValue) {
-                if (preference.getKey().equals(KEY_HAND_WAVE)) {
+                if (preference.getKey().equals(KEY_GESTURE_HAND_WAVE)) {
                     mProximityWakePreference.setChecked(false);
                 } else if (preference.getKey().equals(KEY_PROXIMITY_WAKE)) {
                     mHandwavePreference.setChecked(false);

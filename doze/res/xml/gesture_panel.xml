@@ -33,10 +33,17 @@
             android:summary="@string/hand_wave_gesture_summary" />
 
         <SwitchPreference
+            android:key="gesture_pick_up"
+            android:defaultValue="false"
+            android:title="@string/pick_up_gesture_title"
+            android:summary="@string/pick_up_gesture_summary" />
+
+        <SwitchPreference
             android:key="gesture_pocket"
             android:defaultValue="false"
             android:title="@string/pocket_gesture_title"
             android:summary="@string/pocket_gesture_summary" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -48,6 +55,7 @@
             android:defaultValue="false"
             android:title="@string/proximity_wake_enable_title"
             android:summary="@string/proximity_wake_enable_summary" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
