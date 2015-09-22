@@ -27,6 +27,15 @@ TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
 # CMHW
 BOARD_HARDWARE_CLASS += hardware/samsung/cmhw
 
+# Dex-preoptimization
+ifeq ($(HOST_OS),linux)
+  ifeq ($(TARGET_BUILD_VARIANT),userdebug)
+   ifeq ($(WITH_DEXPREOPT),)
+    WITH_DEXPREOPT := true
+   endif
+  endif
+endif
+
 # Graphics
 USE_OPENGL_RENDERER := true
 TARGET_USES_C2D_COMPOSITION := true
