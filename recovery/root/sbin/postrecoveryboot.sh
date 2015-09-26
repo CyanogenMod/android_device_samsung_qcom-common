@@ -19,3 +19,12 @@ case "$target" in
         echo -n -e '\x03\x00\x00\x00' > /dev/block/platform/msm_sdcc.1/by-name/param
         ;;
 esac
+
+case "$target" in
+    "msm8916")
+        echo -n -e '\x03\x00\x00\x00' > /dev/block/mmcblk0p12
+        ;;
+    *)
+        echo -n -e '\x03\x00\x00\x00' > /dev/block/bootdevice/by-name/param
+        ;;
+esac
