@@ -15,6 +15,9 @@ case "$target" in
         # hack because 8660 doesn't support partitions by-name
         echo -n -e '\x03\x00\x00\x00' > /dev/block/mmcblk0p12
         ;;
+    "msm8916")
+        echo -n -e '\x03\x00\x00\x00' > /dev/block/bootdevice/by-name/param
+        ;;
     *)
         echo -n -e '\x03\x00\x00\x00' > /dev/block/platform/msm_sdcc.1/by-name/param
         ;;
