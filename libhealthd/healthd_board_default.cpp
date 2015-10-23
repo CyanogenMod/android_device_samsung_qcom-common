@@ -34,3 +34,23 @@ int healthd_board_battery_update(__attribute__((unused)) struct android::Battery
     // return 0 to log periodic polled battery status to kernel log
     return 0;
 }
+
+void healthd_board_mode_charger_draw_battery(struct android::BatteryProperties*)
+{
+
+}
+
+void healthd_board_mode_charger_battery_update(struct android::BatteryProperties*)
+{
+
+}
+
+void healthd_board_mode_charger_set_backlight(bool)
+{
+
+}
+
+void healthd_board_mode_charger_init()
+{
+
+}
