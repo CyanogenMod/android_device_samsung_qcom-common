@@ -32,7 +32,3 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     make_ext4fs \
     setup_fs
-
-# Stlport
-PRODUCT_PACKAGES += \
-    libstlport
