@@ -32,7 +32,7 @@ void healthd_board_init(struct healthd_config *config)
 int healthd_board_battery_update(__attribute__((unused)) struct android::BatteryProperties *props)
 {
     // return 0 to log periodic polled battery status to kernel log
-    return 0;
+    return 1;
 }
 
 void healthd_board_mode_charger_draw_battery(struct android::BatteryProperties*)
