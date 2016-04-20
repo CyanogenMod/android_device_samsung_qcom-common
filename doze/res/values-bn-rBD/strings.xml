@@ -13,5 +13,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Gesture shortcuts -->
   <string name="screen_gestures_panel_summary">প্রক্রিয়াটি সম্পন্ন করতে সংকেত ব্যবহার করুন</string>
 </resources>
