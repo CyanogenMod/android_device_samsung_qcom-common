@@ -30,3 +30,19 @@
     <bool name="config_unplugTurnsOnScreen">true</bool>
 
 </resources>
+
+ <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+     
+     <!-- HW keys prefs-->
+     <bool name="config_hwKeysPref">true</bool>
+  
+      <!-- The list absolute paths of jar/apk files containing the device specific handlers,
+           delimited by File.pathSeparator, which defaults to ":" on Android -->
+ @@ -27,4 +30,7 @@
+           com.android.internal.os.DeviceKeyHandler interface. -->
+      <string name="config_deviceKeyHandlerClass" translatable="false">com.cyanogenmod.settings.device.KeyHandler</string>
+  
+  <integer name="config_longPressOnHomeBehavior">2</integer>
+ 
+  <integer name="config_doubleTapOnHomeBehavior">3</integer>
+  </resources>
