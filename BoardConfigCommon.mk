@@ -30,10 +30,6 @@ BOARD_HARDWARE_CLASS += hardware/samsung/cmhw
 USE_OPENGL_RENDERER := true
 TARGET_USES_C2D_COMPOSITION := true
 TARGET_USES_ION := true
-
-# Healthd
-BOARD_HAL_STATIC_LIBRARIES := libhealthd.msm
-
 # Qualcomm support
 BOARD_USES_QCOM_HARDWARE := true
 
