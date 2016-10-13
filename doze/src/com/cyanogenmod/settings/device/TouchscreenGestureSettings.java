@@ -17,6 +17,7 @@
 package com.cyanogenmod.settings.device;
 
 import android.os.Bundle;
+import android.content.Context;
 import android.support.v14.preference.PreferenceFragment;
 import android.support.v14.preference.SwitchPreference;
 import android.support.v7.preference.Preference;
@@ -36,22 +37,26 @@ public class TouchscreenGestureSettings extends PreferenceFragment {
     private SwitchPreference mPocketPreference;
     private SwitchPreference mProximityWakePreference;
 
+    private Context mContext;
+
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         addPreferencesFromResource(R.xml.gesture_panel);
-        boolean dozeEnabled = isDozeEnabled();
+
+        mContext = getContext();
+
         mAmbientDisplayPreference =
             (SwitchPreference) findPreference(KEY_AMBIENT_DISPLAY_ENABLE);
         // Read from DOZE_ENABLED secure setting
-        mAmbientDisplayPreference.setChecked(dozeEnabled);
+        mAmbientDisplayPreference.setChecked(
+                Settings.Secure.getInt(mContext.getContentResolver(),
+                Settings.Secure.DOZE_ENABLED, 1) == 1);
         mAmbientDisplayPreference.setOnPreferenceChangeListener(mAmbientDisplayPrefListener);
         mHandwavePreference =
             (SwitchPreference) findPreference(KEY_HAND_WAVE);
-        mHandwavePreference.setEnabled(dozeEnabled);
         mHandwavePreference.setOnPreferenceChangeListener(mProximityListener);
         mPocketPreference =
             (SwitchPreference) findPreference(KEY_GESTURE_POCKET);
-        mPocketPreference.setEnabled(dozeEnabled);
         mProximityWakePreference =
             (SwitchPreference) findPreference(KEY_PROXIMITY_WAKE);
         mProximityWakePreference.setOnPreferenceChangeListener(mProximityListener);
@@ -62,32 +67,17 @@ public class TouchscreenGestureSettings extends PreferenceFragment {
         super.onResume();
 
         // If running on a phone, remove padding around the listview
-        if (!ScreenType.isTablet(getContext())) {
+        if (!ScreenType.isTablet(mContext)) {
             getListView().setPadding(0, 0, 0, 0);
         }
-    }
-
-    private boolean enableDoze(boolean enable) {
-        return Settings.Secure.putInt(getContext().getContentResolver(),
-                Settings.Secure.DOZE_ENABLED, enable ? 1 : 0);
-    }
-
-    private boolean isDozeEnabled() {
-        return Settings.Secure.getInt(getContext().getContentResolver(),
-                Settings.Secure.DOZE_ENABLED, 1) != 0;
     }
 
     private Preference.OnPreferenceChangeListener mAmbientDisplayPrefListener =
         new Preference.OnPreferenceChangeListener() {
         @Override
         public boolean onPreferenceChange(Preference preference, Object newValue) {
-            boolean enable = (boolean) newValue;
-            boolean ret = enableDoze(enable);
-            if (ret) {
-                mHandwavePreference.setEnabled(enable);
-                mPocketPreference.setEnabled(enable);
-            }
-            return ret;
+            return Settings.Secure.putInt(mContext.getContentResolver(),
+                    Settings.Secure.DOZE_ENABLED, (boolean) newValue ? 1 : 0);
         }
     };
 
