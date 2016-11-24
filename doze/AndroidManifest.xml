@@ -31,7 +31,7 @@
 
         <activity
             android:name=".SamsungDozeActivity"
-            android:label="@string/screen_gestures_panel_title"
+            android:label="@*cyanogenmod.platform:string/screen_gestures_panel_title"
             android:theme="@style/SamsungDozeSettings">
             <intent-filter>
                 <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
