@@ -17,9 +17,8 @@
   <string name="screen_gestures_panel_title">Жэсты</string>
   <string name="ambient_display_title">Індыкацыя падзей</string>
   <string name="ambient_display_enable_title">Індыкацыя падзей</string>
-  <string name="ambient_display_enable_summary">Уключаць экран пры атрыманні апавяшчэнняў</string>
+  <string name="ambient_display_enable_summary">Абуджаць экран, падчас атрыманьня паведамленьняў</string>
   <string name="hand_wave_gesture_title">Узмах рукой</string>
-  <string name="hand_wave_gesture_summary">Правядзіце далонню над экранам для прагляду апавяшчэнняў</string>
   <string name="pocket_gesture_title">Кішэнь</string>
   <string name="pocket_gesture_summary">Адлюстроўваць паведамленні пры выманні прылады з кішэні</string>
   <string name="proximity_wake_title">Улучэнне па датчыках</string>
